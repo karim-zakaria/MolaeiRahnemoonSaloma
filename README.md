@@ -1,10 +1,10 @@
-#SAFE STREET PROJECT
+# SAFE STREET PROJECT
 
-##collaborators:
--karim Zakaria Saloma
--Amirsalar Molaei
--Erfan Rahnemoon
+## collaborators:
+- karim Zakaria Saloma
+- Amirsalar Molaei
+- Erfan Rahnemoon
 
 
-##Supervisor:
+## Supervisor:
 - Prof. Rossi Matteo Giovanni

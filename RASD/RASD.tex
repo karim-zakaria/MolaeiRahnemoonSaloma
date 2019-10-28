@@ -1,0 +1,130 @@
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{luainputenc}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+\usepackage{color}
+\usepackage{babel}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{todonotes}
+\usepackage{placeins}
+\usepackage[tocentry, tablegrid,nochapter]{vhistory} 
+\usepackage{catchfilebetweentags}
+\usepackage{adjustbox}
+\usepackage{float}
+
+
+\usepackage[a4paper, left=1in, right=1in, top=1.5in, bottom=1in]{geometry}
+
+
+\usepackage[unicode=true,
+ bookmarks=true,bookmarksnumbered=true,bookmarksopen=false,
+ breaklinks=false,pdfborder={0 1 1},backref=false,colorlinks=false]
+ {hyperref}
+\hypersetup{pdftitle={RASD},
+ pdfauthor={collaborators names},
+ pdfsubject={RASD Documentation}}
+
+\usepackage{fancyhdr,graphicx,lastpage}
+\fancypagestyle{plain}{
+	\fancyhf{}% clear header/footer
+	\fancyhead[L]{Requirements Analysis and Specification Document }% left header
+	\fancyhead[R]{\emph{version}}% right header
+	\fancyfoot[L]{collaborators}% left footer
+	\fancyfoot[R]{\thepage\  / \pageref{LastPage}}% right footer
+}
+\pagestyle{plain}% page style => plain.
+
+
+\makeatletter
+
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\newcommand{\forcerighttext}[1]{
+\vspace{0.4\textheight}
+\par {\raggedleft \begin{tabular}{r}\ignorespaces
+#1
+\end{tabular}
+\hspace{8em}
+\vspace{1em}
+\par}
+}
+
+\usepackage[font=small,labelfont=bf]{caption}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% counter for goal
+\def\CatchFBT@sanitize{%
+	\@sanitize
+	\@makeother\{%
+	\@makeother\}%
+	\ifluatex\else
+	\endlinechar=`\^^J%
+	\fi
+}% 
+
+\newcommand{\goal}[1]{
+{[}G#1{]}\ExecuteMetaData[goals]{#1}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% counter for requirement
+\newcounter{requirement}
+\setcounter {requirement} {0} 
+
+\newcommand{\reqcounter}{
+\stepcounter{requirement}
+\item \textbf{[R-\arabic{requirement}]}
+}
+
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Documnet part
+\begin{document}
+
+
+\begin{doublespace}
+
+\title{temp}
+
+\author{A.A. 2019/2020\\
+Software Engineering 2 Project: \\
+\\
+{\LARGE{}``SAFE-STREET''}\textbf{}\\
+\\
+\textbf{R}equirements \textbf{A}nalysis and \textbf{S}pecification
+\textbf{D}ocument\\
+}
+\end{doublespace}
+
+\maketitle
+\thispagestyle{empty}
+\forcerighttext{Prof.Rossi Matteo Giovanni\\
+\\
+names\\names}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage{}
+
+\tableofcontents{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+
+\listoffigures
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+
+\listoftables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage{}
+
+\input{Introduction}
+
+\end{document}

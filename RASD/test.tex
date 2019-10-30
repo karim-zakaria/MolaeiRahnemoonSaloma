@@ -1,0 +1,47 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{tikz-uml}
+\begin{document}
+\begin{tikzpicture}
+\begin{umlsystem}[x=4]{SafeStreets}
+\umlusecase[x=-3,y=2,name= caseReg]{Register}
+\umlusecase[x=-3,y=-4,name=caseLog]{Login}
+\umlusecase[x=2,y=-3,name=casePerm]{GivePermission}
+\umlusecase[x=2,y=-1,name=caseRep]{ReportViolation}
+\umlusecase[x=0,y=-7,name=caseHist]{ViewReportHistory}
+\umlusecase[x=-1.5,y=-9,name=caseSafe]{ViewSafety}
+\end{umlsystem}
+
+\umlactor[x=-7,y=-2]{User}
+\umlactor[x=-4,y=-1]{Unregistered User}
+\umlactor[x=-5,y=-3]{Registered User}
+
+\umlinherit{Unregistered User}{User}
+\umlinherit{Registered User}{User}
+\umlassoc[name=unregreg]{Unregistered User}{caseReg}
+\umlassoc[name=reglog]{Registered User}{caseLog}
+\umlassoc[name=regperm]{Registered User}{casePerm}
+\umlassoc[name=reghist]{Registered User}{caseHist}
+\umlassoc[name=regsafe]{Registered User}{caseSafe}
+\umlassoc[name=regrep]{Registered User}{caseRep}
+
+\node[above] at (unregreg-1) {initiates};
+\node[below] at (reglog-1) {initiates};
+\node[above] at (regperm-1) {participates};
+\node[below] at (reghist-1) {initiates};
+\node[below] at (regsafe-1) {initiates};
+\node[above] at (regrep-1) {initiates};
+
+
+\umlinclude{caseRep}{casePerm}
+\umlinclude{caseLog}{casePerm}
+\umlinclude{caseLog}{caseRep}
+\umlinclude{caseLog}{caseHist}
+\umlinclude{caseLog}{caseSafe}
+\umlinclude{caseReg}{caseLog}
+
+\end{tikzpicture}
+\end{document}

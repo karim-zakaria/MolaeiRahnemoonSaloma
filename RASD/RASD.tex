@@ -31,8 +31,8 @@
 \fancypagestyle{plain}{
 	\fancyhf{}% clear header/footer
 	\fancyhead[L]{Requirements Analysis and Specification Document }% left header
-	\fancyhead[R]{\emph{version}}% right header
-	\fancyfoot[L]{collaborators}% left footer
+	\fancyhead[R]{\emph{0.1}}% right header
+	\fancyfoot[L]{karim Zakaria Saloma, Amirsalar Molaei, Erfan Rahnemoon}% left footer
 	\fancyfoot[R]{\thepage\  / \pageref{LastPage}}% right footer
 }
 \pagestyle{plain}% page style => plain.
@@ -44,7 +44,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
 \newcommand{\forcerighttext}[1]{
-\vspace{0.4\textheight}
+\vspace{0.2\textheight}
 \par {\raggedleft \begin{tabular}{r}\ignorespaces
 #1
 \end{tabular}
@@ -88,7 +88,7 @@
 
 \begin{doublespace}
 
-\title{temp}
+\title{\includegraphics[scale=0.4]{images/polimi}}
 
 \author{A.A. 2019/2020\\
 Software Engineering 2 Project: \\
@@ -103,8 +103,9 @@ Software Engineering 2 Project: \\
 \maketitle
 \thispagestyle{empty}
 \forcerighttext{Prof.Rossi Matteo Giovanni\\
-\\
-names\\names}
+\\Amirsalar Molaei
+\\karim Zakaria Saloma
+\\Erfan Rahnemoon}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -126,5 +127,15 @@ names\\names}
 \newpage{}
 
 \input{Introduction}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage{}
+
+\input{Overall-Description}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage{}
+
+\input{Specific-Requirements}
 
 \end{document}

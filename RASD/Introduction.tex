@@ -4,7 +4,7 @@
 \subsubsection{General Purpose}
 Nowadays, an ever-increasing number of cars and a shortage in the number of police officers caused the emergence of various traffic violations and accidents. Although two traditional solutions to solve these problems were rising the number of police officers and their equipment, due to the poor efficiency and inordinate cost, it is not feasible to continue this trend. This is where the power of technology can take the responsibility to help authorities to bring the order to the streets.
 
-The only solution to assist authorities without expanding budgets is to participate in people with an intuitive and simple method. Hence, the "SafeStreet" app is proposed, which provides the possibility of reporting traffic violations and accidents by taking advantage of crowed-sourcing. Users can report violations by just taking pictures of infringement and license plate, then sending them.
+The only solution to assist authorities without expanding budgets is to participate in people with an intuitive and simple method. Hence, the \emph{SafeStreets} app is proposed, which provides the possibility of reporting traffic violations and accidents by taking advantage of crowed-sourcing. Users can report violations by just taking pictures of infringement and license plate, then sending them.
 \subsubsection{Goals}
 The goals that the system aimed to achieve are presented as follows:
 \begin{itemize}
@@ -17,7 +17,20 @@ The goals that the system aimed to achieve are presented as follows:
 \end{itemize}
 
 \subsection{Scope}
-	example text
+The \emph{SafeStreets} system shall be providing four main functions to various users; in this section, the system boundaries and scope used to define the limitations and different responsibilities of the S2B. 
+
+The first of the main functionalities is the enabling of users to report traffic violations. Regarding this, some phenomena are regarded as world phenomena not viewed by the system due to its limitations such as the fact that the system does not directly detect a violation. However, it can be accounted for by the system through a traffic report made by the users. Moreover, another functionality that has to do with the users is the publishing of collected data to be viewed by the users in a refined representation to help them consider the safety of various areas based on traffic violations. The data is also communicated to the authorities but with different levels of details.
+
+The other two main functions have to do with the \emph{SafeStreets} system providing services to government authorities. The domain limitations of the system affecting this interaction are also discussed in this section. Such as, the fact that the system is only able to make suggestions for preventive measures to the authorities based on the accident data that have been communicated. Meaning, that the system does not have any knowledge of accidents unless they are reported by the authorities and that the system can only suggest interventions and neither put them into place nor can detect them being applied. Moreover, a second function to the authorities would be the communication of traffic reports received from users to be later used by government officials to give out traffic tickets, the system responsibilities to support this process is to prevent the users from tampering with images \emph{digitally} and to provide the collected reports to the authorities proactively. In other words, physical tampering with license plates to mislead authorities and the actual process of giving out tickets is not part of the application domain. 
+
+Below is a table summarizing and classifying the different phenomena that are related to the system functionalities. 
+Main system functionalities:
+F1: Reporting of violations
+F2: Communication of collected data to users
+F3: Suggestion of interventions
+F4:  Communication of reports for ticketing
+
+\input{table-World_and_Machine}
 
 
 \subsection{Definitions,Acronyms,Abbreviations}

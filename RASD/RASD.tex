@@ -14,6 +14,7 @@
 \usepackage{catchfilebetweentags}
 \usepackage{adjustbox}
 \usepackage{float}
+\usepackage{import}
 
 
 \usepackage[a4paper, left=1in, right=1in, top=1.5in, bottom=1in]{geometry}
@@ -126,16 +127,16 @@ Software Engineering 2 Project: \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage{}
 
-\input{Introduction}
+\import{Introduction/}{Introduction}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage{}
 
-\input{Overall-Description}
+\import{Overall-description/}{Overall-Description}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage{}
 
-\input{Specific-Requirements}
+\import{Specific-requirements/}{Specific-Requirements}
 
 \end{document}

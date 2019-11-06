@@ -1,12 +1,63 @@
-\documentclass[10pt,a4paper]{article}
+\documentclass[10pt,a4paper,landscape]{standalone}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{tikz-uml}
-\begin{document}
-\begin{tikzpicture}
 
+\begin{document}
+\begin{tikzpicture}[thick,scale=0.9, every node/.style={scale=0.9}]
+
+\umlclass[x=-2,y=1.5]{User}{};
+\umlclass[x=2,y=-3]{RegisteredUser}{};
+\umlclass[x=-6,y=-3]{UnregisteredUser}{};
+\umlclass[x=-12,y=-3]{Registration}{};
+\umlclass[x=7,y=-5]{Location}{};
+\umlclass[x=7,y=-10]{Violation}{};
+\umlclass[x=2,y=-7]{Report}{};
+\umlclass[x=-9,y=-7]{mapAPI}{};
+\umlclass[x=-2,y=-14]{Authorities}{};
+\umlclass[x=-4,y=-7]{SafetyRepresentation}{};
+\umlclass[x=2,y=-10]{RefinedReportData}{};
+
+\umlinherit[geometry=-|]{User}{RegisteredUser}
+\umlinherit[geometry=-|]{User}{UnregisteredUser}
+
+\umluniassoc[name=unregreg,mult1=1,mult2=1]{UnregisteredUser}{Registration}
+\node[above] at (unregreg-1) {performs};
+
+\umluniassoc[name=regrep,mult1=1,mult2=*]{RegisteredUser}{Report}
+\node[above] at (regrep-1) {creates};
+
+\umluniassoc[name=regloc,geometry=-|,anchors= 0 and 90,mult1=1,mult2=1]{RegisteredUser}{Location}
+\node[above] at (regloc-1) {has};
+
+\umluniassoc[name=reploc,geometry=-|,anchors= 30 and 250,mult1=1,mult2=1]{Report}{Location}
+\node[above] at (reploc-1) {includes};
+
+\umluniassoc[name=repviol,geometry=-|,anchors= -30 and 110,mult1=1,mult2=1]{Report}{Violation}
+\node[above] at (repviol-1) {describes};
+
+\umluniassoc[name=saferep,mult1=1,mult2=*]{SafetyRepresentation}{Report}
+\node[above] at (saferep-1) {represent};
+
+\umluniassoc[name=safemap]{SafetyRepresentation}{mapAPI}
+\node[above] at (safemap-1) {uses};
+
+\umluniaggreg[name=refdatarep,mult1=1,mult2=*]{RefinedReportData}{Report}
+\node[above] at (refdatarep-1) {aggregates};
+
+\umluniassoc[name=regsafe,geometry=-|,anchors= 180 and 70,mult1=1,mult2=*]{RegisteredUser}{SafetyRepresentation}
+\node[above] at (regsafe-1) {views};
+
+\umluniassoc[name=authrep,geometry=|-,anchors= 60 and 200,mult1=1,mult2=*]{Authorities}{Report}
+\node[above] at (authrep-1) {has access};
+
+\umluniassoc[name=authref,geometry=-|,anchors= 0 and 270,mult1=1,mult2=*]{Authorities}{RefinedReportData}
+\node[above] at (authref-1) {has access};
+
+\umluniassoc[name=authsafe,geometry=|-|,anchors= 130 and 220,mult1=1,mult2=*]{Authorities}{SafetyRepresentation}
+\node[above] at (authsafe-1) {has access};
 
 \end{tikzpicture}
 \end{document}

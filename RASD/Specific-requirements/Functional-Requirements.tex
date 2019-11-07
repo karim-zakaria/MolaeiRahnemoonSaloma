@@ -1,0 +1,102 @@
+\subsection{User}
+
+\subsubsection{General Functions}
+
+\import{/}{User-General-Functions}
+
+\subsubsection{Violation Report}
+
+\import{/}{User-Violation-Report}
+
+\subsubsection{View Safety}
+
+\import{/}{User-View-Safety}
+
+\subsection{Requirements}
+
+\textbf{G1: Users should be able to report traffic violations}
+
+%<*1> Users should be allowed to register to services provided by the system%</1> 
+%<*2> Users should provide unique identification to the such as fiscal code during registration%</2> 
+%<*3> Registered users should be allowed to login%</3> 
+%<*4> Each registered user should have a unique username used for logging in chosen at registration time%</4> 
+%<*5> System should enable registered users to report traffic violations%</5> 
+%<*6> When reporting a violation, users should be able to take an image of the violating vehicle’s license plate%</6> 
+%<*7> When reporting a violation, users should be able to fill in the details of the reported violation such as the type of the violation%</7> 
+%<*8> The system should be able to detect the current user location when reporting a violation%</8> 
+%<*9> The system should extract the plate numbers from the image taken by the user%</9> 
+%<*10> The received reports must be stored by the system to be used by other services%</10> 
+
+\emph{D1: User provided image of traffic violations is not tampered with physically
+D2: User location included in report assumed to be the true unmodified location
+D3: Each plate number is unique and registered to only one vehicle
+D4: Each user’s fiscal code is unique
+D5: User devices used for reporting violations has functioning a camera and GPS
+D7: Plate number of violating vehicle is readable and clearly visible in images included in the report
+NFR1: The detection of plate number must be done in less than 1 second
+NFR2: The detected plate number is accurate 99\% of the time
+C1: User location included in the report is assumed to be accurate within an error range of 10 meters
+C2: Image resolution/quality/size taken by users is at least X}
+
+\textbf{G2: Users should be able to access information regarding the safety of different areas }
+
+%<*11> Registered users should be allowed to view a representation of the safety of selected areas possibly with the help of a map API%</11> 
+%<*12> The system should implement a means to measure the safety of various areas based on reported violations in said areas%</12> 
+%<*13> Incoming reports should be integrated and used to update the safety of areas%</13> 
+%<*14> If accident reports are provided by authorities the system should take that data into account when calculating the safety of a certain area%</14> 
+
+\emph{D2: User location included in report assumed to be the true unmodified location
+D9: The communication of accident reports by the municipality is assumed to be proactive
+C1: User location included in the report is assumed to be accurate within an error range of 10 meters}
+
+\textbf{G3: Authorities should have access to the details of the traffic violations reported by the users}
+
+%<*15> The system should keep records regarding the submission dates of violations to the municipality%</15> 
+%<*16> The system should aggregate the data regarding reported traffic violations since the last submission to the municipality%</16> 
+%<*17> The aggregated traffic violation data should be converted to a form acceptable by the municipality interface%</17> 
+%<*18> The system should periodically submit the new traffic violation data to the municipality interface%</18> 
+%<*19> The system should be able to store submitted reports coming from users with proper meta data%</19> 
+%<*20> The system should be able to export reported violations in form of specific file%</20> 
+%<*21> The system should be able to filter data based on desired requests from authorities%</21> 
+%<*22> The logging functionality has to be implemented in the system%</22> 
+
+
+\emph{D6: The communication of data regarding reported violations to the authorities is assumed to be done proactively by the system
+D7: Plate number of violating vehicle is readable and clearly visible in images included in the report
+D8: The municipality is assumed to provide an interface for the submission of records of reported violations, refined insights produced by the system and suggested interventions }
+
+
+\textbf{G4: Authorities should be provided with possible interventions to prevent violations}
+
+%<*23> The system should extract insights from the users’ traffic violation reports such as the most frequent types of violations in certain areas%</23> 
+%<*24> The system should be able to decide on appropriate interventions to minimize frequent traffic violations in the various areas%</24> 
+%<*25> The system should formalize the interventions to be suggested in a form acceptable by the municipality interface%</25> 
+%<*26> The system should submit the interventions regarding the areas with high frequency of violations to the municipality interface %</26> 
+%<*27> The system has to be able to mine reports to find insights based on types of violation and different areas%</27> 
+%<*28> The system should be able to recommend possible interventions to authorities in order to prevent violation%</28> 
+%<*29> The recommendations has to be prioritized based on the entity od authority%</29> 
+
+\emph{D5: User devices used for reporting violations has functioning a camera and GPS
+D6: The communication of data regarding reported violations to the authorities is assumed to be done proactively by the system
+D8: The municipality is assumed to provide an interface for the submission of records of reported violations, refined insights produced by the system and suggested interventions }
+
+
+\textbf{G5: Authorities should have access to refined data related to committed violation}
+
+%<*30> The system should analyze the data from the reports to produce statistics such as the most frequent plate numbers that commit violations%</30> 
+%<*31>The system should formalize the refined data and submit them to the municipality interface periodically%</31> 
+
+\emph{D3: Each plate number is unique and registered to only one vehicle
+D5: User devices used for reporting violations has functioning a camera and GPS
+D6: The communication of data regarding reported violations to the authorities is assumed to be done proactively by the system
+D7: Plate number of violating vehicle is readable and clearly visible in images included in the report
+D8: The municipality is assumed to provide an interface for the submission of records of reported violations, refined insights produced by the system and suggested interventions }
+
+\textbf{G6: Users should be able to view reports that they have previously made}
+
+%<*32> The system should present on demand to the users a record of all the reports previously submitted by them%</32> 
+
+\emph{R9: The received reports must be stored by the system to be used by other services
+D4: Each user’s fiscal code is unique}
+
+

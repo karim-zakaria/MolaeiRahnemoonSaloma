@@ -15,120 +15,139 @@
 \subsection{Requirements}
 
 \textbf{\goal{1}}
+
 \begin{itemize}
-\require Users should be allowed to register to services provided by the system
-\require Users should provide unique identification to the such as fiscal code during registration
-\require Registered users should be allowed to login
-\require Each registered user should have a unique username used for logging in chosen at registration time
-\require System should enable registered users to report traffic violations
-\require When reporting a violation, users should be able to take an image of the violating vehicle’s license plate
-\require When reporting a violation, users should be able to fill in the details of the reported violation such as the type of the violation
-\require The system should be able to detect the current user location when reporting a violation
-\require The system should extract the plate numbers from the image taken by the user
-\require The received reports must be stored by the system to be used by other services 
+
+	\item \requirement{1}
+	\item \requirement{2}
+	\item \requirement{3}
+	\item \requirement{4}
+	\item \requirement{5}
+	\item \requirement{6}
+	\item \requirement{7}
+	\item \requirement{8}
+	\item \requirement{9}
+	\item \requirement{10}
+
 \end{itemize}
 
 \begin{itemize}
-\domain User provided image of traffic violations is not tampered with physically
-\domain User location included in report assumed to be the true unmodified location
-\domain Each plate number is unique and registered to only one vehicle
-\domain Each user’s fiscal code is unique
-\domain User devices used for reporting violations has functioning a camera and GPS
-\domain Plate number of violating vehicle is readable and clearly visible in images included in the report
-NFR1: The detection of plate number must be done in less than 1 second
-NFR2: The detected plate number is accurate 99\% of the time
-C1: User location included in the report is assumed to be accurate within an error range of 10 meters
-C2: Image resolution/quality/size taken by users is at least X
+	\item \domain{1}
+	\item \domain{2}
+	\item \domain{3}
+	\item \domain{4}
+	\item \domain{5}
+	\item \domain{6}
+	\item \domain{7}
 \end{itemize}
+
+
+\begin{itemize}
+	\item \{NFR\textsubscript{1}\} The detection of plate number must be done in less than 1 second
+	\item \{NFR\textsubscript{2}\} The detected plate number is accurate 99\% of the time
+
+\end{itemize}
+	
+	
+\begin{itemize}
+
+	\item \{C\textsubscript{1}\} User location included in the report is assumed to be accurate within an error range of 10 meters
+	\item \{C\textsubscript{2}\} Image resolution/quality/size taken by users is at least X
+\end{itemize}
+
 
 \textbf{\goal{2}}
 
 \begin{itemize}
-
-\require Registered users should be allowed to view a representation of the safety of selected areas possibly with the help of a map API
-\require The system should implement a means to measure the safety of various areas based on reported violations in said areas
-\require Incoming reports should be integrated and used to update the safety of areas 
-\require If accident reports are provided by authorities the system should take that data into account when calculating the safety of a certain area
-
+	\item \requirement{11}
+	\item \requirement{12}
+	\item \requirement{13}
+	\item \requirement{14}
 \end{itemize}
+%<*11> Registered users should be allowed to view a representation of the safety of selected areas possibly with the help of a map API%</11> 
+%<*12> The system should implement a means to measure the safety of various areas based on reported violations in said areas%</12> 
+%<*13> Incoming reports should be integrated and used to update the safety of areas%</13> 
+%<*14> If accident reports are provided by authorities the system should take that data into account when calculating the safety of a certain area%</14> 
 
 \begin{itemize}
 
-\domain User location included in report assumed to be the true unmodified location
-\domain The communication of accident reports by the municipality is assumed to be proactive
-C1: User location included in the report is assumed to be accurate within an error range of 10 meters
+	\item \domain{2}
+	\item \domain{9}
+\end{itemize}
+
+\begin{itemize}
+	\item \{C\textsubscript{1}\} User location included in the report is assumed to be accurate within an error range of 10 meters
 \end{itemize}
 
 \textbf{\goal{3}}
 
 \begin{itemize}
 
-\require The system should keep records regarding the submission dates of violations to the municipality
-\require The system should aggregate the data regarding reported traffic violations since the last submission to the municipality
-\require The aggregated traffic violation data should be converted to a form acceptable by the municipality interface
-\require The system should periodically submit the new traffic violation data to the municipality interface
-\require The system should be able to store submitted reports coming from users with proper meta data
-\require The system should be able to export reported violations in form of specific file
-\require The system should be able to filter data based on desired requests from authorities
-\require The logging functionality has to be implemented in the system
+	\item \requirement{15}
+	\item \requirement{16}
+	\item \requirement{17}
+	\item \requirement{18}
+	\item \requirement{19}
+	\item \requirement{20}
+	\item \requirement{21}
+	\item \requirement{22}
 \end{itemize}
 
 \begin{itemize}
 
-\domain The communication of data regarding reported violations to the authorities is assumed to be done proactively by the system
-\domain Plate number of violating vehicle is readable and clearly visible in images included in the report
-\domain The municipality is assumed to provide an interface for the submission of records of reported violations, refined insights produced by the system and suggested interventions
+	\item \domain{6}
+	\item \domain{7}
+	\item \domain{8}
 \end{itemize}
+
 
 \textbf{\goal{4}}
 
 \begin{itemize}
 
-\require The system should extract insights from the users’ traffic violation reports such as the most frequent types of violations in certain areas
-\require The system should be able to decide on appropriate interventions to minimize frequent traffic violations in the various areas
-\require The system should formalize the interventions to be suggested in a form acceptable by the municipality interface
-\require The system should submit the interventions regarding the areas with high frequency of violations to the municipality interface
-\require The system has to be able to mine reports to find insights based on types of violation and different areas
-\require The system should be able to recommend possible interventions to authorities in order to prevent violation
-\require The recommendations has to be prioritized based on the entity od authority
+	\item \requirement{23}
+	\item \requirement{24}
+	\item \requirement{25}
+	\item \requirement{26}
+	\item \requirement{27}
+	\item \requirement{28}
+	\item \requirement{29}
 \end{itemize}
 
 \begin{itemize}
-
-\domain User devices used for reporting violations has functioning a camera and GPS
-\domain The communication of data regarding reported violations to the authorities is assumed to be done proactively by the system
-\domain The municipality is assumed to provide an interface for the submission of records of reported violations, refined insights produced by the system and suggested interventions
-
+	\item \domain{5}
+	\item \domain{6}
+	\item \domain{8}
 \end{itemize}
+
 
 \textbf{\goal{5}}
 
 \begin{itemize}
 
-\require The system should analyze the data from the reports to produce statistics such as the most frequent plate numbers that commit violations
-\require The system should formalize the refined data and submit them to the municipality interface periodically
-
+	\item \requirement{30}
+	\item \requirement{31}
 \end{itemize}
 
 \begin{itemize}
 
-\domain Each plate number is unique and registered to only one vehicle
-\domain User devices used for reporting violations has functioning a camera and GPS
-\domain The communication of data regarding reported violations to the authorities is assumed to be done proactively by the system
-\domain Plate number of violating vehicle is readable and clearly visible in images included in the report
-\domain The municipality is assumed to provide an interface for the submission of records of reported violations, refined insights produced by the system and suggested interventions
+	\item \domain{3}
+	\item \domain{5}
+	\item \domain{6}
+	\item \domain{7}
+	\item \domain{8}
 \end{itemize}
+
 
 \textbf{\goal{6}}
 
 \begin{itemize}
 
-\require The system should present on demand to the users a record of all the reports previously submitted by them
+	\item \requirement{9}
+	\item \requirement{32}
 \end{itemize}
 
 \begin{itemize}
-\domain The received reports must be stored by the system to be used by other services
-\domain Each user’s fiscal code is unique
 
+	\item \domain{4}
 \end{itemize}
-

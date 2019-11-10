@@ -1,16 +1,57 @@
-\begin{table}[]
-\begin{tabular}{|l|l|l|l|}
+
+\begin{table}[hbtp]
+\footnotesize
+\centering
+\settowidth\tymin{\textbf{Functionality}}
+\setlength\extrarowheight{2pt}
+\begin{tabulary}{\textwidth}{|C|C|C|C|}
 \hline
-\textbf{Phenomena}                                            & \textbf{Classification} & \textbf{Justification}                                                                                                                                                                                                                       & \textbf{Functionality} \\ \hline
-Tampering with license plate                                  & World                   & \begin{tabular}[c]{@{}l@{}}Pure world phenomena since no measures are to be applied to\\   detect nor prevent this phenomenon therefore it is unobserved by the system\end{tabular}                                                          & F1, F4                 \\ \hline
-Issuing of tickets                                            & World                   & \begin{tabular}[c]{@{}l@{}}The actual issuing of the tickets is the responsibility of the authorities\\   the system has no part in it and does not have access to the data regarding\\   issued tickets\end{tabular}                        & F4                     \\ \hline
-Putting preventive measures for traffic violations into place & World                   & \begin{tabular}[c]{@{}l@{}}The application of preventive measure by the municipality is also\\   a pure world phenomenon as the system has no means of knowing new measures by\\   applied\end{tabular}                                      & F3                     \\ \hline
-Traffic violations                                            & World                   & \begin{tabular}[c]{@{}l@{}}The system does not directly observe or detect committed traffic\\   violations if they are not reported by the user then the system cannot be\\   held responsible for not having knowledge of them\end{tabular} & F1, F4                 \\ \hline
-Occurrence of accidents                                       & World                   & \begin{tabular}[c]{@{}l@{}}Similarly, to traffic violations unless system acquires this kind\\   of data through the authorities it has no way of detecting such phenomena\end{tabular}                                                      & F3                     \\ \hline
-                                                              &                         &                                                                                                                                                                                                                                              &                        \\ \hline
-Publishing of insights regarding the accumulated data         & Shared                  & \begin{tabular}[c]{@{}l@{}}Performed by the machine observed by users and authorities in the\\   world\end{tabular}                                                                                                                          & F2                     \\ \hline
-Reporting traffic violation                                   & Shared                  & Performed by users in the world observed by the machine                                                                                                                                                                                      & F1, F4                 \\ \hline
-Publishing of accident data by the municipality               & Shared                  & Performed by authorities in the world observed by the machine                                                                                                                                                                                & F4                     \\ \hline
-Suggesting interventions                                      & Shared                  & \begin{tabular}[c]{@{}l@{}}Performed by system and communicated to authorities then if\\   applied observed by the world\end{tabular}                                                                                                        & F3                     \\ \hline
-\end{tabular}
+\textbf{Phenomena} & \textbf{Classification} & \textbf{Justification} & \textbf{Functionality} \\ 
+\hline 
+Tampering with license plate &
+World & 
+Pure world phenomena since no measures are to be applied to detect nor prevent this phenomenon therefore it is unobserved by the system & 
+F1, F4
+\\ \hline
+Issuing of tickets & 
+World & 
+The actual issuing of the tickets is the responsibility of the authorities the system has no part in it and does not have access to the data regarding issued tickets & 
+F4
+\\ \hline
+Putting preventive measures for traffic violations into place & 
+World & 
+The application of preventive measure by the municipality is also a pure world phenomenon as the system has no means of knowing new measures by applied & 
+F3
+\\ \hline
+Traffic violations & 
+World & 
+The system does not directly observe or detect committed traffic violations if they are not reported by the user then the system cannot be held responsible for not having knowledge of them & 
+F1, F4
+\\ \hline
+Occurrence of accidents & 
+World & 
+Similarly, to traffic violations unless system acquires this kind of data through the authorities it has no way of detecting such phenomena & 
+F3
+\\ \hline
+Publishing of insights regarding the accumulated data & 
+Shared & Performed by the machine observed by users and authorities in the world world & 
+F2
+\\ \hline
+Reporting traffic violation & 
+Shared & 
+Performed by users in the world observed by the machine & 
+F1, F4
+\\ \hline
+Publishing of accident data by the municipality & 
+Shared & 
+Performed by authorities in the world observed by the machine & 
+F4
+\\ \hline
+Suggesting interventions & 
+Shared &
+Performed by system and communicated to authorities then if applied observed by the world & 
+F3
+\\ \hline
+\end{tabulary}
+\caption{\label{tab:world-machine-phenomena}World and machine phenomenas.}
 \end{table}

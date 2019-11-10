@@ -5,7 +5,7 @@
 \setcounter{tocdepth}{4}
 \usepackage{color}
 \usepackage{babel}
-\usepackage{array}
+%\usepackage{array}
 \usepackage{graphicx}
 \usepackage{setspace}
 \usepackage{todonotes}
@@ -15,6 +15,7 @@
 \usepackage{adjustbox}
 \usepackage{float}
 \usepackage{import}
+\usepackage{tabulary}
 
 
 \usepackage[a4paper, left=1in, right=1in, top=1.5in, bottom=1in]{geometry}
@@ -57,6 +58,11 @@
 \usepackage[font=small,labelfont=bf]{caption}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\renewcommand{\listfigurename}{Diagrams}
+ 
+\renewcommand{\listtablename}{Tables}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% counter for goal
 \def\CatchFBT@sanitize{%
@@ -69,9 +75,36 @@
 }% 
 
 \newcommand{\goal}[1]{
-{[}G#1{]}\ExecuteMetaData[goals]{#1}
+{[}G-#1{] }\ExecuteMetaData[goals]{#1}
 }
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% counter for requirement
+\def\CatchFBT@sanitize{%
+	\@sanitize
+	\@makeother\{%
+	\@makeother\}%
+	\ifluatex\else
+	\endlinechar=`\^^J%
+	\fi
+}% 
+
+\newcommand{\requirement}[1]{
+{[}R-#1{] }\ExecuteMetaData[requirements]{#1}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% counter for domain
+\def\CatchFBT@sanitize{%
+	\@sanitize
+	\@makeother\{%
+	\@makeother\}%
+	\ifluatex\else
+	\endlinechar=`\^^J%
+	\fi
+}% 
+
+\newcommand{\domain}[1]{
+{(}D\textsubscript{#1}{) }\ExecuteMetaData[domains]{#1}
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% counter for requirement
 \newcounter{requirement}

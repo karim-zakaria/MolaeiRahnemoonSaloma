@@ -5,7 +5,7 @@
 \setcounter{tocdepth}{4}
 \usepackage{color}
 \usepackage{babel}
-%\usepackage{array}
+\usepackage{array}
 \usepackage{graphicx}
 \usepackage{setspace}
 \usepackage{todonotes}
@@ -19,7 +19,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[xindy,acronym,nopostdot]{glossaries}
 \usepackage{subcaption}
-
+\usepackage{rotating}
+\usepackage{multirow}
 
 
 \usepackage[a4paper, left=1in, right=1in, top=1.5in, bottom=1in]{geometry}
@@ -27,7 +28,7 @@
 
 \usepackage[unicode=true,
  bookmarks=true,bookmarksnumbered=true,bookmarksopen=false,
- breaklinks=false,pdfborder={0 1 1},backref=false,colorlinks=true]
+ breaklinks=false,pdfborder={0 1 1},backref=false,colorlinks=false]
  {hyperref}
 \hypersetup{pdftitle={RASD},
  pdfauthor={karim Zakaria Saloma, Amirsalar Molaei, Erfan Rahnemoon},
@@ -37,7 +38,7 @@
 \fancypagestyle{plain}{
 	\fancyhf{}% clear header/footer
 	\fancyhead[L]{Requirements Analysis and Specification Document }% left header
-	\fancyhead[R]{\emph{0.7}}% right header
+	\fancyhead[R]{\emph{1.0}}% right header
 	\fancyfoot[L]{karim Zakaria Saloma, Amirsalar Molaei, Erfan Rahnemoon}% left footer
 	\fancyfoot[R]{\thepage\  / \pageref{LastPage}}% right footer
 }
@@ -113,6 +114,53 @@
 \addto\captionsenglish{%
 \renewcommand\listtablename{Tables}}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% alloy highlighter
+
+
+\usepackage{color}
+\definecolor{eclipseBlue}{RGB}{42,0,255}
+\definecolor{eclipseGreen}{RGB}{63,127,95}
+\definecolor{eclipsePurple}{RGB}{127,0,85}
+
+\usepackage{listings}
+\lstdefinelanguage{alloy}{
+	keywords={%
+		assert, pred, all, no, lone, one, some, check, run,
+		but, let, implies, not, iff, in, and, or, set, sig, Int, int,
+		if, then, else, exactly, disj, fact, fun, module, abstract,
+		extends, open, none, univ, iden, seq,
+	},
+	sensitive=true,  % case sensitive
+	morecomment=[l]//,%
+	morecomment=[l]{--},%
+	morecomment=[s]{/*}{*/},%
+	morestring=[b]",
+	numbers=none,
+	firstnumber=1,
+	numberstyle=\tiny,
+	stepnumber=2,
+ basicstyle= \small%\tiny, %or \small or \footnotesize etc.
+%	basicstyle=\scriptsize\texttt,
+	commentstyle=\textit,
+	keywordstyle=\textbf,
+	ndkeywordstyle=\textbf,
+}
+
+\lstset{%
+	language=alloy, 
+	basicstyle=\ttfamily,
+	breakatwhitespace=true,         % sets if automatic breaks should only happen at whitespace
+	breaklines=true,
+	captionpos=b, 
+	frame=single,
+	floatplacement={tbp},
+	numberstyle=\color{red}, %style of numbers
+	commentstyle=\color{eclipseGreen}, % style of comments
+	keywordstyle=\color{eclipseBlue}, % style of keywords
+}
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% for the glossaries
 
 \input{Introduction/Abbreviations-Acronyms-Definitions.tex}
@@ -121,6 +169,26 @@
 \loadglsentries[acronym]{example-glossaries-acronym}
 \loadglsentries{example-glossaries-long}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% revision history
+\newcommand{\revisionhistory}{
+
+	\begingroup
+	\fontsize{15pt}{12pt}\selectfont
+	\textbf{Revision History}
+	\endgroup
+
+	\begin{versionhistory}
+		\vhEntry{1.0}{10/11/2019}{karim Zakaria Saloma, Amirsalar Molaei, Erfan Rahnemoon}{First document issue}
+		\vhEntry{ }{ }{ }{ }
+		\vhEntry{ }{ }{ }{ }
+	\end{versionhistory}}
+
+
+\def\arraystretch{1.5}%  1 is the default, change whatever you need
+
+
+\makeatother
+
 \makeatother
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Documnet part
 \begin{document}
@@ -128,7 +196,7 @@
 
 \begin{doublespace}
 
-\title{\includegraphics[scale=0.4]{images/polimi}}
+\title{\includegraphics[scale=0.4]{images/polimi}\\Computer Science and Engineering}
 
 \author{A.A. 2019/2020\\
 Software Engineering 2 Project: \\
@@ -147,6 +215,10 @@ Software Engineering 2 Project: \\
 \\karim Zakaria Saloma
 \\Erfan Rahnemoon}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage{}
+
+\revisionhistory
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage{}
@@ -164,27 +236,26 @@ Software Engineering 2 Project: \\
 \listoftables
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage{}
+\clearpage{}
 
 \import{Introduction/}{Introduction}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage{}
+\clearpage{}
 
 \import{Overall-description/}{Overall-Description}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage{}
 
 \import{Specific-requirements/}{Specific-Requirements}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage{}
+\clearpage{}
 
 \import{Formal-Analysis-Using-Alloy/}{Formal-Analysis-Using-Alloy}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage{}
+\clearpage{}
 
 \import{Effort-Spent/}{Effort-Spent}
 

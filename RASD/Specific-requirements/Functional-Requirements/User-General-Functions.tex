@@ -1,15 +1,16 @@
-\subsection{Registration}
+\paragraph{Registration}
+\hfill \break
 
-\emph{\textbf{Scenario}}
+\begin{flushleft}\emph{\textbf{Scenario}}\end{flushleft}
 
 Amirsalar is a good boy and always tries to obey all the rules; whenever he saw a person who violates the rule especially those which related to traffic, he becomes upset if that person goes away without any ticket. One day, he heard from his best friend Karim that there is a new app called "SafeStreet"; which people could send traffic violations to the authorities so they could ticket all the violator. His friend continued beside this amazing feature app also give some information about the safety of the different zones of the city. Amirsalar excited about the app because he suddenly felt he is useful for society and also the app provides useful information for the new persons in a big city like Milan because he is a foreign freshman student. Therefore he goes on his phone app store and installs the app. Then he fills up all the required fields in the registration form. Then he stays for the verification of his account by SMS and Email.
 
-\emph{\textbf{Use Case}}
 
-\begin{table}[!hbtp]
+\begin{table}[H]
+\begin{flushleft}\emph{\textbf{Use Case}}\end{flushleft}
 \footnotesize
 \centering
-\settowidth\tymin{\textbf{Name}}
+\settowidth\tymin{\textbf{Entry conditions}}
 \setlength\extrarowheight{2pt}
 \begin{tabulary}{\textwidth}{|J|J|}
 \hline
@@ -20,7 +21,7 @@ Actor            & Unregistered User \\
 Entry conditions & User installed the App successfully on the proper device (which has GPS and Camera, also appropriate OS) with access to the Internet and enough storage space.\\
 \hline 
 Events flow      & 
-\begin{minipage}[t]{0.7\textwidth}
+\begin{minipage}[t]{0.6\textwidth}
 \begin{enumerate} 
 \item User opens the App and sees the welcome pages 
 \item by skipping the welcome pages, the user will see the login and registration page then he/she could move to the registration part
@@ -32,7 +33,7 @@ Events flow      &
 Exit conditions  & The User will see the successful registration page and will be driven to the Login page.\\
 \hline
 Exceptions       & 
-\begin{minipage}[t]{0.8\textwidth}
+\begin{minipage}[t]{0.6\textwidth}
 \begin{itemize} 
 \item Not enough storage space: showing a warning to the user which there is not enough space to could cache  needed files.
 \item No Internet connection: Showing an Error message which says to continue the process the Internet   connection is necessary.
@@ -47,40 +48,40 @@ Exceptions       &
 \end{minipage}\\
 \hline
 \end{tabulary}
-\caption{\label{tab:xx}xx}
+\caption{\label{tab:Register-Verify-account}Registeration and Verifiction of account usecase}
 \end{table}
 
-\emph{\textbf{Activity Diagram}}
-
 \begin{figure}[H]
-\caption{Sequence diagram for Login}
-\label{fig:SD-login}
+\begin{flushleft}\emph{\textbf{Activity Diagram}}\end{flushleft}
+\caption{Activity Diagram for Registration and Verification}
+\label{register-verify-AD}
 \centering
-\includegraphics[width=\textwidth, height=\textheight]{register-verify-AD.png}
+\includegraphics[width=\textwidth, height=0.50\textheight]{register-verify-AD.png}
 \end{figure}
 %***place holder for registration-ad***
 
-\emph{\textbf{Sequence Diagram}}
-
 \begin{figure}[H]
-\caption{Sequence diagram for Login}
-\label{fig:SD-login}
+\begin{flushleft}\emph{\textbf{Sequence Diagram}}\end{flushleft}
+\caption{Sequence Diagram for Registration and Verification}
+\label{fig:register-verify-SD}
 \centering
-\includegraphics[width=\textwidth, height=\textheight]{register-verify-SD.png}
+\includegraphics[width=\textwidth, height=0.90\textheight]{register-verify-SD.png}
 \end{figure}
 %***place holder for registration-sd***
 
-\subsection{Login}
+\paragraph{Login}
+\hfill \break
 
-\emph{\textbf{Scenario}}
+\begin{flushleft}\emph{\textbf{Scenario}}\end{flushleft}
+
 After Amirsalar's account is verified, he goes to login in the app, so he entered his credentials for login and checked the box which keeps the Amirsalar in his account for 3 months to he can report violation faster without every time login in the software.
 
-\emph{\textbf{Use Case}}
 
-\begin{table}[!hbtp]
+\begin{table}[H]
+\begin{flushleft}\emph{\textbf{Use Case}}\end{flushleft}
 \footnotesize
 \centering
-\settowidth\tymin{\textbf{Name}}
+\settowidth\tymin{\textbf{Entry conditions}}
 \setlength\extrarowheight{2pt}
 \begin{tabulary}{\textwidth}{|J|J|}
 \hline
@@ -107,45 +108,44 @@ Exceptions       &
 \end{minipage}\\
 \hline
 \end{tabulary}
-\caption{\label{tab:xx}xx}
+\caption{\label{tab:Usecase-Login}Usecase for Login}
 \end{table}
 
-\emph{\textbf{Activity Diagram}}
-
 \begin{figure}[H]
-\caption{Sequence diagram for Login}
+\begin{flushleft}\emph{\textbf{Activity Diagram}}\end{flushleft}
+\caption{Activity Diagram for Login}
 \label{fig:SD-login}
 \centering
-\includegraphics[width=\textwidth, height=\textheight]{login-AD.png}
+\includegraphics[width=0.7\textwidth, height=0.3\textheight]{login-AD.png}
 \end{figure}
 %***place holder for login-ad***
 
-\emph{\textbf{Sequence Diagram}}
-
 \begin{figure}[H]
-\caption{Sequence diagram for Login}
+\begin{flushleft}\emph{\textbf{Sequence Diagram}}\end{flushleft}
+\caption{Sequence Diagram for Login}
 \label{fig:SD-login}
 \centering
-\includegraphics[width=\textwidth, height=\textheight]{login-SD.png}
+\includegraphics[width=\textwidth, height=0.90\textheight]{login-SD.png}
 \end{figure}
 %***place holder for login-sd***
 
-\subsection{Give Permission}
+\paragraph{Giving Permission}
+\hfill \break
 
-\emph{\textbf{Scenario}}
+\begin{flushleft}\emph{\textbf{Scenario}}\end{flushleft}
 
 Bob has finished the registration process for the SafeStreets app and has logged in for the first time he gets a message from the app asking permission to access his mobile phone camera; he accepts. He then gets a second message to give permission to the app to access his current location; he accepts this as well.
 
-\emph{\textbf{Use Case}}
 
-\begin{table}[!hbtp]
+\begin{table}[H]
+\begin{flushleft}\emph{\textbf{Use Case}}\end{flushleft}
 \footnotesize
 \centering
-\settowidth\tymin{\textbf{Name}}
+\settowidth\tymin{\textbf{Entry conditions}}
 \setlength\extrarowheight{2pt}
 \begin{tabulary}{\textwidth}{|J|J|}
 \hline
-Name            & GivePermission \\
+Name            & Giving Permission \\
 \hline 
 Actors          & Registered User \\
 \hline 
@@ -172,31 +172,33 @@ Exceptions      &
 \end{minipage}\\
 \hline
 \end{tabulary}
-\caption{\label{tab:xx}xx}
+\caption{\label{tab:Usecase-Give-Permission}Usecase for Giving Permission}
 \end{table}
 
-\emph{\textbf{Sequence Diagram}}
+
 
 \begin{figure}[H]
-\caption{Sequence diagram for Login}
-\label{fig:SD-login}
+\begin{flushleft}\emph{\textbf{Sequence Diagram}}\end{flushleft}
+\caption{Sequence Diagram for Giving Permission}
+\label{fig:SD-Give-Permission}
 \centering
-\includegraphics[width=\textwidth, height=\textheight]{give-permission-SD.png}
+\includegraphics[width=\textwidth, height=0.90\textheight]{give-permission-SD.png}
 \end{figure}
 %***place holder for give-permission-sd***
 
-\subsection{View Report History}
+\paragraph{View Report History}
+\hfill \break
 
-\emph{\textbf{Scenario}}
+\begin{flushleft}\emph{\textbf{Scenario}}\end{flushleft}
 
 Ambra is interested to know what reports she submitted last month to SafeStreet, she navigates to the view my reports section in the SafeStreets app and filters the results to see last month’s reports.
 
-\emph{\textbf{Use Case}}
 
-\begin{table}[!hbtp]
+\begin{table}[H]
+\begin{flushleft}\emph{\textbf{Use Case}}\end{flushleft}
 \footnotesize
 \centering
-\settowidth\tymin{\textbf{Name}}
+\settowidth\tymin{\textbf{Entry conditions}}
 \setlength\extrarowheight{2pt}
 \begin{tabulary}{\textwidth}{|J|J|}
 \hline
@@ -225,13 +227,14 @@ Exceptions       &
 \end{minipage}\\
 \hline
 \end{tabulary}
-\caption{\label{tab:xx}xx}
+\caption{\label{tab:Usecase-View-Report-History}Usecase for View Report History}
 \end{table}
-\emph{\textbf{Sequence Diagram}}
+
 %***place holder for view-history-sd***
 \begin{figure}[H]
-\caption{Sequence diagram for Login}
-\label{fig:SD-login}
+\begin{flushleft}\emph{\textbf{Sequence Diagram}}\end{flushleft}
+\caption{Sequence Diagram for View Report History}
+\label{fig:SD-View-Report-History}
 \centering
-\includegraphics[width=\textwidth, height=\textheight]{view-history-SD.png}
+\includegraphics[width=\textwidth, height=0.90\textheight]{view-history-SD.png}
 \end{figure}

@@ -17,7 +17,8 @@
 \usepackage{import}
 \usepackage{tabulary}
 \usepackage[utf8]{inputenc}
-\usepackage[acronym]{glossaries}
+\usepackage[xindy,acronym,nopostdot]{glossaries}
+\usepackage{subcaption}
 
 
 
@@ -26,7 +27,7 @@
 
 \usepackage[unicode=true,
  bookmarks=true,bookmarksnumbered=true,bookmarksopen=false,
- breaklinks=false,pdfborder={0 1 1},backref=false,colorlinks=false]
+ breaklinks=false,pdfborder={0 1 1},backref=false,colorlinks=true]
  {hyperref}
 \hypersetup{pdftitle={RASD},
  pdfauthor={karim Zakaria Saloma, Amirsalar Molaei, Erfan Rahnemoon},
@@ -36,7 +37,7 @@
 \fancypagestyle{plain}{
 	\fancyhf{}% clear header/footer
 	\fancyhead[L]{Requirements Analysis and Specification Document }% left header
-	\fancyhead[R]{\emph{0.5}}% right header
+	\fancyhead[R]{\emph{0.7}}% right header
 	\fancyfoot[L]{karim Zakaria Saloma, Amirsalar Molaei, Erfan Rahnemoon}% left footer
 	\fancyfoot[R]{\thepage\  / \pageref{LastPage}}% right footer
 }
@@ -116,6 +117,9 @@
 
 \input{Introduction/Abbreviations-Acronyms-Definitions.tex}
 \makenoidxglossaries
+\setacronymstyle{long-short}
+\loadglsentries[acronym]{example-glossaries-acronym}
+\loadglsentries{example-glossaries-long}
 
 \makeatother
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Documnet part

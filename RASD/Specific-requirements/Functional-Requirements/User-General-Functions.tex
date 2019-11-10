@@ -6,15 +6,48 @@ Amirsalar is a good boy and always tries to obey all the rules; whenever he saw 
 
 \emph{\textbf{Use Case}}
 
-\begin{table}[]
-\begin{tabular}{ll}
-Name             & Register and Verify account                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            \\
-Actor            & Unregistered User                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   \\
-Entry conditions & \begin{tabular}[c]{@{}l@{}}User installed the App successfully on the proper\\   device (which has GPS and Camera, also appropriate OS) with access to the\\   Internet and enough storage space.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         \\
-Events flow      & \begin{tabular}[c]{@{}l@{}}1.    \\   User opens the App and\\   sees the welcome pages\\   2.    \\   by skipping the welcome\\   pages, the user will see the login and registration page then he/she could\\   move to the registration part\\   3.    \\   In the registration part,\\   the user will fill up the mandatory fields and if the user wants could also\\   fill optional fields; next by checking the box related to "terms of\\   service" the data will be sent to the system.\\   4.    \\   The user should wait for\\   the SMS from the system which contains a code in it and enters the code; in\\   the next section, she/he should verify the email address used for\\   registration. Eventually, the registration process will be finished after\\   email verification.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    \\
-Exit conditions  & \begin{tabular}[c]{@{}l@{}}The User will see the successful registration page and\\   will be driven to the Login page.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   \\
-Exceptions       & \begin{tabular}[c]{@{}l@{}}1.    \\   Not enough storage space:\\   showing a warning to the user which there is not enough space to could cache\\   needed files.\\    \\   2.    \\   No Internet connection:\\   Showing an Error message which says to continue the process the Internet\\   connection is necessary.\\    \\   3.    \\   Duplicate username:\\   Showing an Error message to the user to change the username or if he/she\\   forgot the password it could be recovered by linking to the related part of\\   the App.\\    \\   4.    \\   Improper username or\\   ignoring the constraints in the form:showing an Error message to the user before\\   he/she could check the "terms of service" box.\\    \\   5.    \\   Not receiving the SMS of\\   verification: showing Warning after the timer of this section finished which\\   tells the user to continue the process the new message should be requested.\\   If the number of requests becomes more than 10 then display an Error message\\   to the user to begin the registration process from the beginning and drive\\   the user to the Welcome pages.\\    \\   6.    \\   Not receiving the email\\   of verfication: display warning which email is not verified and if there is\\   no email in inbox or spam box, request for the new verification email. If the\\   number of requests becomes more than 15 then display an Error message to the\\   user to begin the registration process from the beginning and drive the user\\   to the Welcome pages.\\    \\   7.    \\   Not checking the\\   "terms of service" box: display Warning which accepting the terms\\   of service is vital for registration.\\    \\   8.    \\   Any problem from the\\   system: display an Error and apologies \\   from the user and ask for another try in future\\    \\   9.    \\   Any software bug in the\\   application: display an Error message and ask from the user to send the log\\   of the crash to the system and close the App\end{tabular}
-\end{tabular}
+\begin{table}[!hbtp]
+\footnotesize
+\centering
+\settowidth\tymin{\textbf{Name}}
+\setlength\extrarowheight{2pt}
+\begin{tabulary}{\textwidth}{|J|J|}
+\hline
+Name             & Register and Verify account \\
+\hline 
+Actor            & Unregistered User \\
+\hline 
+Entry conditions & User installed the App successfully on the proper device (which has GPS and Camera, also appropriate OS) with access to the Internet and enough storage space.\\
+\hline 
+Events flow      & 
+\begin{minipage}[t]{0.7\textwidth}
+\begin{enumerate} 
+\item User opens the App and sees the welcome pages 
+\item by skipping the welcome pages, the user will see the login and registration page then he/she could move to the registration part
+\item In the registration part, the user will fill up the mandatory fields and if the user wants could also   fill optional fields; next by checking the box related to "terms of service" the data will be sent to the system.
+\item The user should wait for the SMS from the system which contains a code in it and enters the code; in the next section, she/he should verify the email address used for registration. Eventually, the registration process will be finished after email verification.
+\end{enumerate}
+\end{minipage}\\
+\hline
+Exit conditions  & The User will see the successful registration page and will be driven to the Login page.\\
+\hline
+Exceptions       & 
+\begin{minipage}[t]{0.8\textwidth}
+\begin{itemize} 
+\item Not enough storage space: showing a warning to the user which there is not enough space to could cache  needed files.
+\item No Internet connection: Showing an Error message which says to continue the process the Internet   connection is necessary.
+\item Duplicate username: Showing an Error message to the user to change the username or if he/sheforgot the password it could be recovered by linking to the related part of the App.
+\item Improper username or ignoring the constraints in the form:showing an Error message to the user before he/she could check the "terms of service" box.
+\item Not receiving the SMS of verification: showing Warning after the timer of this section finished which tells the user to continue the process the new message should be requested. If the number of requests becomes more than 10 then display an Error message to the user to begin the registration process from the beginning and drivethe user to the Welcome pages.
+\item Not receiving the email of verfication: display warning which email is not verified and if there is no email in inbox or spam box, request for the new verification email. If the number of requests becomes more than 15 then display an Error message to the user to begin the registration process from the beginning and drive the user to the Welcome pages.
+\item Not checking the "terms of service" box: display Warning which accepting the terms of service is vital for registration.
+\item Any problem from the system: display an Error and apologies from the user and ask for another try in future
+\item Any software bug in the application: display an Error message and ask from the user to send the log of the crash to the system and close the App
+\end{itemize}
+\end{minipage}\\
+\hline
+\end{tabulary}
+\caption{\label{tab:xx}xx}
 \end{table}
 
 \emph{\textbf{Activity Diagram}}
@@ -30,15 +63,37 @@ After Amirsalar's account is verified, he goes to login in the app, so he entere
 
 \emph{\textbf{Use Case}}
 
-\begin{table}[]
-\begin{tabular}{ll}
-Name             & Login                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               \\
-Actor            & Registered User                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                \\
-Entry conditions & \begin{tabular}[c]{@{}l@{}}The User should have a verified account in the system\\   and installed App in a proper device (which has GPS and Camera, also appropriate\\   OS) with access to the Internet and enough storage space.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    \\
-Events flow      & \begin{tabular}[c]{@{}l@{}}The user will open the App and enters the credentials\\   for login and if she/he wants to speed up the reporting violation and not\\   logging in to the app every time, the user will check the "keep me\\   logged in" box. If the credentials are valid the user will be driven to\\   the reporting violation page.\end{tabular}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    \\
-Exit conditions  & The user successfully login to the application.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     \\
-Exceptions       & \begin{tabular}[c]{@{}l@{}}1.    \\   Absence of user name:\\   display a warning page in which the entered username does not exist and gives\\   an option to the user to be driven to the registration section.\\    \\   2.    \\   Incorrect Credential:\\   show an Error message to the user in which the entered credential is wrong.\\    \\   3.    \\   Not enough storage space:\\   showing a warning to the user which there is not enough space to could cache\\   needed files.\\    \\   4.    \\   No Internet connection:\\   Showing an Error message which says to continue the process the Internet\\   connection is necessary.\\    \\   5.    \\   Any problem from the\\   system: display an Error and apologies \\   from the user and ask for another try in future\\    \\   6.    \\   Any software bug in the\\   application: display an Error message and ask from the user to send the log\\   of the crash to the system and close the app \\   7.    \\   (more than 20 times try)\end{tabular}
-\end{tabular}
+\begin{table}[!hbtp]
+\footnotesize
+\centering
+\settowidth\tymin{\textbf{Name}}
+\setlength\extrarowheight{2pt}
+\begin{tabulary}{\textwidth}{|J|J|}
+\hline
+Name             & Login \\
+\hline
+Actor            & Registered User \\
+\hline
+Entry conditions & The User should have a verified account in the system and installed App in a proper device (which has GPS and Camera, also appropriate OS) with access to the Internet and enough storage space.\\
+\hline 
+Events flow      & The user will open the App and enters the credentials for login and if she/he wants to speed up the reporting violation and not logging in to the app every time, the user will check the "keep me logged in" box. If the credentials are valid the user will be driven to the reporting violation page.\\
+\hline 
+Exit conditions  & The user successfully login to the application.\\
+\hline 
+Exceptions       & 
+\begin{minipage}[t]{0.8\textwidth}
+\begin{itemize} 
+\item Absence of user name: display a warning page in which the entered username does not exist and gives an option to the user to be driven to the registration section.
+\item Incorrect Credential: show an Error message to the user in which the entered credential is wrong.
+\item Not enough storage space: showing a warning to the user which there is not enough space to could cache needed files.
+\item No Internet connection: Showing an Error message which says to continue the process the Internet connection is necessary.
+\item Any problem from the system: display an Error and apologies from the user and ask for another try in future
+\item Any software bug in the application: display an Error message and ask from the user to send the log of the crash to the system and close the app
+\end{itemize}
+\end{minipage}\\
+\hline
+\end{tabulary}
+\caption{\label{tab:xx}xx}
 \end{table}
 
 \emph{\textbf{Activity Diagram}}
@@ -55,15 +110,41 @@ Bob has finished the registration process for the SafeStreets app and has logged
 
 \emph{\textbf{Use Case}}
 
-\begin{table}[]
-\begin{tabular}{ll}
-Name            & GivePermission                                                                                                                                                                                                                                                                                                                                                                                                                                             \\
-Actors          & Registered User                                                                                                                                                                                                                                                                                                                                                                                                                                            \\
-Entry Condition & The user logged in to the app for the first time                                                                                                                                                                                                                                                                                                                                                                                                           \\
-Event Flow      & \begin{tabular}[c]{@{}l@{}}1.      \\   After logging a dialog\\   message asking for access to phone camera appears\\   2.      \\   The user clicks on the\\   ‘accept’ button\\   3.      \\   Dialog message asking for\\   access to location data appears\\   4.      \\   The user clicks on the\\   ‘accept’ button\end{tabular}                                                                                                                   \\
-Exit Condition  & The user grants access to both camera and location data                                                                                                                                                                                                                                                                                                                                                                                                    \\
-Exceptions      & \begin{tabular}[c]{@{}l@{}}The user denies access to either camera or location data:\\   A message appears stating that if access is not granted no traffic\\   violation reports can be made and asking the user if they want to continue\\   anyway\\   If the user continues, they will not be able to make violation\\   reports\\   If the user grants access, all functions of the system are available\\   to be exploited by the user\end{tabular}
-\end{tabular}
+\begin{table}[!hbtp]
+\footnotesize
+\centering
+\settowidth\tymin{\textbf{Name}}
+\setlength\extrarowheight{2pt}
+\begin{tabulary}{\textwidth}{|J|J|}
+\hline
+Name            & GivePermission \\
+\hline 
+Actors          & Registered User \\
+\hline 
+Entry Condition & The user logged in to the app for the first time \\
+\hline 
+Event Flow      & 
+\begin{minipage}[t]{0.7\textwidth}
+\begin{enumerate} 
+\item After logging a dialog message asking for access to phone camera appears
+\item The user clicks on the ‘accept’ button
+\item Dialog message asking for access to location data appears
+\item The user clicks on the ‘accept’ button
+\end{enumerate}
+\end{minipage}\\
+\hline
+
+Exit Condition  & The user grants access to both camera and location data \\
+\hline 
+Exceptions      & 
+\begin{minipage}[t]{0.8\textwidth}
+\begin{itemize} 
+\item The user denies access to either camera or location data: A message appears stating that if access is not granted no trafficviolation reports can be made and asking the user if they want to continue anyway If the user continues, they will not be able to make violation reports If the user grants access, all functions of the system are available to be exploited by the user
+\end{itemize}
+\end{minipage}\\
+\hline
+\end{tabulary}
+\caption{\label{tab:xx}xx}
 \end{table}
 
 \emph{\textbf{Sequence Diagram}}
@@ -77,16 +158,39 @@ Ambra is interested to know what reports she submitted last month to SafeStreet,
 
 \emph{\textbf{Use Case}}
 
-\begin{table}[]
-\begin{tabular}{ll}
-Name             & View Report History                                                                                                                                                                                                                                                                           \\
-Actor            & Registered User                                                                                                                                                                                                                                                                               \\
-Entry conditions & \begin{tabular}[c]{@{}l@{}}Signed in user wishes to see previously submitted\\   report\end{tabular}                                                                                                                                                                                          \\
-Events flow      & \begin{tabular}[c]{@{}l@{}}1.   \\   From the homepage the user opens the view history section\\   2.   \\   The user chooses from a group of filters to apply to history\\   3.   \\   The user is presented with a list of previously submitted reports\\   that match filters\end{tabular} \\
-Exit conditions  & The user is presented with report history                                                                                                                                                                                                                                                     \\
-Exceptions       & \begin{tabular}[c]{@{}l@{}}No reports match applied filters:\\   A message is presented stating that there are no matching\\   reports in history\end{tabular}                                                                                                                               
-\end{tabular}
+\begin{table}[!hbtp]
+\footnotesize
+\centering
+\settowidth\tymin{\textbf{Name}}
+\setlength\extrarowheight{2pt}
+\begin{tabulary}{\textwidth}{|J|J|}
+\hline
+Name             & View Report History \\
+\hline 
+Actor            & Registered User \\ 
+\hline 
+Entry conditions & Signed in user wishes to see previously submitted report\\
+\hline 
+Events flow      & 
+\begin{minipage}[t]{0.7\textwidth}
+\begin{enumerate} 
+\item From the homepage the user opens the view history section
+\item The user chooses from a group of filters to apply to history
+\item The user is presented with a list of previously submitted reports that match filters
+\end{enumerate}
+\end{minipage}\\
+\hline
+Exit conditions  & The user is presented with report history \\
+\hline 
+Exceptions       & 
+\begin{minipage}[t]{0.8\textwidth}
+\begin{itemize} 
+\item No reports match applied filters: A message is presented stating that there are no matching reports in history
+\end{itemize}
+\end{minipage}\\
+\hline
+\end{tabulary}
+\caption{\label{tab:xx}xx}
 \end{table}
-
 \emph{\textbf{Sequence Diagram}}
 ***place holder for view-history-sd***

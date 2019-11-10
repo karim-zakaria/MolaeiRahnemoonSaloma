@@ -4,15 +4,40 @@ Lorenzo is a student who is living in Rome. During the summer, he decides to go 
 
 \emph{\textbf{Use Case}}
 
-\begin{table}[]
-\begin{tabular}{ll}
-Name             & View Safety                                                                                                                                                                                                                                                                                                                                                                                                                                                     \\
-Actor            & Registered User                                                                                                                                                                                                                                                                                                                                                                                                                                                 \\
-Entry conditions & \begin{tabular}[c]{@{}l@{}}The user wants to check the safety of a certain area\\   that he is interested in\end{tabular}                                                                                                                                                                                                                                                                                                                                       \\
-Events flow      & \begin{tabular}[c]{@{}l@{}}1-    \\   In the homepage the user opens the view safety section of the app\\   2-    \\   The user specifies details of the area he is interested in\\   3-    \\   The user submits search criteria and chooses area from a list of\\   matches\\   4-    \\   The user is represented with a geographical representation of the area’s\\   safety based on number of violations and accidents occurring in the area\end{tabular} \\
-Exit conditions  & The user is represented with area safety                                                                                                                                                                                                                                                                                                                                                                                                                        \\
-Exceptions       & \begin{tabular}[c]{@{}l@{}}The specified area does not yield any search\\   results:\\   A message stating there are no results matching\\   entered data is shown\end{tabular}                                                                                                                                                                                                                                                                                
-\end{tabular}
+\begin{table}[!hbtp]
+\footnotesize
+\centering
+\settowidth\tymin{\textbf{Name}}
+\setlength\extrarowheight{2pt}
+\begin{tabulary}{\textwidth}{|J|J|}
+\hline
+Name  & View Safety \\
+\hline
+Actor & Registered User \\
+\hline
+Entry conditions & The user wants to check the safety of a certain area that he is interested in \\
+\hline
+Events flow & 
+\begin{minipage}[t]{0.7\textwidth}
+\begin{enumerate} 
+\item In the homepage the user opens the view safety section of the app
+\item The user specifies details of the area he is interested in
+\item The user submits search criteria and chooses area from a list of matches
+\item The user is represented with a geographical representation of the area’s safety based on number of violations and accidents occurring in the area
+\end{enumerate}
+\end{minipage}\\
+\hline
+Exit conditions  & The user is represented with area safety\\
+\hline
+Exceptions       & 
+\begin{minipage}[t]{0.8\textwidth}
+\begin{itemize} 
+\item The specified area does not yield any search results: A message stating there are no results matching entered data is shown
+\end{itemize}
+\end{minipage}\\
+\hline
+\end{tabulary}
+\caption{\label{tab:xx}xx}
 \end{table}
 
 \emph{\textbf{Sequence Diagram}}

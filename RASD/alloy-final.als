@@ -25,7 +25,7 @@ timestamp: one Int
 sig TypeOfViolation{} -- for simplicity we do not consider string in it
 sig Location{ 
 latitude: one Int,  
-longitude: one Int -- change
+longitude: one Int
 	}{latitude >= -3 and latitude <= 3 and longitude >= -6 and longitude <= 6 } 
 
 sig Report{
@@ -112,7 +112,7 @@ fact GenderUserConnection{
 --All FiscalCodes have to be associated to a Registration 
 fact FiscalCodeRegistrationConnection{ 
   	all fc: FiscalCode | some r: Registration | fc in r.fiscalCode 
-} -- change ittttttttttttttt fc with user
+}
 
 --All FiscalCodes have to be associated to a User 
 fact FiscalCodeUserConnection{ 
@@ -176,7 +176,7 @@ fact LocationReportConnection{
 --All Reports have to be associated to a User  
 fact ReportUserConnection { 
   all re: Report | some u: User | u in re.user
-	}
+}
 
  --------------------------------------------
 ---------------- Request Facts ---------------------

@@ -17,7 +17,7 @@
 \usepackage{import}
 \usepackage{tabulary}
 \usepackage[utf8]{inputenc}
-\usepackage[xindy,acronym,nopostdot]{glossaries}
+\usepackage[xindy,acronym,nopostdot,nonumberlist]{glossaries}
 \usepackage{subcaption}
 \usepackage{rotating}
 \usepackage{multirow}
@@ -38,7 +38,7 @@
 \fancypagestyle{plain}{
 	\fancyhf{}% clear header/footer
 	\fancyhead[L]{Requirements Analysis and Specification Document }% left header
-	\fancyhead[R]{\emph{1.0}}% right header
+	\fancyhead[R]{\emph{1.1}}% right header
 	\fancyfoot[L]{karim Zakaria Saloma, Amirsalar Molaei, Erfan Rahnemoon}% left footer
 	\fancyfoot[R]{\thepage\  / \pageref{LastPage}}% right footer
 }
@@ -52,12 +52,12 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
 \newcommand{\forcerighttext}[1]{
-\vspace{0.2\textheight}
+\vspace{0.1\textheight}
 \par {\raggedleft \begin{tabular}{r}\ignorespaces
 #1
 \end{tabular}
 \hspace{8em}
-\vspace{1em}
+\vspace{0em}
 \par}
 }
 
@@ -159,27 +159,16 @@
 	keywordstyle=\color{eclipseBlue}, % style of keywords
 }
 
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%% for the glossaries
-
-\input{Introduction/Abbreviations-Acronyms-Definitions.tex}
-\makenoidxglossaries
-\setacronymstyle{long-short}
-\loadglsentries[acronym]{example-glossaries-acronym}
-\loadglsentries{example-glossaries-long}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% revision history
 \newcommand{\revisionhistory}{
 
 	\begingroup
 	\fontsize{15pt}{12pt}\selectfont
-	\textbf{Revision History}
 	\endgroup
 
 	\begin{versionhistory}
 		\vhEntry{1.0}{10/11/2019}{karim Zakaria Saloma, Amirsalar Molaei, Erfan Rahnemoon}{First document issue}
-		\vhEntry{ }{ }{ }{ }
+		\vhEntry{1.1}{11/11/2019}{Erfan Rahnemoon}{Problem in CI/CD (automatic build from wrong HEAD)}
 		\vhEntry{ }{ }{ }{ }
 	\end{versionhistory}}
 
@@ -215,10 +204,6 @@ Software Engineering 2 Project: \\
 \\karim Zakaria Saloma
 \\Erfan Rahnemoon}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage{}
-
-\revisionhistory
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage{}

@@ -33,7 +33,7 @@
 \fancypagestyle{plain}{
 	\fancyhf{}% clear header/footer
 	\fancyhead[L]{Requirements Analysis and Specification Document }% left header
-	\fancyhead[R]{\emph{0.1}}% right header
+	\fancyhead[R]{\emph{0.5}}% right header
 	\fancyfoot[L]{karim Zakaria Saloma, Amirsalar Molaei, Erfan Rahnemoon}% left footer
 	\fancyfoot[R]{\thepage\  / \pageref{LastPage}}% right footer
 }
@@ -58,12 +58,6 @@
 
 \usepackage[font=small,labelfont=bf]{caption}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-
-\renewcommand{\listfigurename}{Diagrams}
- 
-\renewcommand{\listtablename}{Tables}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% counter for goal
 \def\CatchFBT@sanitize{%
@@ -107,14 +101,13 @@
 {(}D\textsubscript{#1}{) }\ExecuteMetaData[domains]{#1}
 }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%% counter for requirement
-\newcounter{requirement}
-\setcounter {requirement} {0} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% change the name of the list for figures and tables
 
-\newcommand{\reqcounter}{
-\stepcounter{requirement}
-\item \textbf{[R-\arabic{requirement}]}
-}
+\addto\captionsenglish{%
+\renewcommand\listfigurename{Figures}}
+
+\addto\captionsenglish{%
+\renewcommand\listtablename{Tables}}
 
 \makeatother
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Documnet part

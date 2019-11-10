@@ -366,3 +366,6 @@ Backup of *.doc*
 *.~vsd*
 
 
+# for hidden files of the fucking mac or windows
+.*
+!/.gitignore

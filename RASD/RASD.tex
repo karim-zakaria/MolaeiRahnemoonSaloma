@@ -16,7 +16,9 @@
 \usepackage{float}
 \usepackage{import}
 \usepackage{tabulary}
+\usepackage[utf8]{inputenc}
 \usepackage[acronym]{glossaries}
+
 
 
 \usepackage[a4paper, left=1in, right=1in, top=1.5in, bottom=1in]{geometry}
@@ -27,7 +29,7 @@
  breaklinks=false,pdfborder={0 1 1},backref=false,colorlinks=false]
  {hyperref}
 \hypersetup{pdftitle={RASD},
- pdfauthor={collaborators names},
+ pdfauthor={karim Zakaria Saloma, Amirsalar Molaei, Erfan Rahnemoon},
  pdfsubject={RASD Documentation}}
 
 \usepackage{fancyhdr,graphicx,lastpage}
@@ -110,6 +112,11 @@
 \addto\captionsenglish{%
 \renewcommand\listtablename{Tables}}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% for the glossaries
+
+\input{Introduction/Abbreviations-Acronyms-Definitions.tex}
+\makenoidxglossaries
+
 \makeatother
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Documnet part
 \begin{document}
@@ -166,5 +173,15 @@ Software Engineering 2 Project: \\
 \newpage{}
 
 \import{Specific-requirements/}{Specific-Requirements}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage{}
+
+\import{Formal-Analysis-Using-Alloy/}{Formal-Analysis-Using-Alloy}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage{}
+
+\import{Effort-Spent/}{Effort-Spent}
 
 \end{document}

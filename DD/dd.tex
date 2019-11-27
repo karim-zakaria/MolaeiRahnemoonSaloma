@@ -1,1 +1,258 @@
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{luainputenc}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+\usepackage{color}
+\usepackage{babel}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{todonotes}
+\usepackage{placeins}
+\usepackage[tocentry, tablegrid,nochapter]{vhistory}
+\usepackage{catchfilebetweentags}
+\usepackage{adjustbox}
+\usepackage{float}
+\usepackage{import}
+\usepackage{tabulary}
+\usepackage[utf8]{inputenc}
+\usepackage[xindy,acronym,nopostdot,nonumberlist]{glossaries}
+\usepackage{subcaption}
+\usepackage{rotating}
+\usepackage{multirow}
+
+
+\usepackage[a4paper, left=1in, right=1in, top=1.5in, bottom=1in]{geometry}
+
+
+\usepackage[unicode=true,
+ bookmarks=true,bookmarksnumbered=true,bookmarksopen=false,
+ breaklinks=false,pdfborder={0 1 1},backref=false,colorlinks=false]
+ {hyperref}
+\hypersetup{pdftitle={Design Document},
+ pdfauthor={karim Zakaria Saloma, Amirsalar Molaei, Erfan Rahnemoon},
+ pdfsubject={Design Document Documentation}}
+
+\usepackage{fancyhdr,graphicx,lastpage}
+\fancypagestyle{plain}{
+	\fancyhf{}% clear header/footer
+	\fancyhead[L]{Design Document}% left header
+	\fancyhead[R]{\emph{1.1}}% right header
+	\fancyfoot[L]{karim Zakaria Saloma, Amirsalar Molaei, Erfan Rahnemoon}% left footer
+	\fancyfoot[R]{\thepage\  / \pageref{LastPage}}% right footer
+}
+\graphicspath{ {./images/} }
+\pagestyle{plain}% page style => plain.
+
+
+\makeatletter
+
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\newcommand{\forcerighttext}[1]{
+\vspace{0.1\textheight}
+\par {\raggedleft \begin{tabular}{r}\ignorespaces
+#1
+\end{tabular}
+\hspace{8em}
+\vspace{0em}
+\par}
+}
+
+\usepackage[font=small,labelfont=bf]{caption}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% counter for goal
+\def\CatchFBT@sanitize{%
+	\@sanitize
+	\@makeother\{%
+	\@makeother\}%
+	\ifluatex\else
+	\endlinechar=`\^^J%
+	\fi
+}%
+
+\newcommand{\goal}[1]{
+{[}G-#1{] }\ExecuteMetaData[goals]{#1}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% counter for requirement
+\def\CatchFBT@sanitize{%
+	\@sanitize
+	\@makeother\{%
+	\@makeother\}%
+	\ifluatex\else
+	\endlinechar=`\^^J%
+	\fi
+}%
+
+\newcommand{\requirement}[1]{
+{[}R-#1{] }\ExecuteMetaData[requirements]{#1}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% counter for domain
+\def\CatchFBT@sanitize{%
+	\@sanitize
+	\@makeother\{%
+	\@makeother\}%
+	\ifluatex\else
+	\endlinechar=`\^^J%
+	\fi
+}%
+
+\newcommand{\domain}[1]{
+{(}D\textsubscript{#1}{) }\ExecuteMetaData[domains]{#1}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% change the name of the list for figures and tables
+
+\addto\captionsenglish{%
+\renewcommand\listfigurename{Figures}}
+
+\addto\captionsenglish{%
+\renewcommand\listtablename{Tables}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% alloy highlighter
+
+
+\usepackage{color}
+\definecolor{eclipseBlue}{RGB}{42,0,255}
+\definecolor{eclipseGreen}{RGB}{63,127,95}
+\definecolor{eclipsePurple}{RGB}{127,0,85}
+
+\usepackage{listings}
+\lstdefinelanguage{alloy}{
+	keywords={%
+		assert, pred, all, no, lone, one, some, check, run,
+		but, let, implies, not, iff, in, and, or, set, sig, Int, int,
+		if, then, else, exactly, disj, fact, fun, module, abstract,
+		extends, open, none, univ, iden, seq,
+	},
+	sensitive=true,  % case sensitive
+	morecomment=[l]//,%
+	morecomment=[l]{--},%
+	morecomment=[s]{/*}{*/},%
+	morestring=[b]",
+	numbers=none,
+	firstnumber=1,
+	numberstyle=\tiny,
+	stepnumber=2,
+ basicstyle= \small%\tiny, %or \small or \footnotesize etc.
+%	basicstyle=\scriptsize\texttt,
+	commentstyle=\textit,
+	keywordstyle=\textbf,
+	ndkeywordstyle=\textbf,
+}
+
+\lstset{%
+	language=alloy,
+	basicstyle=\ttfamily,
+	breakatwhitespace=true,         % sets if automatic breaks should only happen at whitespace
+	breaklines=true,
+	captionpos=b,
+	frame=single,
+	floatplacement={tbp},
+	numberstyle=\color{red}, %style of numbers
+	commentstyle=\color{eclipseGreen}, % style of comments
+	keywordstyle=\color{eclipseBlue}, % style of keywords
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% revision history
+\newcommand{\revisionhistory}{
+
+	\begingroup
+	\fontsize{15pt}{12pt}\selectfont
+	\endgroup
+
+	\begin{versionhistory}
+		\vhEntry{0.0}{24/11/2019}{karim Zakaria Saloma, Amirsalar Molaei, Erfan Rahnemoon}{First document issue}
+		\vhEntry{ }{ }{ }{ }
+		\vhEntry{ }{ }{ }{ }
+	\end{versionhistory}}
+
+
+\def\arraystretch{1.5}%  1 is the default, change whatever you need
+
+
+\makeatother
+
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% Documnet part
+\begin{document}
+
+
+\begin{doublespace}
+
+\title{\includegraphics[scale=0.4]{images/polimi}\\Computer Science and Engineering}
+
+\author{A.A. 2019/2020\\
+Software Engineering 2 Project: \\
+\\
+{\LARGE{}``SAFE-STREET''}\textbf{}\\
+\\
+\textbf{D}esgin \textbf{D}ocument\\
+}
+\end{doublespace}
+
+\maketitle
+\thispagestyle{empty}
+\forcerighttext{Prof.Rossi Matteo Giovanni\\
+\\Amirsalar Molaei
+\\karim Zakaria Saloma
+\\Erfan Rahnemoon}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage{}
+
+\tableofcontents{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+
+\listoffigures
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+
+\listoftables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage{}
+
+\import{Introduction/}{Introduction}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage{}
+
+\import{Architectural-Design/}{Architectural_Design}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage{}
+
+\import{User-Interface-Design/}{User_Interface_Design}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage{}
+
+\import{Requirements-Traceability/}{Requirements_Traceability}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage{}
+
+\import{Implementation-Integration-TestPlan/}{Implementation_Integration_TestPlan}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage{}
+
+\input{Effort-Spent}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage{}
+
+\input{References}
+
+\end{document}
 

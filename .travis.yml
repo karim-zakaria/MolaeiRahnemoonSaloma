@@ -1,0 +1,49 @@
+
+dist: bionic
+language: generic
+
+env:
+  global:
+    GIT_BRANCH: master
+
+
+notifications:
+  slack:
+    secure: PrsOsR+R852eJ4VCO7hwhf8b+U9V4Oi30ge2/1xGfFO4cCr/G6sSrwckm+ahkDvKHKRG/h73qEj03+wzJxv/g/rE6rw+RVGVExOms9phWu5ellVoLC9/P6kfNkD+poTnHsK7FgdrJE7wwJ7V4Be8digiVbOntlZCJ8ryZemG8PTUWg6rOj7xYdLr3wFZtf5YFnGfGg6PMjSPnfBPzUP1E6l1Sv+HeETP9HBexPIIvH1vz59e54LYWVyK7aYxgfsuL6ejcqbxR0FtSeAedDt6+r1vMBOL7RZlBihf8BhEb5411icqXzYnUS/1zFXjvFI3KChjdeylQ3oczODAbnmKuEPV7DCRe/SYY2Nyshr5Pw3E1AopR0rET/qyGxpgeLevOrxrNqTMNokZHpUE8NkbAOKIkYR7yD9Jh2synr4UR/QDknToc5iZ6PThuqJko8UXq6UVRNbNzHxnQmc4Rpy7iKD8HHbr9lBdRT287rZ/cuw2MHpDgI66BR8YpMpkUjuaibbs++W74nLlrejRApCsycWsrEuGv+7qylB8boHYCrp+qtcq+qPcvLrL3ncH21TjrOAF1oaJgmqZd63maqEvTt4pRqPtQjD8MhXPk1sqXI46Eg6bJ2GSRN+V2AtWCGnJmTz7Fp0jbU9Br1ZVbOckM/5Qp2luufNCFukpZUCcBQg=
+    on_success: always # default: change
+    on_failure: always # default: alway
+    template:
+      - - "Repo `%{repository_slug}` *%{result}* build (<%{build_url}|#%{build_number}>) for commit (<%{compare_url}|%{commit}>) on branch `%{branch}` by `%{author}`."
+      - "Execution time: *%{duration}*"
+      - "Message: %{message}"
+  email:
+    on_success: never # default: change
+    on_failure: never # default: alway
+
+
+jobs:
+    include:
+        - stage: "Check the exitence of important files in Master branch"
+          name: "RASD.pdf & DD.pdf"
+          script:
+              - for f in RASD/RASD-*.pdf; do [ -e "$f" ] && return 0 || return ; break ;done
+              - for f in DeliveryFolder/RASD_*.pdf; do [ -e "$f" ] && return 0 || return ; break ;done
+              # - for f in DD/DD-*.pdf; do [ -e "$f" ] && return 0 || return ; break ;done
+              # - for f in DeliveryFolder/DD_*.pdf; do [ -e "$f" ] && return 0 || return ; break ;done
+        - stage: GitHub Release
+          before_deploy:
+            - git config --local user.name "Deploy BOT"
+            - git config --local user.email "Iambot@hoho.bot"
+            - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'Y%YM%mD%dH%HM%MS%S')}
+            - git tag $TRAVIS_TAG
+
+          deploy:
+            provider: releases
+            api_key:
+              secure: fjgDtHzrJ4xprfWp4kFUo4xBtpv6KdXn0oxiqy0PufBsUxWxLThRnf69lYbcFkmZdTCfGpaOTnUCAgeXxzVE6Vq1z12jYtRUizdfLwORvhZaN9LzB1RkvO1vM5claAxtZsVBdm94RJ2QVvKfZ/KgBeDTCdrhpiokDA4JUwDsEd7OtgiLkCHUdYi+oDWXOgv/NLdGRl2/8HkdSXy+tQZwLDb2bdkP+UgQsGXlIxKlYHqcpMjePz1x7iZlnbNKAKZeJQVpGhypodkHMsJQs65swLgo0Iyk2rTcrSFxyF+J1WU540PhG0Z9sVMvuedpaXEpIwhcI4WyVTH+uEb9Zb0wmHUH8oM1bGXZKddi8pdpUcIXPJLMuU/FWE4MPbZfN4YYMYWQsUV7nr8lTUJlwK+uuQGfvz8WErM9fU7Jn3c95Kw5ZFRtgY/JbQJElgbcoEJ0k5ZyurYZrmBM7oyLawoy7vsTKEvxB8JEeMzU6zUnjczlWG8AxMm8GGHihk5zaau3sz3lhKv0Yzcpo+7ucxfVVv86vCh0iFVt5k0VpwQKWAY3/NhslS7d5FMY2EWHOk22xp6jAsm74E4QT7ZArGD4VWX9g6JfMKUNUEX5oHmfOrX7tr5Aq8uZjrLcVGNA4rUest55DmDnDDCox6ankqAb6UDhF7CePmVxkgImmGOZCKo=
+            file_glob: true
+            file: "DeliveryFolder/*_*.pdf"
+            skip_cleanup: true
+            on:
+              repo: rahnemoon/MolaeiRahnemoonSaloma
+              branch: ''

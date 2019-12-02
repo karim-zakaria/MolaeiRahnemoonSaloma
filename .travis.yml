@@ -1,0 +1,74 @@
+
+dist: bionic
+language: generic
+services: docker
+
+env:
+  global:
+    CACHE_IMAGE: danteev/texlive
+    GIT_BRANCH: RASD
+
+cache:
+ directories:
+     - /var/lib/docker
+     - "$HOME/MolaeiRahnemoonSaloma"
+     - "$HOME/build"
+
+notifications:
+  slack:
+    secure: As0jN0/iH++dWvs7h2MoxVfvAdOsh58zXbzS4lNS90Eb5gnRHUuYRjgngJn0ZUzE5mnFGmwYoolZpHUOYpwQk1Tpoeurv+FPRmzuDKw7NQ64Mllwpk3kXJyfs3pL7gLPso8haJVtKg6p96CwDKXeNc9QLWz+9MP1+7RPABUBmQGNOsT59PPZl5XsRJHmzKqtxG65h5FJaLCXcKotK1ZNY0aRmKh82bREqL26mf3+6wM4H1oUPBfxV2iIsBPtzHNEowrC+wYArDpZ8BE/HW8SAQu3xIeDAshU8UwQjFYtN4stCza8csp7lpw+YWfJQySdLXrEybAxuLPIj9uNcLXgBRP+kzLJB9lZ/AujIfe1BHtgOFj54VMja4XBs5niuHx0YQNo2Ip9CgYhWOu7lUbHxWJ9ViYaSz8YyJaHq+yYNJOxyN9UDMVRSOZd0H6Hg/ZSLEuy5bZxAZhKuL1egZV3GSz/mxSw1RZV1k0YFbKW5Ly1r1yQIh+1qxVX/OlDGtDtwH1VymPPb+BloyvCrEgUOoKFItIW6W1rR51w+PmdgXVlGR50igV8qKOdmhf8MpYUCFuhQ9y09MVjhmKsIWn9J/xe2gBo6iDgxMBEq7Ewpo/Dz68ZOUckpCCOdDZ408LVNHD285aV44k8TEqAinfM5x8SBc24wXPRba26PKD3AeE=
+    on_success: always # default: change
+    on_failure: always # default: alway
+    template:
+      - "Repo `%{repository_slug}` *%{result}* build (<%{build_url}|#%{build_number}>) for commit (<%{compare_url}|%{commit}>) on branch `%{branch}` by `%{author}`."
+      - "Execution time: *%{duration}*"
+      - "Message: %{message}"
+  email:
+    on_success: never # default: change
+    on_failure: always # default: alway
+
+jobs:
+    include:
+        - stage: "Prepare for the build"
+          name: "Clone the Repo by master branch or pull it"
+          script:
+              - if [ -e ~/MolaeiRahnemoonSaloma ]; then rm -rf ~/MolaeiRahnemoonSaloma; git clone https://${GH_TOKEN}@${GH_REF}  ~/MolaeiRahnemoonSaloma ; else git clone https://${GH_TOKEN}@${GH_REF}  ~/MolaeiRahnemoonSaloma; fi
+
+        - stage: "Build the PDF"
+          name: "Get docker and build the PDF"
+          script:
+              - cd ${GIT_BRANCH}
+              - docker run --rm -it -v $(pwd):/home $CACHE_IMAGE:latest latexmk -pdf ${GIT_BRANCH}.tex
+
+        - stage: "Move PDF file to proper directory of Repo"
+          name: "Remove the PDf from Master branch of repo and Copy the PDF into the Master branch of Repo"
+          script:
+              - find ~/MolaeiRahnemoonSaloma/${GIT_BRANCH} -type f -name "${GIT_BRANCH}-*.pdf" -exec rm -rf {} \;
+              - cp ~/build/rahnemoon/MolaeiRahnemoonSaloma/${GIT_BRANCH}/${GIT_BRANCH}.pdf ~/MolaeiRahnemoonSaloma/${GIT_BRANCH}/${GIT_BRANCH}-${TRAVIS_COMMIT}.pdf
+
+        - stage: "Commit the file to the Github"
+          name: "Commit to the Master branch of the Repo"
+          script:
+              - cd ~/MolaeiRahnemoonSaloma
+              - git config credential.helper 'cache --timeout=120'
+              - git config user.email "iambot@hoho.com"
+              - git config user.name "Deployment Bot"
+              - git add ${GIT_BRANCH} DeliveryFolder
+              - git commit -m "New pre-release for commit of ${TRAVIS_COMMIT}[ci skip]"
+              - git push -q https://${GH_TOKEN}@${GH_REF} master
+
+        - if: tag IS present
+          stage: "Commit the version file to the Github"
+          name: "Commit to the Master branch of the Repo"
+          script:
+              - cd ~/MolaeiRahnemoonSaloma
+              # - find ~/MolaeiRahnemoonSaloma/${GIT_BRANCH} -type f -name "${GIT_BRANCH}_*.pdf" -exec rm -rf {} \;
+              - cp ~/MolaeiRahnemoonSaloma/${GIT_BRANCH}/${GIT_BRANCH}-*.pdf ~/MolaeiRahnemoonSaloma/DeliveryFolder/${GIT_BRANCH}_${TRAVIS_TAG}.pdf
+              - cp ~/MolaeiRahnemoonSaloma/${GIT_BRANCH}/${GIT_BRANCH}-*.pdf ~/build/rahnemoon/MolaeiRahnemoonSaloma/${GIT_BRANCH}/${GIT_BRANCH}_${TRAVIS_TAG}.pdf
+              - git config credential.helper 'cache --timeout=120'
+              - git config user.email "iambot@hoho.com"
+              - git config user.name "Deployment Bot"
+              - cd ~/MolaeiRahnemoonSaloma
+              - git add DeliveryFolder
+              - git commit -m "${TRAVIS_TAG} version of ${GIT_BRANCH} is ready"
+              - git push -q https://${GH_TOKEN}@${GH_REF} master

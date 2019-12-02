@@ -369,3 +369,4 @@ Backup of *.doc*
 # for hidden files of the fucking mac or windows
 .*
 !/.gitignore
+!/.travis.yml

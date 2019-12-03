@@ -28,8 +28,8 @@ jobs:
           script:
               - for f in RASD/RASD-*.pdf; do [ -e "$f" ] && return 0 || return ; break ;done
               - for f in DeliveryFolder/RASD_*.pdf; do [ -e "$f" ] && return 0 || return ; break ;done
-              # - for f in DD/DD-*.pdf; do [ -e "$f" ] && return 0 || return ; break ;done
-              # - for f in DeliveryFolder/DD_*.pdf; do [ -e "$f" ] && return 0 || return ; break ;done
+              - for f in DD/DD-*.pdf; do [ -e "$f" ] && return 0 || return ; break ;done
+              - for f in DeliveryFolder/DD_*.pdf; do [ -e "$f" ] && return 0 || return ; break ;done
         - stage: GitHub Release
           before_deploy:
             - git config --local user.name "Deploy BOT"
@@ -45,5 +45,5 @@ jobs:
             file: "DeliveryFolder/*_*.pdf"
             skip_cleanup: true
             on:
-              repo: rahnemoon/MolaeiRahnemoonSaloma
+              repo: karim-zakaria/MolaeiRahnemoonSaloma
               branch: ''

@@ -44,7 +44,7 @@ jobs:
           name: "Remove the PDf from Master branch of repo and Copy the PDF into the Master branch of Repo"
           script:
               - find ~/MolaeiRahnemoonSaloma/${GIT_BRANCH} -type f -name "${GIT_BRANCH}-*.pdf" -exec rm -rf {} \;
-              - cp ~/build/rahnemoon/MolaeiRahnemoonSaloma/${GIT_BRANCH}/${GIT_BRANCH}.pdf ~/MolaeiRahnemoonSaloma/${GIT_BRANCH}/${GIT_BRANCH}-${TRAVIS_COMMIT}.pdf
+              - cp ~/build/karim-zakaria/MolaeiRahnemoonSaloma/${GIT_BRANCH}/${GIT_BRANCH}.pdf ~/MolaeiRahnemoonSaloma/${GIT_BRANCH}/${GIT_BRANCH}-${TRAVIS_COMMIT}.pdf
 
         - stage: "Commit the file to the Github"
           name: "Commit to the Master branch of the Repo"
@@ -64,7 +64,7 @@ jobs:
               - cd ~/MolaeiRahnemoonSaloma
               # - find ~/MolaeiRahnemoonSaloma/${GIT_BRANCH} -type f -name "${GIT_BRANCH}_*.pdf" -exec rm -rf {} \;
               - cp ~/MolaeiRahnemoonSaloma/${GIT_BRANCH}/${GIT_BRANCH}-*.pdf ~/MolaeiRahnemoonSaloma/DeliveryFolder/${GIT_BRANCH}_${TRAVIS_TAG}.pdf
-              - cp ~/MolaeiRahnemoonSaloma/${GIT_BRANCH}/${GIT_BRANCH}-*.pdf ~/build/rahnemoon/MolaeiRahnemoonSaloma/${GIT_BRANCH}/${GIT_BRANCH}_${TRAVIS_TAG}.pdf
+              - cp ~/MolaeiRahnemoonSaloma/${GIT_BRANCH}/${GIT_BRANCH}-*.pdf ~/build/karim-zakaria/MolaeiRahnemoonSaloma/${GIT_BRANCH}/${GIT_BRANCH}_${TRAVIS_TAG}.pdf
               - git config credential.helper 'cache --timeout=120'
               - git config user.email "iambot@hoho.com"
               - git config user.name "Deployment Bot"

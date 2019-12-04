@@ -40,6 +40,7 @@ jobs:
               - cd ${GIT_BRANCH}
               - ls -R
               - docker run --rm -it -v $(pwd):/home $CACHE_IMAGE:latest latexmk --pdf ${GIT_BRANCH}.tex
+              - ls -R
 
         - stage: "Move PDF file to proper directory of Repo"
           name: "Remove the PDf from Master branch of repo and Copy the PDF into the Master branch of Repo"

@@ -7,14 +7,13 @@ services: docker
 
 env:
   global:
-    CACHE_IMAGE: danteev/texlive
+    IMAGE: danteev/texlive
     GIT_BRANCH: DD
 
 cache:
  directories:
-     - /var/lib/docker
      - "$HOME/MolaeiRahnemoonSaloma"
-     - "$HOME/build"
+     - "$HOME/build/karim-zakaria/MolaeiRahnemoonSaloma/${GIT_BRANCH}/${GIT_BRANCH}.pdf"
 
 notifications:
   slack:
@@ -42,7 +41,7 @@ jobs:
               - cd ${GIT_BRANCH}
               - find . -type f -name "*.pdf" -exec rm -rf {} \;
               - cat Architectural-Design/Overview.tex
-              - docker run --rm -it -v $(pwd):/home $CACHE_IMAGE:latest latexmk -pdf -shell-escape ${GIT_BRANCH}.tex
+              - docker run --rm -it -v $(pwd):/home $IMAGE:latest latexmk -pdf -shell-escape ${GIT_BRANCH}.tex
 
         - stage: "Move PDF file to proper directory of Repo"
           name: "Remove the PDf from Master branch of repo and Copy the PDF into the Master branch of Repo"

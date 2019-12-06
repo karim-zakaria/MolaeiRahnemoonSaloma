@@ -34,12 +34,11 @@ jobs:
           script:
               - if [ -e ~/MolaeiRahnemoonSaloma ]; then rm -rf ~/MolaeiRahnemoonSaloma; git clone https://${GH_TOKEN}@${GH_REF}  ~/MolaeiRahnemoonSaloma ; else git clone https://${GH_TOKEN}@${GH_REF}  ~/MolaeiRahnemoonSaloma; fi
 
-        - stage: "Build the PDF and move it to master branch"
+        - stage: "Build the PDF and move it to the master branch"
           name: "Get docker and build the PDF, and Remove the PDf from Master branch of repo and Copy the PDF into the Master branch of Repo"
           script:
               - cd ${GIT_BRANCH}
               - find . -type f -name "*.pdf" -exec rm -rf {} \;
-              - cat Architectural-Design/Overview.tex
               - docker run --rm -it -v $(pwd):/home $IMAGE:latest latexmk -pdf -shell-escape ${GIT_BRANCH}.tex
               - find ~/MolaeiRahnemoonSaloma/${GIT_BRANCH} -type f -name "${GIT_BRANCH}-*.pdf" -exec rm -rf {} \;
               - cp ~/build/karim-zakaria/MolaeiRahnemoonSaloma/${GIT_BRANCH}/${GIT_BRANCH}.pdf ~/MolaeiRahnemoonSaloma/${GIT_BRANCH}/${GIT_BRANCH}-${TRAVIS_COMMIT}.pdf

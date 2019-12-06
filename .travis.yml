@@ -41,6 +41,7 @@ jobs:
           script:
               - cd ${GIT_BRANCH}
               - find . -type f -name "*.pdf" -exec rm -rf {} \;
+              - cat Architectural-Design/Overview.tex
               - docker run --rm -it -v $(pwd):/home $CACHE_IMAGE:latest latexmk -pdf -shell-escape ${GIT_BRANCH}.tex
 
         - stage: "Move PDF file to proper directory of Repo"

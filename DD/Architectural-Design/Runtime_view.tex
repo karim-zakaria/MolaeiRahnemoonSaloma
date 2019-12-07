@@ -1,5 +1,5 @@
 \subsection{Runtime View}
-This section of the document is concerned with the dynamic interactions between the various components of the system during runtime to achieve the desired functions of the system. The section is constituted of four major subsections grouping together various runtime views of different parts of the system. These subsections are as follows \emph{general functions, violation reports, view safety} and \emph{municipality interaction}.
+This section of the document is concerned with the dynamic interactions between the various components of the system during runtime to achieve the desired functions of the system. The section is constituted of four major subsections grouping together various runtime views of different parts of the system. These subsections are as follows \emph{general functions, violation reports, view safety} and \emph{municipality interaction}. In the following diagrams some simplifications were implemented in order to remove redundant details; however, they should still be mentioned, such as, that each and every server module interaction should correspond to a \emph{log entry}, and all exceptions that may occur in the system should be error logged. Note that in the diagrams, some examples are used for logging and error logging interactions. Moreover, it is noteworthy that all external incoming and outgoing data passes through the \emph{Security module} encryption and decryption and the same process occurs on the mobile app.
 
 \subsubsection{General Functions}
 This first subsection considers the runtime behavior of system components for the delivery of basic general functions. Specifically, \emph{registration and verification, login} and \emph{profile viewing and info editing}. The first two runtime diagrams below describe the user registration and verification process. As can be seen in the diagram a new user fills in the registration form with his information the submits the form. The data is relayed to the \emph{Safestreets-API} which saves the user data and prompts the \emph{Firebase-Authentication} server to verify the new user. Which in turn, sends the verification message to the user and returns feedback of the user confirmation.
@@ -18,23 +18,25 @@ This first subsection considers the runtime behavior of system components for th
 \includesvg[width=\textwidth, height=0.8\textheight]{"Verification_SD"}
 \end{figure}
 
+\begin{minipage}{\textwidth}
 The below figure describes the user login process. Which again, relies on the \emph{Firebase-Authentication} server to authenticate the user credentials and issuing a token to be sent to the app server to confirm the authentication process.
-
 \begin{figure}[H]
 \caption{Login Runtime View}
 \label{fig:RuntimeLog}
 \centering
 \includesvg[width=\textwidth, height=0.8\textheight]{"Login_SD"}
 \end{figure}
+\end{minipage}
 
+\begin{minipage}{\textwidth}
 The last of the general functions in the figure below is the \emph{ViewMe} functionality. Where the user can view their profile and edit their personal information.
-
 \begin{figure}[H]
 \caption{ViewMe Runtime View}
 \label{fig:RuntimeProf}
 \centering
 \includesvg[width=\textwidth, height=0.8\textheight]{"View_Me_SD"}
 \end{figure}
+\end{minipage}
 
 \subsubsection{Violation Reports}
 The process of \emph{Violation Report} submission performed by the users is constituted of the user report formulation including images showing the violation, the location, and other useful information. The images are saved on the \emph{Firebase-Storage} and their respective URLs are used to access them for any future use. Finally, the report details, image URLs and a computed hash which is verified to ensure data integrity are sent to the server. A detailed breakdown of the step-by-step process of violation report submission is described in the following figure.
@@ -46,24 +48,28 @@ The process of \emph{Violation Report} submission performed by the users is cons
 \includesvg[width=\textwidth, height=0.8\textheight]{"Report_Violation_SD"}
 \end{figure}
 
+\begin{minipage}{\textwidth}
 The report history function described in the following figure is a function offered to the user to search through reports that were previously submitted by them according to criteria that they define. Such as, reports that were submitted in a certain time period or a certain type of violation reports.
-
+\begin{sidewaysfigure}
 \begin{figure}[H]
 \caption{Report History Runtime View}
 \label{fig:RuntimeHist}
 \centering
 \includesvg[width=\textwidth, height=0.8\textheight]{"View_History_SD"}
 \end{figure}
+\end{minipage}
+\end{sidewaysfigure}
 
 \subsubsection{View Safety}
 This subsection discusses one main feature of the \emph{Safestreets} that is the \emph{View Safety}. This feature entails the graphical representation of the safety of the various areas according to the user-specified search criteria. Where the user would search for a certain area and the app would retrieve report data of both violation reports filed by the users and accident reports retrieved from the municipality and formulate a geographical representation using the \emph{Google Map API} as can be seen in the figure below.
-
+\begin{sidewaysfigure}
 \begin{figure}[H]
 \caption{View Safety Runtime View}
 \label{fig:RuntimeSafe}
 \centering
 \includesvg[width=\textwidth, height=0.8\textheight]{"View_Safety_SD"}
 \end{figure}
+\end{sidewaysfigure}
 
 \subsubsection{Municipality Interaction}
 This last subsection is concerned with the various interaction between the \emph{Safestreet} system and the municipality. To be precise, there are kinds of interactions between the system and the municipality; which are as follows, firstly, the communication of user-generated violation reports to the authorities through periodic submissions to the municipality submission API. Second of the three features, the retrieval of accident reports from the municipality retrieval API to be used in the \emph{View Safety} feature and in the intervention suggestion which is the last feature described in this subsection. In the intervention suggestion process, the user-generated reports and the retrieved accident reports are processed together to gain insight into the traffic violations which are causing a high accident rate in various areas and suggest appropriate measures to resolve these issues. The following figures provide a more detailed description of the aforementioned processes.

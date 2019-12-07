@@ -32,9 +32,9 @@
      inkscape:window-maximized="0"
      inkscape:window-y="24"
      inkscape:window-x="0"
-     inkscape:cy="-4252.2763"
-     inkscape:cx="12397.69"
-     inkscape:zoom="0.18020504"
+     inkscape:cy="-4803.9327"
+     inkscape:cx="13170.457"
+     inkscape:zoom="0.5123801"
      showgrid="false"
      id="namedview11191"
      inkscape:window-height="876"
@@ -95,6 +95,119 @@
        inkscape:connector-curvature="0"
        d="M 0,1.9950893 C 0,0.8932319 0.89702623,0 2.0049466,0 H 21.995053 C 23.102355,0 24,0.8926228 24,1.9950893 V 16.004911 C 24,17.106768 23.102974,18 21.995053,18 H 2.0049466 C 0.89764516,18 0,17.107377 0,16.004911 Z"
        id="2c74qpeqz9b-gui-c-5" />
+    <style
+       type="text/css"
+       id="style17813">@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400|Roboto:400,&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext')</style>
+    <rect
+       id="kfn9etufteg-item-a"
+       width="80"
+       height="115"
+       rx="2" />
+    <path
+       id="kfn9etufteg-item-c"
+       d="M0,1.99508929 C0,0.893231902 0.897026226,0 2.00494659,0 L21.9950534,0 C23.1023548,0 24,0.892622799 24,1.99508929 L24,16.0049107 C24,17.1067681 23.1029738,18 21.9950534,18 L2.00494659,18 C0.897645164,18 0,17.1073772 0,16.0049107 L0,1.99508929 Z" />
+    <path
+       id="kfn9etufteg-item-e"
+       d="M0,1.99508929 C0,0.893231902 0.897026226,0 2.00494659,0 L21.9950534,0 C23.1023548,0 24,0.892622799 24,1.99508929 L24,16.0049107 C24,17.1067681 23.1029738,18 21.9950534,18 L2.00494659,18 C0.897645164,18 0,17.1073772 0,16.0049107 L0,1.99508929 Z" />
+    <path
+       id="kfn9etufteg-item-g"
+       d="M0,1.99508929 C0,0.893231902 0.897026226,0 2.00494659,0 L21.9950534,0 C23.1023548,0 24,0.892622799 24,1.99508929 L24,16.0049107 C24,17.1067681 23.1029738,18 21.9950534,18 L2.00494659,18 C0.897645164,18 0,17.1073772 0,16.0049107 L0,1.99508929 Z" />
+    <path
+       id="v0a3755b6xo-about_us-a"
+       d="M0,1.99729162 C0,0.894217919 0.899814069,0 1.99402962,0 L158.00597,0 C159.107243,0 160,0.891539827 160,1.99729162 L160,38.0027084 C160,39.1057821 159.100186,40 158.00597,40 L1.99402962,40 C0.89275747,40 0,39.1084602 0,38.0027084 L0,1.99729162 Z" />
+    <circle
+       id="v0a3755b6xo-about_us-c"
+       cx="18"
+       cy="18"
+       r="18" />
+    <circle
+       id="v0a3755b6xo-about_us-e"
+       cx="18"
+       cy="18"
+       r="18" />
+    <circle
+       id="v0a3755b6xo-about_us-g"
+       cx="18"
+       cy="18"
+       r="18" />
+    <circle
+       id="po7hjgm0e7o-bio-a"
+       cx="23"
+       cy="23"
+       r="23" />
+    <circle
+       id="47o1zny82jo-gui-a"
+       cx="7.5"
+       cy="7.5"
+       r="7.5" />
+    <path
+       id="47o1zny82jo-gui-c"
+       d="M0,1.99508929 C0,0.893231902 0.897026226,0 2.00494659,0 L21.9950534,0 C23.1023548,0 24,0.892622799 24,1.99508929 L24,16.0049107 C24,17.1067681 23.1029738,18 21.9950534,18 L2.00494659,18 C0.897645164,18 0,17.1073772 0,16.0049107 L0,1.99508929 Z" />
+    <rect
+       id="4u4ai3v0pzq-contacts-a"
+       width="160"
+       height="85" />
+    <style
+       type="text/css"
+       id="style20968">@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400|Roboto:400,&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext')</style>
+    <rect
+       y="0"
+       x="0"
+       rx="2"
+       height="115"
+       width="80"
+       id="kfn9etufteg-item-a-8" />
+    <path
+       inkscape:connector-curvature="0"
+       d="M 0,1.9950893 C 0,0.8932319 0.89702623,0 2.0049466,0 H 21.995053 C 23.102355,0 24,0.8926228 24,1.9950893 V 16.004911 C 24,17.106768 23.102974,18 21.995053,18 H 2.0049466 C 0.89764516,18 0,17.107377 0,16.004911 Z"
+       id="kfn9etufteg-item-c-9" />
+    <path
+       inkscape:connector-curvature="0"
+       d="M 0,1.9950893 C 0,0.8932319 0.89702623,0 2.0049466,0 H 21.995053 C 23.102355,0 24,0.8926228 24,1.9950893 V 16.004911 C 24,17.106768 23.102974,18 21.995053,18 H 2.0049466 C 0.89764516,18 0,17.107377 0,16.004911 Z"
+       id="kfn9etufteg-item-e-4" />
+    <path
+       inkscape:connector-curvature="0"
+       d="M 0,1.9950893 C 0,0.8932319 0.89702623,0 2.0049466,0 H 21.995053 C 23.102355,0 24,0.8926228 24,1.9950893 V 16.004911 C 24,17.106768 23.102974,18 21.995053,18 H 2.0049466 C 0.89764516,18 0,17.107377 0,16.004911 Z"
+       id="kfn9etufteg-item-g-2" />
+    <path
+       inkscape:connector-curvature="0"
+       d="M 0,1.9972916 C 0,0.89421792 0.89981407,0 1.9940296,0 H 158.00597 C 159.10724,0 160,0.89153983 160,1.9972916 V 38.002708 C 160,39.105782 159.10019,40 158.00597,40 H 1.9940296 C 0.89275747,40 0,39.10846 0,38.002708 Z"
+       id="v0a3755b6xo-about_us-a-8" />
+    <circle
+       r="18"
+       cy="18"
+       cx="18"
+       id="v0a3755b6xo-about_us-c-3" />
+    <circle
+       r="18"
+       cy="18"
+       cx="18"
+       id="v0a3755b6xo-about_us-e-2" />
+    <circle
+       r="18"
+       cy="18"
+       cx="18"
+       id="v0a3755b6xo-about_us-g-1" />
+    <circle
+       r="23"
+       cy="23"
+       cx="23"
+       id="po7hjgm0e7o-bio-a-1" />
+    <circle
+       r="7.5"
+       cy="7.5"
+       cx="7.5"
+       id="47o1zny82jo-gui-a-7" />
+    <path
+       inkscape:connector-curvature="0"
+       d="M 0,1.9950893 C 0,0.8932319 0.89702623,0 2.0049466,0 H 21.995053 C 23.102355,0 24,0.8926228 24,1.9950893 V 16.004911 C 24,17.106768 23.102974,18 21.995053,18 H 2.0049466 C 0.89764516,18 0,17.107377 0,16.004911 Z"
+       id="47o1zny82jo-gui-c-0" />
+    <rect
+       y="0"
+       x="0"
+       height="85"
+       width="160"
+       id="4u4ai3v0pzq-contacts-a-5" />
   </defs>
   <g
      id="g11187"
@@ -3273,16 +3386,60 @@
       </g>
     </g>
   </g>
+  <text
+     id="text14554"
+     y="-4603.8984"
+     x="12480.815"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00df00;fill-opacity:1"
+       y="-4603.8984"
+       x="12480.815"
+       id="tspan14552"
+       sodipodi:role="line">Logged In</tspan></text>
+  <text
+     id="text14558"
+     y="-5055.9619"
+     x="12067.723"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fdcb6e;fill-opacity:1"
+       y="-5055.9619"
+       x="12067.723"
+       id="tspan14556"
+       sodipodi:role="line">Forget Password</tspan></text>
+  <text
+     id="text14562"
+     y="-3986.9854"
+     x="12061.334"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#e84393;fill-opacity:1"
+       y="-3986.9854"
+       x="12061.334"
+       id="tspan14560"
+       sodipodi:role="line">Sign Up</tspan></text>
+  <text
+     id="text14566"
+     y="-4090.5601"
+     x="13217.534"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00b894;fill-opacity:1"
+       y="-4090.5601"
+       x="13217.534"
+       id="tspan14564"
+       sodipodi:role="line">Logout</tspan></text>
   <g
-     id="g13415"
-     transform="matrix(3.0677448,0,0,3.5398897,10673.555,-6080.2637)">
+     id="g22189"
+     transform="matrix(2.833795,0,0,3.2110991,10653.221,-6764.7341)">
     <g
-       id="g13283">
+       id="g22049">
       <g
-         id="g12388"
-         transform="translate(405,328)">
+         id="g21028"
+         transform="translate(405,566)">
         <rect
-           id="rect12332"
+           id="rect20972"
            fill="#ffffff"
            height="228"
            width="180"
@@ -3291,64 +3448,64 @@
            y="0"
            x="0" />
         <g
-           id="g12378">
+           id="g21018">
           <g
-             id="g12376">
+             id="g21016">
             <g
-               id="g12374">
+               id="g21014">
               <svg
-                 id="svg12372"
+                 id="svg21012"
                  version="1.1"
                  viewBox="0 0 180 185"
                  height="185"
                  width="180">
                 <g
-                   id="g12370"
+                   id="g21010"
                    fill-rule="evenodd"
                    fill="none">
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12334"
+                     id="path20974"
                      opacity=".097"
                      d="M 0,2.999713 C 0,1.3430172 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3438257 180,2.999713 V 185 H 0 Z"
                      fill="#58A8F7" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12336"
+                     id="path20976"
                      opacity=".197"
                      d="M 0,3.0094776 C 0,1.347389 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3366311 180,3.0094776 V 16 H 0 Z"
                      fill="#58A8F7" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12338"
+                     id="path20978"
                      transform="translate(5,6)"
                      opacity=".499"
                      d="M 2.5,5 C 1.1192881,5 0,3.8807119 0,2.5 0,1.1192881 1.1192881,0 2.5,0 3.8807119,0 5,1.1192881 5,2.5 5,3.8807119 3.8807119,5 2.5,5 Z m 8,0 C 9.1192881,5 8,3.8807119 8,2.5 8,1.1192881 9.1192881,0 10.5,0 11.880712,0 13,1.1192881 13,2.5 13,3.8807119 11.880712,5 10.5,5 Z m 8,0 C 17.119288,5 16,3.8807119 16,2.5 16,1.1192881 17.119288,0 18.5,0 19.880712,0 21,1.1192881 21,2.5 21,3.8807119 19.880712,5 18.5,5 Z"
                      fill="#0D87FF" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12340"
+                     id="path20980"
                      transform="translate(35,54)"
                      opacity=".197"
                      d="M 3.8458278,0 H 107.15417 c 1.33728,0 1.82221,0.13923842 2.3111,0.40069906 0.48889,0.26146064 0.87257,0.64514354 1.13403,1.13403234 C 110.86076,2.0236203 111,2.5085497 111,3.8458278 V 81.154172 c 0,1.337278 -0.13924,1.822208 -0.4007,2.311097 -0.26146,0.488888 -0.64514,0.872571 -1.13403,1.134032 C 108.97638,84.860762 108.49145,85 107.15417,85 H 3.8458278 C 2.5085497,85 2.0236203,84.860762 1.5347314,84.599301 1.0458426,84.33784 0.6621597,83.954157 0.40069906,83.465269 0.13923842,82.97638 0,82.49145 0,81.154172 V 3.8458278 C 0,2.5085497 0.13923842,2.0236203 0.40069906,1.5347314 0.6621597,1.0458426 1.0458426,0.6621597 1.5347314,0.40069906 2.0236203,0.13923842 2.5085497,0 3.8458278,0 Z"
                      fill="#58A8F7" />
                   <g
-                     id="g12354"
+                     id="g20994"
                      transform="translate(45,64)">
                     <g
-                       id="g12350"
+                       id="g20990"
                        transform="translate(0,6)">
                       <rect
                          y="0"
                          x="0"
-                         id="rect12342"
+                         id="rect20982"
                          rx="2"
                          opacity=".499"
                          fill="#58A8F7"
                          height="11"
                          width="91" />
                       <rect
-                         id="rect12344"
+                         id="rect20984"
                          rx="1"
                          fill="#FFF"
                          y="1"
@@ -3356,40 +3513,40 @@
                          height="9"
                          width="89" />
                       <polygon
-                         id="polygon12346"
+                         id="polygon20986"
                          transform="translate(4,4)"
                          opacity=".197"
-                         points="53,0 53,3 0,3 0,0 "
+                         points="53,3 0,3 0,0 53,0 "
                          fill="#58A8F7" />
                       <polygon
-                         id="polygon12348"
+                         id="polygon20988"
                          transform="translate(81,4)"
                          points="5,0 2.5,3 0,0 "
                          fill="#0D87FF" />
                     </g>
                     <polygon
-                       id="polygon12352"
+                       id="polygon20992"
                        opacity=".197"
-                       points="32,0 32,3 0,3 0,0 "
+                       points="32,3 0,3 0,0 32,0 "
                        fill="#58A8F7" />
                   </g>
                   <g
-                     id="g12364"
+                     id="g21004"
                      transform="translate(45,91)">
                     <g
-                       id="g12360"
+                       id="g21000"
                        transform="translate(0,6)">
                       <rect
                          y="0"
                          x="0"
-                         id="rect12356"
+                         id="rect20996"
                          rx="2"
                          opacity=".499"
                          fill="#58A8F7"
                          height="11"
                          width="91" />
                       <rect
-                         id="rect12358"
+                         id="rect20998"
                          rx="1"
                          fill="#FFF"
                          y="1"
@@ -3398,23 +3555,23 @@
                          width="89" />
                     </g>
                     <polygon
-                       id="polygon12362"
+                       id="polygon21002"
                        opacity=".197"
-                       points="20,0 20,3 0,3 0,0 "
+                       points="20,3 0,3 0,0 20,0 "
                        fill="#58A8F7" />
                   </g>
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12366"
+                     id="path21006"
                      transform="translate(45,118)"
                      opacity=".499"
                      d="M 0,1.992017 C 0,0.8918564 0.90065896,0 2.00672,0 H 88.99328 C 90.101561,0 91,0.90017617 91,1.992017 V 9.007983 C 91,10.108144 90.099341,11 88.99328,11 H 2.00672 C 0.89843913,11 0,10.099824 0,9.007983 Z"
                      fill="#0D87FF" />
                   <polygon
-                     id="polygon12368"
+                     id="polygon21008"
                      transform="translate(65,36)"
                      opacity=".499"
-                     points="50,0 50,8 0,8 0,0 "
+                     points="50,8 0,8 0,0 50,0 "
                      fill="#58A8F7" />
                 </g>
               </svg>
@@ -3422,7 +3579,7 @@
           </g>
         </g>
         <rect
-           id="rect12380"
+           id="rect21020"
            stroke-width="2"
            stroke="#A2CEF9"
            fill="none"
@@ -3433,12 +3590,12 @@
            y="-1"
            x="-1" />
         <g
-           id="g12386"
+           id="g21026"
            transform="translate(0,206)">
           <g
-             id="g12384">
+             id="g21024">
             <text
-               id="text12382"
+               id="text21022"
                fill="#52565f"
                font-size="14px"
                font-family="Roboto,sans-serif"
@@ -3449,10 +3606,10 @@
         </g>
       </g>
       <g
-         id="g12416"
-         transform="translate(20,328)">
+         id="g21056"
+         transform="translate(20,566)">
         <rect
-           id="rect12390"
+           id="rect21030"
            fill="#ffffff"
            height="228"
            width="180"
@@ -3461,36 +3618,36 @@
            y="0"
            x="0" />
         <g
-           id="g12406">
+           id="g21046">
           <g
-             id="g12404">
+             id="g21044">
             <g
-               id="g12402">
+               id="g21042">
               <svg
-                 id="svg12400"
+                 id="svg21040"
                  version="1.1"
                  viewBox="0 0 180 185"
                  height="185"
                  width="180">
                 <g
-                   id="g12398"
+                   id="g21038"
                    fill-rule="evenodd"
                    fill="none">
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12392"
+                     id="path21032"
                      opacity=".097"
                      d="M 0,2.999713 C 0,1.3430172 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3438257 180,2.999713 V 185 H 0 Z"
                      fill="#58A8F7" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12394"
+                     id="path21034"
                      opacity=".197"
                      d="M 0,3.0094776 C 0,1.347389 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3366311 180,3.0094776 V 16 H 0 Z"
                      fill="#58A8F7" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12396"
+                     id="path21036"
                      transform="translate(5,6)"
                      opacity=".499"
                      d="M 2.5,5 C 1.1192881,5 0,3.8807119 0,2.5 0,1.1192881 1.1192881,0 2.5,0 3.8807119,0 5,1.1192881 5,2.5 5,3.8807119 3.8807119,5 2.5,5 Z m 8,0 C 9.1192881,5 8,3.8807119 8,2.5 8,1.1192881 9.1192881,0 10.5,0 11.880712,0 13,1.1192881 13,2.5 13,3.8807119 11.880712,5 10.5,5 Z m 8,0 C 17.119288,5 16,3.8807119 16,2.5 16,1.1192881 17.119288,0 18.5,0 19.880712,0 21,1.1192881 21,2.5 21,3.8807119 19.880712,5 18.5,5 Z"
@@ -3501,7 +3658,7 @@
           </g>
         </g>
         <rect
-           id="rect12408"
+           id="rect21048"
            stroke-width="2"
            stroke="#A2CEF9"
            fill="none"
@@ -3512,12 +3669,12 @@
            y="-1"
            x="-1" />
         <g
-           id="g12414"
+           id="g21054"
            transform="translate(0,206)">
           <g
-             id="g12412">
+             id="g21052">
             <text
-               id="text12410"
+               id="text21050"
                fill="#52565f"
                font-size="14px"
                font-family="Roboto,sans-serif"
@@ -3528,10 +3685,10 @@
         </g>
       </g>
       <g
-         id="g12500"
-         transform="translate(405,668)">
+         id="g21140"
+         transform="translate(405,906)">
         <rect
-           id="rect12418"
+           id="rect21058"
            fill="#ffffff"
            height="228"
            width="180"
@@ -3540,57 +3697,57 @@
            y="0"
            x="0" />
         <g
-           id="g12490">
+           id="g21130">
           <g
-             id="g12488">
+             id="g21128">
             <g
-               id="g12486">
+               id="g21126">
               <svg
-                 id="svg12484"
+                 id="svg21124"
                  version="1.1"
                  viewBox="0 0 180 185"
                  height="185"
                  width="180">
                 <g
-                   id="g12482"
+                   id="g21122"
                    fill-rule="evenodd"
                    fill="none">
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12420"
+                     id="path21060"
                      opacity=".097"
                      d="M 0,2.999713 C 0,1.3430172 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3438257 180,2.999713 V 185 H 0 Z"
                      fill="#58A8F7" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12422"
+                     id="path21062"
                      opacity=".197"
                      d="M 0,3.0094776 C 0,1.347389 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3366311 180,3.0094776 V 16 H 0 Z"
                      fill="#58A8F7" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12424"
+                     id="path21064"
                      transform="translate(5,6)"
                      opacity=".499"
                      d="M 2.5,5 C 1.1192881,5 0,3.8807119 0,2.5 0,1.1192881 1.1192881,0 2.5,0 3.8807119,0 5,1.1192881 5,2.5 5,3.8807119 3.8807119,5 2.5,5 Z m 8,0 C 9.1192881,5 8,3.8807119 8,2.5 8,1.1192881 9.1192881,0 10.5,0 11.880712,0 13,1.1192881 13,2.5 13,3.8807119 11.880712,5 10.5,5 Z m 8,0 C 17.119288,5 16,3.8807119 16,2.5 16,1.1192881 17.119288,0 18.5,0 19.880712,0 21,1.1192881 21,2.5 21,3.8807119 19.880712,5 18.5,5 Z"
                      fill="#0D87FF" />
                   <g
-                     id="g12434"
+                     id="g21074"
                      transform="translate(45,91)">
                     <g
-                       id="g12430"
+                       id="g21070"
                        transform="translate(0,6)">
                       <rect
                          y="0"
                          x="0"
-                         id="rect12426"
+                         id="rect21066"
                          rx="2"
                          opacity=".499"
                          fill="#58A8F7"
                          height="11"
                          width="91" />
                       <rect
-                         id="rect12428"
+                         id="rect21068"
                          rx="1"
                          fill="#FFF"
                          y="1"
@@ -3599,28 +3756,28 @@
                          width="89" />
                     </g>
                     <polygon
-                       id="polygon12432"
+                       id="polygon21072"
                        opacity=".197"
-                       points="20,0 20,3 0,3 0,0 "
+                       points="20,3 0,3 0,0 20,0 "
                        fill="#58A8F7" />
                   </g>
                   <g
-                     id="g12444"
+                     id="g21084"
                      transform="translate(45,118)">
                     <g
-                       id="g12440"
+                       id="g21080"
                        transform="translate(0,6)">
                       <rect
                          y="0"
                          x="0"
-                         id="rect12436"
+                         id="rect21076"
                          rx="2"
                          opacity=".499"
                          fill="#58A8F7"
                          height="11"
                          width="91" />
                       <rect
-                         id="rect12438"
+                         id="rect21078"
                          rx="1"
                          fill="#FFF"
                          y="1"
@@ -3629,28 +3786,28 @@
                          width="89" />
                     </g>
                     <polygon
-                       id="polygon12442"
+                       id="polygon21082"
                        opacity=".197"
-                       points="20,0 20,3 0,3 0,0 "
+                       points="20,3 0,3 0,0 20,0 "
                        fill="#58A8F7" />
                   </g>
                   <g
-                     id="g12454"
+                     id="g21094"
                      transform="translate(45,145)">
                     <g
-                       id="g12450"
+                       id="g21090"
                        transform="translate(0,6)">
                       <rect
                          y="0"
                          x="0"
-                         id="rect12446"
+                         id="rect21086"
                          rx="2"
                          opacity=".499"
                          fill="#58A8F7"
                          height="11"
                          width="43" />
                       <rect
-                         id="rect12448"
+                         id="rect21088"
                          rx="1"
                          fill="#FFF"
                          y="1"
@@ -3659,28 +3816,28 @@
                          width="41" />
                     </g>
                     <polygon
-                       id="polygon12452"
+                       id="polygon21092"
                        opacity=".197"
-                       points="20,0 20,3 0,3 0,0 "
+                       points="20,3 0,3 0,0 20,0 "
                        fill="#58A8F7" />
                   </g>
                   <g
-                     id="g12464"
+                     id="g21104"
                      transform="translate(93,145)">
                     <g
-                       id="g12460"
+                       id="g21100"
                        transform="translate(0,6)">
                       <rect
                          y="0"
                          x="0"
-                         id="rect12456"
+                         id="rect21096"
                          rx="2"
                          opacity=".499"
                          fill="#58A8F7"
                          height="11"
                          width="43" />
                       <rect
-                         id="rect12458"
+                         id="rect21098"
                          rx="1"
                          fill="#FFF"
                          y="1"
@@ -3689,34 +3846,34 @@
                          width="41" />
                     </g>
                     <polygon
-                       id="polygon12462"
+                       id="polygon21102"
                        opacity=".197"
-                       points="20,0 20,3 0,3 0,0 "
+                       points="20,3 0,3 0,0 20,0 "
                        fill="#58A8F7" />
                   </g>
                   <polygon
-                     id="polygon12466"
+                     id="polygon21106"
                      transform="translate(65,36)"
                      opacity=".499"
-                     points="50,0 50,8 0,8 0,0 "
+                     points="50,8 0,8 0,0 50,0 "
                      fill="#58A8F7" />
                   <g
-                     id="g12480"
+                     id="g21120"
                      transform="translate(45,64)">
                     <g
-                       id="g12476"
+                       id="g21116"
                        transform="translate(0,6)">
                       <rect
                          y="0"
                          x="0"
-                         id="rect12468"
+                         id="rect21108"
                          rx="2"
                          opacity=".499"
                          fill="#58A8F7"
                          height="11"
                          width="91" />
                       <rect
-                         id="rect12470"
+                         id="rect21110"
                          rx="1"
                          fill="#FFF"
                          y="1"
@@ -3724,21 +3881,21 @@
                          height="9"
                          width="89" />
                       <polygon
-                         id="polygon12472"
+                         id="polygon21112"
                          transform="translate(4,4)"
                          opacity=".197"
-                         points="53,0 53,3 0,3 0,0 "
+                         points="53,3 0,3 0,0 53,0 "
                          fill="#58A8F7" />
                       <polygon
-                         id="polygon12474"
+                         id="polygon21114"
                          transform="translate(81,4)"
                          points="5,0 2.5,3 0,0 "
                          fill="#0D87FF" />
                     </g>
                     <polygon
-                       id="polygon12478"
+                       id="polygon21118"
                        opacity=".197"
-                       points="32,0 32,3 0,3 0,0 "
+                       points="32,3 0,3 0,0 32,0 "
                        fill="#58A8F7" />
                   </g>
                 </g>
@@ -3747,7 +3904,7 @@
           </g>
         </g>
         <rect
-           id="rect12492"
+           id="rect21132"
            stroke-width="2"
            stroke="#A2CEF9"
            fill="none"
@@ -3758,12 +3915,12 @@
            y="-1"
            x="-1" />
         <g
-           id="g12498"
+           id="g21138"
            transform="translate(0,206)">
           <g
-             id="g12496">
+             id="g21136">
             <text
-               id="text12494"
+               id="text21134"
                fill="#52565f"
                font-size="14px"
                font-family="Roboto,sans-serif"
@@ -3774,10 +3931,10 @@
         </g>
       </g>
       <g
-         id="g12586"
-         transform="translate(790,328)">
+         id="g21266"
+         transform="translate(790,566)">
         <rect
-           id="rect12502"
+           id="rect21142"
            fill="#ffffff"
            height="228"
            width="180"
@@ -3786,191 +3943,356 @@
            y="0"
            x="0" />
         <g
-           id="g12576">
+           id="g21256">
           <g
-             id="g12574">
+             id="g21254">
             <g
-               id="g12572">
+               id="g21252">
               <svg
-                 id="svg12570"
+                 id="svg21250"
                  version="1.1"
                  viewBox="0 0 180 185"
                  height="185"
                  width="180">
                 <defs
-                   id="defs12505">
+                   id="defs21148">
                   <rect
                      y="0"
                      x="0"
-                     height="85"
-                     width="160"
-                     id="rect14075" />
+                     rx="2"
+                     height="115"
+                     width="80"
+                     id="rect22924" />
+                  <path
+                     inkscape:connector-curvature="0"
+                     d="M 0,1.9950893 C 0,0.8932319 0.89702623,0 2.0049466,0 H 21.995053 C 23.102355,0 24,0.8926228 24,1.9950893 V 16.004911 C 24,17.106768 23.102974,18 21.995053,18 H 2.0049466 C 0.89764516,18 0,17.107377 0,16.004911 Z"
+                     id="path22926" />
+                  <path
+                     inkscape:connector-curvature="0"
+                     d="M 0,1.9950893 C 0,0.8932319 0.89702623,0 2.0049466,0 H 21.995053 C 23.102355,0 24,0.8926228 24,1.9950893 V 16.004911 C 24,17.106768 23.102974,18 21.995053,18 H 2.0049466 C 0.89764516,18 0,17.107377 0,16.004911 Z"
+                     id="path22928" />
+                  <path
+                     inkscape:connector-curvature="0"
+                     d="M 0,1.9950893 C 0,0.8932319 0.89702623,0 2.0049466,0 H 21.995053 C 23.102355,0 24,0.8926228 24,1.9950893 V 16.004911 C 24,17.106768 23.102974,18 21.995053,18 H 2.0049466 C 0.89764516,18 0,17.107377 0,16.004911 Z"
+                     id="path22930" />
                 </defs>
                 <g
-                   id="g12568"
+                   id="g21248"
                    fill-rule="evenodd"
                    fill="none">
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12507"
+                     id="path21150"
                      opacity=".097"
                      d="M 0,2.999713 C 0,1.3430172 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3438257 180,2.999713 V 185 H 0 Z"
                      fill="#58A8F7" />
-                  <path
-                     inkscape:connector-curvature="0"
-                     id="path12509"
-                     opacity=".197"
-                     d="M 0,3.0094776 C 0,1.347389 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3366311 180,3.0094776 V 16 H 0 Z"
-                     fill="#58A8F7" />
-                  <path
-                     inkscape:connector-curvature="0"
-                     id="path12511"
-                     transform="translate(5,6)"
-                     opacity=".499"
-                     d="M 2.5,5 C 1.1192881,5 0,3.8807119 0,2.5 0,1.1192881 1.1192881,0 2.5,0 3.8807119,0 5,1.1192881 5,2.5 5,3.8807119 3.8807119,5 2.5,5 Z m 8,0 C 9.1192881,5 8,3.8807119 8,2.5 8,1.1192881 9.1192881,0 10.5,0 11.880712,0 13,1.1192881 13,2.5 13,3.8807119 11.880712,5 10.5,5 Z m 8,0 C 17.119288,5 16,3.8807119 16,2.5 16,1.1192881 17.119288,0 18.5,0 19.880712,0 21,1.1192881 21,2.5 21,3.8807119 19.880712,5 18.5,5 Z"
-                     fill="#0D87FF" />
                   <g
-                     id="g12540"
-                     transform="translate(10,28)">
-                    <path
-                       inkscape:connector-curvature="0"
-                       id="path12513"
+                     id="g21165"
+                     transform="translate(10,26)">
+                    <rect
+                       y="0"
+                       x="0"
+                       id="rect21152"
+                       rx="2"
                        opacity=".197"
-                       d="M 3.8458278,0 H 156.15417 c 1.33728,0 1.82221,0.13923842 2.3111,0.40069906 0.48889,0.26146064 0.87257,0.64514354 1.13403,1.13403234 C 159.86076,2.0236203 160,2.5085497 160,3.8458278 V 81.154172 c 0,1.337278 -0.13924,1.822208 -0.4007,2.311097 -0.26146,0.488888 -0.64514,0.872571 -1.13403,1.134032 C 157.97638,84.860762 157.49145,85 156.15417,85 H 3.8458278 C 2.5085497,85 2.0236203,84.860762 1.5347314,84.599301 1.0458426,84.33784 0.6621597,83.954157 0.40069906,83.465269 0.13923842,82.97638 0,82.49145 0,81.154172 V 3.8458278 C 0,2.5085497 0.13923842,2.0236203 0.40069906,1.5347314 0.6621597,1.0458426 1.0458426,0.6621597 1.5347314,0.40069906 2.0236203,0.13923842 2.5085497,0 3.8458278,0 Z"
-                       fill="#58A8F7" />
+                       fill="#58A8F7"
+                       height="115"
+                       width="80" />
                     <mask
                        fill="#fff"
-                       id="0hvu7xowfked-contacts-b-2">
+                       id="kfn9etufteg-item-b">
                       <use
                          height="100%"
                          width="100%"
                          y="0"
                          x="0"
-                         id="use12515"
-                         xlink:href="#0hvu7xowfked-contacts-a-5" />
+                         id="use21154"
+                         xlink:href="#kfn9etufteg-item-a-8" />
                     </mask>
-                    <g
-                       id="g12536"
-                       opacity=".197"
-                       mask="url(#0hvu7xowfked-contacts-b-2)">
-                      <g
-                         id="g12534"
-                         transform="translate(-12,-30)">
-                        <path
-                           inkscape:connector-curvature="0"
-                           id="path12518"
-                           d="M 24,132 V 64.498762 C 24,57.597116 29.600282,52 36.504598,52 H 81.501387 C 85.090828,52 88,54.909476 88,58.500231 V 132 h 3 V 58.500231 C 91,53.252692 86.747753,49 81.501387,49 H 36.504598 C 27.943807,49 21,55.939882 21,64.498762 V 132 Z"
-                           fill-rule="nonzero"
-                           fill="#58A8F7" />
-                        <polygon
-                           id="polygon12520"
-                           points="46,62.009 49,62.009 49,8 46,8 "
-                           fill-rule="nonzero"
-                           fill="#58A8F7" />
-                        <path
-                           inkscape:connector-curvature="0"
-                           id="path12522"
-                           d="M 123.5,91 122,92.5 V 91 Z M 54,114.49471 V 129 H 71 V 94.297941 C 61.345337,95.959346 54,104.36986 54,114.49471 Z M 74.502861,91 H 122 V 46.495532 C 122,41.804206 118.19705,38 113.50699,38 H 12 V 35 H 113.50699 C 119.85413,35 125,40.147573 125,46.495532 V 94 H 74.502861 c -0.1681,0 -0.335728,0.002 -0.502861,0.006 -1.020209,0.02455 -2.021954,0.123592 -3,0.291897 V 2 h 3 V 132 H 51 v -17.50529 c 0,-11.78569 8.681298,-21.544707 20,-23.235527 0.981482,-0.146617 1.982796,-0.232567 3,-0.253912 C 74.167197,91.001763 74.334823,91 74.502861,91 Z"
-                           fill-rule="nonzero"
-                           fill="#58A8F7" />
-                        <path
-                           inkscape:connector-curvature="0"
-                           id="path12524"
-                           d="m 115,10 -57,57 2.12132,2.12132 57,-57 z m -79,79 -29,29 2.1213203,2.12132 28.9999997,-29 z"
-                           fill-rule="nonzero"
-                           fill="#58A8F7" />
-                        <path
-                           inkscape:connector-curvature="0"
-                           id="path12526"
-                           d="m 48,92 c 6.955844,0 13,-6.044156 13,-13 0,-7.82536 -5.921449,-14 -13,-14 -7.955844,0 -14,6.044156 -14,14 0,7.078551 6.17464,13 14,13 z m 0,3 c -9.612698,0 -17,-7.387302 -17,-16 0,-9.612698 7.387302,-17 17,-17 8.612698,0 16,7.387302 16,17 0,8.612698 -7.387302,16 -16,16 z"
-                           fill-rule="nonzero"
-                           fill="#58A8F7" />
-                        <polygon
-                           id="polygon12528"
-                           points="31.504,81 31.504,78 0,78 0,81 "
-                           fill-rule="nonzero"
-                           fill="#58A8F7" />
-                        <path
-                           inkscape:connector-curvature="0"
-                           id="path12530"
-                           d="m 196,12.015709 -39,-0.01459 V 41.01627 h 39 z M 154,44.01627 V 9 l 45,0.016831 V 80.01627 H 64 v -3 h 132 v -36 h 37 v 77.9938 l -77,0.006 v -13.00012 h -46 v 25 h -3 v -28 h 52 v 12.99988 l 71,-0.006 V 44.01627 Z"
-                           fill-rule="nonzero"
-                           fill="#58A8F7" />
-                        <path
-                           inkscape:connector-curvature="0"
-                           id="path12532"
-                           d="m 157.50697,56.002268 c 10.76541,-0.0014 19.49398,8.731181 19.49398,19.500013 v 23.500296 l 37.02907,0.06367 -0.0285,-69.066552 c -1.58442,-2.97e-4 -1.60558,-3.01e-4 -3.98237,-7.4e-4 -4.2824,-7.81e-4 -8.90738,-0.0016 -13.70366,-0.0023 -6.16664,-9.37e-4 -12.16199,-0.0017 -17.81474,-0.0023 -10.40616,-0.0011 -19.07794,-0.0013 -25.4372,-7.03e-4 -3.61309,3.66e-4 -6.43127,10e-4 -8.3822,0.002 -0.66174,3.35e-4 -1.22271,7.07e-4 -1.68045,0.0011 v 26.007285 z m -52.50602,3.006616 V 0 h 3 v 56.008506 l 35,-0.0044 v 64.995884 l -134.0009105,0.002 -3.95e-5,-3 131.00095,-0.002 V 28.5 c 0,-1.739683 1.77451,-1.750651 1.70787,-1.501313 1.15466,-0.0019 1.9409,-0.0025 2.97106,-0.003 1.95142,-9.88e-4 4.76995,-0.0017 8.38342,-0.002 6.3595,-6.44e-4 15.03146,-3.51e-4 25.4378,7.03e-4 5.65281,5.73e-4 11.6482,0.0014 17.81489,0.0023 4.79632,7.29e-4 9.42133,0.0015 13.70375,0.0023 2.39816,4.42e-4 2.39816,4.42e-4 4.02548,7.55e-4 1.19909,2.34e-4 1.19909,2.34e-4 1.45604,2.86e-4 l 1.49907,3.04e-4 0.0309,75.071115 -43.03031,-0.074 V 75.502281 c 0,-9.11222 -7.38558,-16.501161 -16.4936,-16.500013 z"
-                           fill-rule="nonzero"
-                           fill="#58A8F7" />
-                      </g>
-                    </g>
+                    <use
+                       height="100%"
+                       width="100%"
+                       y="0"
+                       x="0"
+                       id="use21157"
+                       xlink:href="#kfn9etufteg-item-a-8"
+                       opacity="0"
+                       fill="#58A8F7" />
                     <path
                        inkscape:connector-curvature="0"
-                       id="path12538"
-                       transform="translate(85,39)"
-                       d="M 7,17 C 11,15 14,10.865993 14,7 14,3.1340068 10.865993,0 7,0 3.1340068,0 0,3.1340068 0,7 c 0,3.865993 3,8 7,10 z"
+                       id="path21159"
+                       opacity=".197"
+                       mask="url(#kfn9etufteg-item-b)"
+                       d="M 62.782178,58 C 76.683168,58 83.455445,82.337079 97,115 85.950495,115 38.64689,115 25,115 36.762376,88.101124 48.881188,58 62.782178,58 Z"
+                       fill="#58A8F7" />
+                    <path
+                       inkscape:connector-curvature="0"
+                       id="path21161"
+                       opacity=".198"
+                       mask="url(#kfn9etufteg-item-b)"
+                       d="m 18,47 c 15.741187,0 25.925926,32.424254 40,68 -18.466268,0 -63.1855501,0 -80,0 C -8.4053384,79.424254 2.2588128,47 18,47 Z"
                        fill="#0D87FF" />
+                    <circle
+                       id="circle21163"
+                       opacity=".499"
+                       mask="url(#kfn9etufteg-item-b)"
+                       fill="#58A8F7"
+                       r="7"
+                       cy="31"
+                       cx="44" />
+                  </g>
+                  <g
+                     id="g21178"
+                     transform="translate(10,151)">
+                    <path
+                       inkscape:connector-curvature="0"
+                       id="path21167"
+                       opacity=".197"
+                       d="M 0,1.9950893 C 0,0.8932319 0.89702623,0 2.0049466,0 H 21.995053 C 23.102355,0 24,0.8926228 24,1.9950893 V 16.004911 C 24,17.106768 23.102974,18 21.995053,18 H 2.0049466 C 0.89764516,18 0,17.107377 0,16.004911 Z"
+                       fill="#58A8F7" />
+                    <mask
+                       fill="#fff"
+                       id="kfn9etufteg-item-d">
+                      <use
+                         height="100%"
+                         width="100%"
+                         y="0"
+                         x="0"
+                         id="use21169"
+                         xlink:href="#kfn9etufteg-item-c-9" />
+                    </mask>
+                    <path
+                       inkscape:connector-curvature="0"
+                       id="path21172"
+                       opacity=".197"
+                       mask="url(#kfn9etufteg-item-d)"
+                       d="m 20.571429,9.8181818 c 4.633663,0 7.485148,3.4933602 12,8.1818182 C 28.88826,18 13.120392,18 8.5714286,18 12.492221,14.138917 15.937765,9.8181818 20.571429,9.8181818 Z"
+                       fill="#58A8F7" />
+                    <path
+                       inkscape:connector-curvature="0"
+                       id="path21174"
+                       opacity=".198"
+                       mask="url(#kfn9etufteg-item-d)"
+                       d="m 3.4285714,8.1818182 c 4.8910118,0 8.4841266,4.6815768 12.8571426,9.8181818 -5.737733,0 -19.6326528,0 -24.8571426,0 4.2240556,-5.136605 7.1089883,-9.8181818 12,-9.8181818 z"
+                       fill="#0D87FF" />
+                    <circle
+                       id="circle21176"
+                       opacity=".499"
+                       mask="url(#kfn9etufteg-item-d)"
+                       fill="#58A8F7"
+                       r="3"
+                       cy="5.7270002"
+                       cx="12.857" />
+                  </g>
+                  <g
+                     id="g21191"
+                     transform="translate(38,151)">
+                    <path
+                       inkscape:connector-curvature="0"
+                       id="path21180"
+                       opacity=".197"
+                       d="M 0,1.9950893 C 0,0.8932319 0.89702623,0 2.0049466,0 H 21.995053 C 23.102355,0 24,0.8926228 24,1.9950893 V 16.004911 C 24,17.106768 23.102974,18 21.995053,18 H 2.0049466 C 0.89764516,18 0,17.107377 0,16.004911 Z"
+                       fill="#58A8F7" />
+                    <mask
+                       fill="#fff"
+                       id="kfn9etufteg-item-f">
+                      <use
+                         height="100%"
+                         width="100%"
+                         y="0"
+                         x="0"
+                         id="use21182"
+                         xlink:href="#kfn9etufteg-item-e-4" />
+                    </mask>
+                    <path
+                       inkscape:connector-curvature="0"
+                       id="path21185"
+                       opacity=".197"
+                       mask="url(#kfn9etufteg-item-f)"
+                       d="m 20.571429,9.8181818 c 4.633663,0 7.485148,3.4933602 12,8.1818182 C 28.88826,18 13.120392,18 8.5714286,18 12.492221,14.138917 15.937765,9.8181818 20.571429,9.8181818 Z"
+                       fill="#58A8F7" />
+                    <path
+                       inkscape:connector-curvature="0"
+                       id="path21187"
+                       opacity=".198"
+                       mask="url(#kfn9etufteg-item-f)"
+                       d="m 3.4285714,8.1818182 c 4.8910118,0 8.4841266,4.6815768 12.8571426,9.8181818 -5.737733,0 -19.6326528,0 -24.8571426,0 4.2240556,-5.136605 7.1089883,-9.8181818 12,-9.8181818 z"
+                       fill="#0D87FF" />
+                    <circle
+                       id="circle21189"
+                       opacity=".499"
+                       mask="url(#kfn9etufteg-item-f)"
+                       fill="#58A8F7"
+                       r="3"
+                       cy="5.7270002"
+                       cx="12.857" />
+                  </g>
+                  <g
+                     id="g21204"
+                     transform="translate(66,151)">
+                    <path
+                       inkscape:connector-curvature="0"
+                       id="path21193"
+                       opacity=".197"
+                       d="M 0,1.9950893 C 0,0.8932319 0.89702623,0 2.0049466,0 H 21.995053 C 23.102355,0 24,0.8926228 24,1.9950893 V 16.004911 C 24,17.106768 23.102974,18 21.995053,18 H 2.0049466 C 0.89764516,18 0,17.107377 0,16.004911 Z"
+                       fill="#58A8F7" />
+                    <mask
+                       fill="#fff"
+                       id="kfn9etufteg-item-h">
+                      <use
+                         height="100%"
+                         width="100%"
+                         y="0"
+                         x="0"
+                         id="use21195"
+                         xlink:href="#kfn9etufteg-item-g-2" />
+                    </mask>
+                    <path
+                       inkscape:connector-curvature="0"
+                       id="path21198"
+                       opacity=".197"
+                       mask="url(#kfn9etufteg-item-h)"
+                       d="m 20.571429,9.8181818 c 4.633663,0 7.485148,3.4933602 12,8.1818182 C 28.88826,18 13.120392,18 8.5714286,18 12.492221,14.138917 15.937765,9.8181818 20.571429,9.8181818 Z"
+                       fill="#58A8F7" />
+                    <path
+                       inkscape:connector-curvature="0"
+                       id="path21200"
+                       opacity=".198"
+                       mask="url(#kfn9etufteg-item-h)"
+                       d="m 3.4285714,8.1818182 c 4.8910118,0 8.4841266,4.6815768 12.8571426,9.8181818 -5.737733,0 -19.6326528,0 -24.8571426,0 4.2240556,-5.136605 7.1089883,-9.8181818 12,-9.8181818 z"
+                       fill="#0D87FF" />
+                    <circle
+                       id="circle21202"
+                       opacity=".499"
+                       mask="url(#kfn9etufteg-item-h)"
+                       fill="#58A8F7"
+                       r="3"
+                       cy="5.7270002"
+                       cx="12.857" />
+                  </g>
+                  <g
+                     id="g21210"
+                     transform="translate(100,26)"
+                     opacity=".499"
+                     fill="#58A8F7">
+                    <polygon
+                       id="polygon21206"
+                       points="50,5 0,5 0,0 50,0 " />
+                    <polygon
+                       id="polygon21208"
+                       transform="translate(0,9)"
+                       points="30,5 0,5 0,0 30,0 " />
                   </g>
                   <polygon
-                     id="polygon12542"
-                     transform="translate(10,123)"
+                     id="polygon21212"
+                     transform="translate(100,50)"
                      opacity=".499"
-                     points="50,0 50,5 0,5 0,0 "
-                     fill="#58A8F7" />
-                  <polygon
-                     id="polygon12544"
-                     transform="translate(100,123)"
-                     opacity=".499"
-                     points="50,0 50,5 0,5 0,0 "
+                     points="27,9 0,9 0,0 27,0 "
                      fill="#58A8F7" />
                   <g
-                     id="g12554"
-                     transform="translate(10,133)"
+                     id="g21222"
+                     transform="translate(100,99)"
                      opacity=".197"
                      fill="#58A8F7">
                     <polygon
-                       id="polygon12546"
+                       id="polygon21214"
                        transform="translate(0,14)"
-                       points="70,0 70,3 0,3 0,0 " />
+                       points="70,3 0,3 0,0 70,0 " />
                     <polygon
-                       id="polygon12548"
+                       id="polygon21216"
                        transform="translate(0,7)"
-                       points="70,0 70,3 0,3 0,0 " />
+                       points="70,3 0,3 0,0 70,0 " />
                     <polygon
-                       id="polygon12550"
-                       points="70,0 70,3 0,3 0,0 " />
+                       id="polygon21218"
+                       points="70,3 0,3 0,0 70,0 " />
                     <polygon
-                       id="polygon12552"
+                       id="polygon21220"
                        transform="translate(0,21)"
-                       points="42,0 42,3 0,3 0,0 " />
+                       points="42,3 0,3 0,0 42,0 " />
                   </g>
-                  <g
-                     id="g12564"
-                     transform="translate(100,133)"
+                  <circle
+                     id="circle21224"
+                     transform="translate(100,64)"
                      opacity=".197"
-                     fill="#58A8F7">
+                     fill="#58A8F7"
+                     r="5"
+                     cy="5"
+                     cx="5" />
+                  <circle
+                     id="circle21226"
+                     transform="translate(114,64)"
+                     opacity=".197"
+                     fill="#58A8F7"
+                     r="5"
+                     cy="5"
+                     cx="5" />
+                  <circle
+                     id="circle21228"
+                     transform="translate(128,64)"
+                     opacity=".197"
+                     fill="#58A8F7"
+                     r="5"
+                     cy="5"
+                     cx="5" />
+                  <circle
+                     id="circle21230"
+                     transform="translate(142,64)"
+                     opacity=".197"
+                     fill="#58A8F7"
+                     r="5"
+                     cy="5"
+                     cx="5" />
+                  <g
+                     id="g21240"
+                     transform="translate(100,78)">
+                    <rect
+                       y="0"
+                       x="0"
+                       id="rect21232"
+                       rx="2"
+                       opacity=".499"
+                       fill="#58A8F7"
+                       height="11"
+                       width="57" />
+                    <rect
+                       id="rect21234"
+                       rx="1"
+                       fill="#FFF"
+                       y="1"
+                       x="1"
+                       height="9"
+                       width="55" />
                     <polygon
-                       id="polygon12556"
-                       transform="translate(0,14)"
-                       points="70,0 70,3 0,3 0,0 " />
+                       id="polygon21236"
+                       transform="translate(4,4)"
+                       opacity=".197"
+                       points="32,3 0,3 0,0 32,0 "
+                       fill="#58A8F7" />
                     <polygon
-                       id="polygon12558"
-                       transform="translate(0,7)"
-                       points="70,0 70,3 0,3 0,0 " />
-                    <polygon
-                       id="polygon12560"
-                       points="70,0 70,3 0,3 0,0 " />
-                    <polygon
-                       id="polygon12562"
-                       transform="translate(0,21)"
-                       points="42,0 42,3 0,3 0,0 " />
+                       id="polygon21238"
+                       transform="translate(47,4)"
+                       points="5,0 2.5,3 0,0 "
+                       fill="#0D87FF" />
                   </g>
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12566"
-                     transform="translate(10,164)"
+                     id="path21242"
+                     transform="translate(100,130)"
                      opacity=".499"
                      d="M 0,1.992017 C 0,0.8918564 0.89433765,0 1.9982138,0 H 29.001786 C 30.105369,0 31,0.90017617 31,1.992017 V 9.007983 C 31,10.108144 30.105662,11 29.001786,11 H 1.9982138 C 0.8946308,11 0,10.099824 0,9.007983 Z"
+                     fill="#0D87FF" />
+                  <path
+                     inkscape:connector-curvature="0"
+                     id="path21244"
+                     opacity=".197"
+                     d="M 0,3.0094776 C 0,1.347389 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3366311 180,3.0094776 V 16 H 0 Z"
+                     fill="#58A8F7" />
+                  <path
+                     inkscape:connector-curvature="0"
+                     id="path21246"
+                     transform="translate(5,6)"
+                     opacity=".499"
+                     d="M 2.5,5 C 1.1192881,5 0,3.8807119 0,2.5 0,1.1192881 1.1192881,0 2.5,0 3.8807119,0 5,1.1192881 5,2.5 5,3.8807119 3.8807119,5 2.5,5 Z m 8,0 C 9.1192881,5 8,3.8807119 8,2.5 8,1.1192881 9.1192881,0 10.5,0 11.880712,0 13,1.1192881 13,2.5 13,3.8807119 11.880712,5 10.5,5 Z m 8,0 C 17.119288,5 16,3.8807119 16,2.5 16,1.1192881 17.119288,0 18.5,0 19.880712,0 21,1.1192881 21,2.5 21,3.8807119 19.880712,5 18.5,5 Z"
                      fill="#0D87FF" />
                 </g>
               </svg>
@@ -3978,7 +4300,7 @@
           </g>
         </g>
         <rect
-           id="rect12578"
+           id="rect21258"
            stroke-width="2"
            stroke="#A2CEF9"
            fill="none"
@@ -3989,12 +4311,12 @@
            y="-1"
            x="-1" />
         <g
-           id="g12584"
+           id="g21264"
            transform="translate(0,206)">
           <g
-             id="g12582">
+             id="g21262">
             <text
-               id="text12580"
+               id="text21260"
                fill="#52565f"
                font-size="14px"
                font-family="Roboto,sans-serif"
@@ -4005,10 +4327,10 @@
         </g>
       </g>
       <g
-         id="g12833"
-         transform="translate(1120,328)">
+         id="g21513"
+         transform="translate(1120,566)">
         <rect
-           id="rect12588"
+           id="rect21268"
            fill="#ffffff"
            height="228"
            width="180"
@@ -4017,13 +4339,13 @@
            y="0"
            x="0" />
         <g
-           id="g12823">
+           id="g21503">
           <g
-             id="g12821">
+             id="g21501">
             <g
-               id="g12819">
+               id="g21499">
               <svg
-                 id="svg12817"
+                 id="svg21497"
                  version="1.1"
                  fill="none"
                  viewBox="0 0 180 184"
@@ -4031,25 +4353,25 @@
                  width="180">
                 <path
                    inkscape:connector-curvature="0"
-                   id="path12590"
+                   id="path21270"
                    fill="#EFF7FF"
                    d="M 0,3 C 0,1.34315 1.34315,0 3,0 h 174 c 1.657,0 3,1.34315 3,3 V 184 H 0 Z" />
                 <path
                    inkscape:connector-curvature="0"
-                   id="path12592"
+                   id="path21272"
                    fill="#58A8F7"
                    d="M 0,3 C 0,1.34315 1.34315,0 3,0 h 174 c 1.657,0 3,1.34315 3,3 V 15 H 0 Z"
                    opacity="0.2" />
                 <path
                    inkscape:connector-curvature="0"
-                   id="path12594"
+                   id="path21274"
                    fill="#0D87FF"
                    d="M 7.5,10 C 8.88071,10 10,8.88071 10,7.5 10,6.11929 8.88071,5 7.5,5 6.11929,5 5,6.11929 5,7.5 5,8.88071 6.11929,10 7.5,10 Z m 8,0 C 16.8807,10 18,8.88071 18,7.5 18,6.11929 16.8807,5 15.5,5 14.1193,5 13,6.11929 13,7.5 13,8.88071 14.1193,10 15.5,10 Z M 26,7.5 C 26,8.88071 24.8807,10 23.5,10 22.1193,10 21,8.88071 21,7.5 21,6.11929 22.1193,5 23.5,5 24.8807,5 26,6.11929 26,7.5 Z"
                    clip-rule="evenodd"
                    fill-rule="evenodd"
                    opacity="0.5" />
                 <rect
-                   id="rect12596"
+                   id="rect21276"
                    fill="white"
                    rx="3"
                    height="38"
@@ -4057,7 +4379,7 @@
                    y="25"
                    x="64" />
                 <rect
-                   id="rect12598"
+                   id="rect21278"
                    fill="#58A8F7"
                    height="3"
                    width="28"
@@ -4065,7 +4387,7 @@
                    x="66"
                    opacity="0.2" />
                 <rect
-                   id="rect12600"
+                   id="rect21280"
                    fill="#58A8F7"
                    height="3"
                    width="14"
@@ -4073,7 +4395,7 @@
                    x="73"
                    opacity="0.2" />
                 <rect
-                   id="rect12602"
+                   id="rect21282"
                    fill="#58A8F7"
                    rx="2"
                    height="22"
@@ -4088,9 +4410,9 @@
                    x="66"
                    maskUnits="userSpaceOnUse"
                    mask-type="alpha"
-                   id="4oi0n4gqx5-mask0-1">
+                   id="7mi9sokxlwf-mask0">
                   <rect
-                     id="rect12604"
+                     id="rect21284"
                      fill="white"
                      rx="2"
                      height="22"
@@ -4099,11 +4421,11 @@
                      x="66" />
                 </mask>
                 <g
-                   id="g12613"
-                   mask="url(#4oi0n4gqx5-mask0-1)">
+                   id="g21293"
+                   mask="url(#7mi9sokxlwf-mask0)">
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12607"
+                     id="path21287"
                      fill="#58A8F7"
                      d="m 90,39 c 5.4059,0 8.7327,4.2697 14,10 -4.297,0 -22.6929,0 -28,0 4.5743,-4.7191 8.5941,-10 14,-10 z"
                      clip-rule="evenodd"
@@ -4111,7 +4433,7 @@
                      opacity="0.2" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12609"
+                     id="path21289"
                      fill="#0D87FF"
                      d="m 70,37 c 5.7062,0 9.8981,5.7219 15,12 -6.694,0 -22.9048,0 -29,0 4.9281,-6.2781 8.2938,-12 14,-12 z"
                      clip-rule="evenodd"
@@ -4119,7 +4441,7 @@
                      opacity="0.2" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12611"
+                     id="path21291"
                      fill="#58A8F7"
                      d="m 81,37 c 1.6569,0 3,-1.3431 3,-3 0,-1.6569 -1.3431,-3 -3,-3 -1.6569,0 -3,1.3431 -3,3 0,1.6569 1.3431,3 3,3 z"
                      clip-rule="evenodd"
@@ -4127,7 +4449,7 @@
                      opacity="0.5" />
                 </g>
                 <rect
-                   id="rect12615"
+                   id="rect21295"
                    fill="white"
                    rx="3"
                    height="38"
@@ -4135,7 +4457,7 @@
                    y="68"
                    x="64" />
                 <rect
-                   id="rect12617"
+                   id="rect21297"
                    fill="#58A8F7"
                    height="3"
                    width="28"
@@ -4143,7 +4465,7 @@
                    x="66"
                    opacity="0.2" />
                 <rect
-                   id="rect12619"
+                   id="rect21299"
                    fill="#58A8F7"
                    height="3"
                    width="14"
@@ -4151,7 +4473,7 @@
                    x="73"
                    opacity="0.2" />
                 <rect
-                   id="rect12621"
+                   id="rect21301"
                    fill="#58A8F7"
                    rx="2"
                    height="22"
@@ -4166,9 +4488,9 @@
                    x="66"
                    maskUnits="userSpaceOnUse"
                    mask-type="alpha"
-                   id="4oi0n4gqx5-mask1-4">
+                   id="7mi9sokxlwf-mask1">
                   <rect
-                     id="rect12623"
+                     id="rect21303"
                      fill="white"
                      rx="2"
                      height="22"
@@ -4177,11 +4499,11 @@
                      x="66" />
                 </mask>
                 <g
-                   id="g12632"
-                   mask="url(#4oi0n4gqx5-mask1-4)">
+                   id="g21312"
+                   mask="url(#7mi9sokxlwf-mask1)">
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12626"
+                     id="path21306"
                      fill="#58A8F7"
                      d="m 90,82 c 5.4059,0 8.7327,4.2697 14,10 -4.297,0 -22.6929,0 -28,0 4.5743,-4.7191 8.5941,-10 14,-10 z"
                      clip-rule="evenodd"
@@ -4189,7 +4511,7 @@
                      opacity="0.2" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12628"
+                     id="path21308"
                      fill="#0D87FF"
                      d="m 70,80 c 5.7062,0 9.8981,5.7219 15,12 -6.694,0 -22.9048,0 -29,0 4.9281,-6.2781 8.2938,-12 14,-12 z"
                      clip-rule="evenodd"
@@ -4197,7 +4519,7 @@
                      opacity="0.2" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12630"
+                     id="path21310"
                      fill="#58A8F7"
                      d="m 81,80 c 1.6569,0 3,-1.3431 3,-3 0,-1.6569 -1.3431,-3 -3,-3 -1.6569,0 -3,1.3431 -3,3 0,1.6569 1.3431,3 3,3 z"
                      clip-rule="evenodd"
@@ -4205,7 +4527,7 @@
                      opacity="0.5" />
                 </g>
                 <rect
-                   id="rect12634"
+                   id="rect21314"
                    fill="white"
                    rx="3"
                    height="38"
@@ -4213,7 +4535,7 @@
                    y="25"
                    x="101" />
                 <rect
-                   id="rect12636"
+                   id="rect21316"
                    fill="#58A8F7"
                    height="3"
                    width="28"
@@ -4221,7 +4543,7 @@
                    x="103"
                    opacity="0.2" />
                 <rect
-                   id="rect12638"
+                   id="rect21318"
                    fill="#58A8F7"
                    height="3"
                    width="14"
@@ -4229,7 +4551,7 @@
                    x="110"
                    opacity="0.2" />
                 <rect
-                   id="rect12640"
+                   id="rect21320"
                    fill="#58A8F7"
                    rx="2"
                    height="22"
@@ -4244,9 +4566,9 @@
                    x="103"
                    maskUnits="userSpaceOnUse"
                    mask-type="alpha"
-                   id="4oi0n4gqx5-mask2-2">
+                   id="7mi9sokxlwf-mask2">
                   <rect
-                     id="rect12642"
+                     id="rect21322"
                      fill="white"
                      rx="2"
                      height="22"
@@ -4255,11 +4577,11 @@
                      x="103" />
                 </mask>
                 <g
-                   id="g12651"
-                   mask="url(#4oi0n4gqx5-mask2-2)">
+                   id="g21331"
+                   mask="url(#7mi9sokxlwf-mask2)">
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12645"
+                     id="path21325"
                      fill="#58A8F7"
                      d="m 127,39 c 5.406,0 8.733,4.2697 14,10 -4.297,0 -22.693,0 -28,0 4.574,-4.7191 8.594,-10 14,-10 z"
                      clip-rule="evenodd"
@@ -4267,7 +4589,7 @@
                      opacity="0.2" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12647"
+                     id="path21327"
                      fill="#0D87FF"
                      d="m 107,37 c 5.706,0 9.898,5.7219 15,12 -6.694,0 -22.9048,0 -29,0 4.9281,-6.2781 8.294,-12 14,-12 z"
                      clip-rule="evenodd"
@@ -4275,7 +4597,7 @@
                      opacity="0.2" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12649"
+                     id="path21329"
                      fill="#58A8F7"
                      d="m 118,37 c 1.657,0 3,-1.3431 3,-3 0,-1.6569 -1.343,-3 -3,-3 -1.657,0 -3,1.3431 -3,3 0,1.6569 1.343,3 3,3 z"
                      clip-rule="evenodd"
@@ -4283,7 +4605,7 @@
                      opacity="0.5" />
                 </g>
                 <rect
-                   id="rect12653"
+                   id="rect21333"
                    fill="white"
                    rx="3"
                    height="38"
@@ -4291,7 +4613,7 @@
                    y="68"
                    x="101" />
                 <rect
-                   id="rect12655"
+                   id="rect21335"
                    fill="#58A8F7"
                    height="3"
                    width="28"
@@ -4299,7 +4621,7 @@
                    x="103"
                    opacity="0.2" />
                 <rect
-                   id="rect12657"
+                   id="rect21337"
                    fill="#58A8F7"
                    height="3"
                    width="14"
@@ -4307,7 +4629,7 @@
                    x="110"
                    opacity="0.2" />
                 <rect
-                   id="rect12659"
+                   id="rect21339"
                    fill="#58A8F7"
                    rx="2"
                    height="22"
@@ -4322,9 +4644,9 @@
                    x="103"
                    maskUnits="userSpaceOnUse"
                    mask-type="alpha"
-                   id="4oi0n4gqx5-mask3-6">
+                   id="7mi9sokxlwf-mask3">
                   <rect
-                     id="rect12661"
+                     id="rect21341"
                      fill="white"
                      rx="2"
                      height="22"
@@ -4333,11 +4655,11 @@
                      x="103" />
                 </mask>
                 <g
-                   id="g12670"
-                   mask="url(#4oi0n4gqx5-mask3-6)">
+                   id="g21350"
+                   mask="url(#7mi9sokxlwf-mask3)">
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12664"
+                     id="path21344"
                      fill="#58A8F7"
                      d="m 127,82 c 5.406,0 8.733,4.2697 14,10 -4.297,0 -22.693,0 -28,0 4.574,-4.7191 8.594,-10 14,-10 z"
                      clip-rule="evenodd"
@@ -4345,7 +4667,7 @@
                      opacity="0.2" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12666"
+                     id="path21346"
                      fill="#0D87FF"
                      d="m 107,80 c 5.706,0 9.898,5.7219 15,12 -6.694,0 -22.9048,0 -29,0 4.9281,-6.2781 8.294,-12 14,-12 z"
                      clip-rule="evenodd"
@@ -4353,7 +4675,7 @@
                      opacity="0.2" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12668"
+                     id="path21348"
                      fill="#58A8F7"
                      d="m 118,80 c 1.657,0 3,-1.3431 3,-3 0,-1.6569 -1.343,-3 -3,-3 -1.657,0 -3,1.3431 -3,3 0,1.6569 1.343,3 3,3 z"
                      clip-rule="evenodd"
@@ -4361,7 +4683,7 @@
                      opacity="0.5" />
                 </g>
                 <rect
-                   id="rect12672"
+                   id="rect21352"
                    fill="white"
                    rx="3"
                    height="38"
@@ -4369,7 +4691,7 @@
                    y="25"
                    x="138" />
                 <rect
-                   id="rect12674"
+                   id="rect21354"
                    fill="#58A8F7"
                    height="3"
                    width="28"
@@ -4377,7 +4699,7 @@
                    x="140"
                    opacity="0.2" />
                 <rect
-                   id="rect12676"
+                   id="rect21356"
                    fill="#58A8F7"
                    height="3"
                    width="14"
@@ -4385,7 +4707,7 @@
                    x="147"
                    opacity="0.2" />
                 <rect
-                   id="rect12678"
+                   id="rect21358"
                    fill="#58A8F7"
                    rx="2"
                    height="22"
@@ -4400,9 +4722,9 @@
                    x="140"
                    maskUnits="userSpaceOnUse"
                    mask-type="alpha"
-                   id="4oi0n4gqx5-mask4-1">
+                   id="7mi9sokxlwf-mask4">
                   <rect
-                     id="rect12680"
+                     id="rect21360"
                      fill="white"
                      rx="2"
                      height="22"
@@ -4411,11 +4733,11 @@
                      x="140" />
                 </mask>
                 <g
-                   id="g12689"
-                   mask="url(#4oi0n4gqx5-mask4-1)">
+                   id="g21369"
+                   mask="url(#7mi9sokxlwf-mask4)">
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12683"
+                     id="path21363"
                      fill="#58A8F7"
                      d="m 164,39 c 5.406,0 8.733,4.2697 14,10 -4.297,0 -22.693,0 -28,0 4.574,-4.7191 8.594,-10 14,-10 z"
                      clip-rule="evenodd"
@@ -4423,7 +4745,7 @@
                      opacity="0.2" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12685"
+                     id="path21365"
                      fill="#0D87FF"
                      d="m 144,37 c 5.706,0 9.898,5.7219 15,12 -6.694,0 -22.905,0 -29,0 4.928,-6.2781 8.294,-12 14,-12 z"
                      clip-rule="evenodd"
@@ -4431,7 +4753,7 @@
                      opacity="0.2" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12687"
+                     id="path21367"
                      fill="#58A8F7"
                      d="m 155,37 c 1.657,0 3,-1.3431 3,-3 0,-1.6569 -1.343,-3 -3,-3 -1.657,0 -3,1.3431 -3,3 0,1.6569 1.343,3 3,3 z"
                      clip-rule="evenodd"
@@ -4439,7 +4761,7 @@
                      opacity="0.5" />
                 </g>
                 <rect
-                   id="rect12691"
+                   id="rect21371"
                    fill="white"
                    rx="3"
                    height="38"
@@ -4447,7 +4769,7 @@
                    y="68"
                    x="138" />
                 <rect
-                   id="rect12693"
+                   id="rect21373"
                    fill="#58A8F7"
                    height="3"
                    width="28"
@@ -4455,7 +4777,7 @@
                    x="140"
                    opacity="0.2" />
                 <rect
-                   id="rect12695"
+                   id="rect21375"
                    fill="#58A8F7"
                    height="3"
                    width="14"
@@ -4463,7 +4785,7 @@
                    x="147"
                    opacity="0.2" />
                 <rect
-                   id="rect12697"
+                   id="rect21377"
                    fill="#58A8F7"
                    rx="2"
                    height="22"
@@ -4478,9 +4800,9 @@
                    x="140"
                    maskUnits="userSpaceOnUse"
                    mask-type="alpha"
-                   id="4oi0n4gqx5-mask5-0">
+                   id="7mi9sokxlwf-mask5">
                   <rect
-                     id="rect12699"
+                     id="rect21379"
                      fill="white"
                      rx="2"
                      height="22"
@@ -4489,11 +4811,11 @@
                      x="140" />
                 </mask>
                 <g
-                   id="g12708"
-                   mask="url(#4oi0n4gqx5-mask5-0)">
+                   id="g21388"
+                   mask="url(#7mi9sokxlwf-mask5)">
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12702"
+                     id="path21382"
                      fill="#58A8F7"
                      d="m 164,82 c 5.406,0 8.733,4.2697 14,10 -4.297,0 -22.693,0 -28,0 4.574,-4.7191 8.594,-10 14,-10 z"
                      clip-rule="evenodd"
@@ -4501,7 +4823,7 @@
                      opacity="0.2" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12704"
+                     id="path21384"
                      fill="#0D87FF"
                      d="m 144,80 c 5.706,0 9.898,5.7219 15,12 -6.694,0 -22.905,0 -29,0 4.928,-6.2781 8.294,-12 14,-12 z"
                      clip-rule="evenodd"
@@ -4509,7 +4831,7 @@
                      opacity="0.2" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12706"
+                     id="path21386"
                      fill="#58A8F7"
                      d="m 155,80 c 1.657,0 3,-1.3431 3,-3 0,-1.6569 -1.343,-3 -3,-3 -1.657,0 -3,1.3431 -3,3 0,1.6569 1.343,3 3,3 z"
                      clip-rule="evenodd"
@@ -4517,7 +4839,7 @@
                      opacity="0.5" />
                 </g>
                 <rect
-                   id="rect12710"
+                   id="rect21390"
                    fill="white"
                    rx="3"
                    height="38"
@@ -4525,7 +4847,7 @@
                    y="111"
                    x="64" />
                 <rect
-                   id="rect12712"
+                   id="rect21392"
                    fill="#58A8F7"
                    height="3"
                    width="28"
@@ -4533,7 +4855,7 @@
                    x="66"
                    opacity="0.2" />
                 <rect
-                   id="rect12714"
+                   id="rect21394"
                    fill="#58A8F7"
                    height="3"
                    width="14"
@@ -4541,7 +4863,7 @@
                    x="73"
                    opacity="0.2" />
                 <rect
-                   id="rect12716"
+                   id="rect21396"
                    fill="#58A8F7"
                    rx="2"
                    height="22"
@@ -4556,9 +4878,9 @@
                    x="66"
                    maskUnits="userSpaceOnUse"
                    mask-type="alpha"
-                   id="4oi0n4gqx5-mask6-7">
+                   id="7mi9sokxlwf-mask6">
                   <rect
-                     id="rect12718"
+                     id="rect21398"
                      fill="white"
                      rx="2"
                      height="22"
@@ -4567,11 +4889,11 @@
                      x="66" />
                 </mask>
                 <g
-                   id="g12727"
-                   mask="url(#4oi0n4gqx5-mask6-7)">
+                   id="g21407"
+                   mask="url(#7mi9sokxlwf-mask6)">
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12721"
+                     id="path21401"
                      fill="#58A8F7"
                      d="m 90,125 c 5.4059,0 8.7327,4.27 14,10 -4.297,0 -22.6929,0 -28,0 4.5743,-4.719 8.5941,-10 14,-10 z"
                      clip-rule="evenodd"
@@ -4579,7 +4901,7 @@
                      opacity="0.2" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12723"
+                     id="path21403"
                      fill="#0D87FF"
                      d="m 70,123 c 5.7062,0 9.8981,5.722 15,12 -6.694,0 -22.9048,0 -29,0 4.9281,-6.278 8.2938,-12 14,-12 z"
                      clip-rule="evenodd"
@@ -4587,7 +4909,7 @@
                      opacity="0.2" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12725"
+                     id="path21405"
                      fill="#58A8F7"
                      d="m 81,123 c 1.6569,0 3,-1.343 3,-3 0,-1.657 -1.3431,-3 -3,-3 -1.6569,0 -3,1.343 -3,3 0,1.657 1.3431,3 3,3 z"
                      clip-rule="evenodd"
@@ -4595,7 +4917,7 @@
                      opacity="0.5" />
                 </g>
                 <rect
-                   id="rect12729"
+                   id="rect21409"
                    fill="white"
                    rx="3"
                    height="38"
@@ -4603,7 +4925,7 @@
                    y="111"
                    x="101" />
                 <rect
-                   id="rect12731"
+                   id="rect21411"
                    fill="#58A8F7"
                    height="3"
                    width="28"
@@ -4611,7 +4933,7 @@
                    x="103"
                    opacity="0.2" />
                 <rect
-                   id="rect12733"
+                   id="rect21413"
                    fill="#58A8F7"
                    height="3"
                    width="14"
@@ -4619,7 +4941,7 @@
                    x="110"
                    opacity="0.2" />
                 <rect
-                   id="rect12735"
+                   id="rect21415"
                    fill="#58A8F7"
                    rx="2"
                    height="22"
@@ -4634,9 +4956,9 @@
                    x="103"
                    maskUnits="userSpaceOnUse"
                    mask-type="alpha"
-                   id="4oi0n4gqx5-mask7-2">
+                   id="7mi9sokxlwf-mask7">
                   <rect
-                     id="rect12737"
+                     id="rect21417"
                      fill="white"
                      rx="2"
                      height="22"
@@ -4645,11 +4967,11 @@
                      x="103" />
                 </mask>
                 <g
-                   id="g12746"
-                   mask="url(#4oi0n4gqx5-mask7-2)">
+                   id="g21426"
+                   mask="url(#7mi9sokxlwf-mask7)">
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12740"
+                     id="path21420"
                      fill="#58A8F7"
                      d="m 127,125 c 5.406,0 8.733,4.27 14,10 -4.297,0 -22.693,0 -28,0 4.574,-4.719 8.594,-10 14,-10 z"
                      clip-rule="evenodd"
@@ -4657,7 +4979,7 @@
                      opacity="0.2" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12742"
+                     id="path21422"
                      fill="#0D87FF"
                      d="m 107,123 c 5.706,0 9.898,5.722 15,12 -6.694,0 -22.9048,0 -29,0 4.9281,-6.278 8.294,-12 14,-12 z"
                      clip-rule="evenodd"
@@ -4665,7 +4987,7 @@
                      opacity="0.2" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12744"
+                     id="path21424"
                      fill="#58A8F7"
                      d="m 118,123 c 1.657,0 3,-1.343 3,-3 0,-1.657 -1.343,-3 -3,-3 -1.657,0 -3,1.343 -3,3 0,1.657 1.343,3 3,3 z"
                      clip-rule="evenodd"
@@ -4673,7 +4995,7 @@
                      opacity="0.5" />
                 </g>
                 <rect
-                   id="rect12748"
+                   id="rect21428"
                    fill="white"
                    rx="3"
                    height="38"
@@ -4681,7 +5003,7 @@
                    y="111"
                    x="138" />
                 <rect
-                   id="rect12750"
+                   id="rect21430"
                    fill="#58A8F7"
                    height="3"
                    width="28"
@@ -4689,7 +5011,7 @@
                    x="140"
                    opacity="0.2" />
                 <rect
-                   id="rect12752"
+                   id="rect21432"
                    fill="#58A8F7"
                    height="3"
                    width="14"
@@ -4697,7 +5019,7 @@
                    x="147"
                    opacity="0.2" />
                 <rect
-                   id="rect12754"
+                   id="rect21434"
                    fill="#58A8F7"
                    rx="2"
                    height="22"
@@ -4712,9 +5034,9 @@
                    x="140"
                    maskUnits="userSpaceOnUse"
                    mask-type="alpha"
-                   id="4oi0n4gqx5-mask8-8">
+                   id="7mi9sokxlwf-mask8">
                   <rect
-                     id="rect12756"
+                     id="rect21436"
                      fill="white"
                      rx="2"
                      height="22"
@@ -4723,11 +5045,11 @@
                      x="140" />
                 </mask>
                 <g
-                   id="g12765"
-                   mask="url(#4oi0n4gqx5-mask8-8)">
+                   id="g21445"
+                   mask="url(#7mi9sokxlwf-mask8)">
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12759"
+                     id="path21439"
                      fill="#58A8F7"
                      d="m 164,125 c 5.406,0 8.733,4.27 14,10 -4.297,0 -22.693,0 -28,0 4.574,-4.719 8.594,-10 14,-10 z"
                      clip-rule="evenodd"
@@ -4735,7 +5057,7 @@
                      opacity="0.2" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12761"
+                     id="path21441"
                      fill="#0D87FF"
                      d="m 144,123 c 5.706,0 9.898,5.722 15,12 -6.694,0 -22.905,0 -29,0 4.928,-6.278 8.294,-12 14,-12 z"
                      clip-rule="evenodd"
@@ -4743,7 +5065,7 @@
                      opacity="0.2" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12763"
+                     id="path21443"
                      fill="#58A8F7"
                      d="m 155,123 c 1.657,0 3,-1.343 3,-3 0,-1.657 -1.343,-3 -3,-3 -1.657,0 -3,1.343 -3,3 0,1.657 1.343,3 3,3 z"
                      clip-rule="evenodd"
@@ -4751,7 +5073,7 @@
                      opacity="0.5" />
                 </g>
                 <rect
-                   id="rect12767"
+                   id="rect21447"
                    fill="#58A8F7"
                    rx="2"
                    height="11.9999"
@@ -4760,7 +5082,7 @@
                    x="64"
                    opacity="0.2" />
                 <rect
-                   id="rect12769"
+                   id="rect21449"
                    fill="#58A8F7"
                    rx="2"
                    height="11.9999"
@@ -4769,7 +5091,7 @@
                    x="83"
                    opacity="0.2" />
                 <rect
-                   id="rect12771"
+                   id="rect21451"
                    fill="#58A8F7"
                    rx="2"
                    height="11.9999"
@@ -4778,7 +5100,7 @@
                    x="102"
                    opacity="0.2" />
                 <rect
-                   id="rect12773"
+                   id="rect21453"
                    fill="#58A8F7"
                    rx="2"
                    height="11.9999"
@@ -4787,7 +5109,7 @@
                    x="121"
                    opacity="0.2" />
                 <rect
-                   id="rect12775"
+                   id="rect21455"
                    fill="#58A8F7"
                    rx="2"
                    height="11.9999"
@@ -4796,7 +5118,7 @@
                    x="140"
                    opacity="0.2" />
                 <rect
-                   id="rect12777"
+                   id="rect21457"
                    fill="#58A8F7"
                    rx="2"
                    height="11.9999"
@@ -4805,7 +5127,7 @@
                    x="158"
                    opacity="0.2" />
                 <rect
-                   id="rect12779"
+                   id="rect21459"
                    fill="#58A8F7"
                    rx="3"
                    height="149"
@@ -4814,7 +5136,7 @@
                    x="10"
                    opacity="0.2" />
                 <rect
-                   id="rect12781"
+                   id="rect21461"
                    fill="#0D87FF"
                    rx="2"
                    height="11"
@@ -4824,14 +5146,14 @@
                    opacity="0.5" />
                 <path
                    inkscape:connector-curvature="0"
-                   id="path12783"
+                   id="path21463"
                    fill="#58A8F7"
                    d="m 24,41 8,9 v 10 l 5,-3 v -7 l 8,-9 z"
                    clip-rule="evenodd"
                    fill-rule="evenodd"
                    opacity="0.2" />
                 <rect
-                   id="rect12785"
+                   id="rect21465"
                    fill="#58A8F7"
                    rx="2"
                    height="11"
@@ -4840,7 +5162,7 @@
                    x="16"
                    opacity="0.5" />
                 <rect
-                   id="rect12787"
+                   id="rect21467"
                    fill="white"
                    rx="1"
                    height="9"
@@ -4848,7 +5170,7 @@
                    y="73"
                    x="17" />
                 <rect
-                   id="rect12789"
+                   id="rect21469"
                    fill="#58A8F7"
                    height="3"
                    width="20.7719"
@@ -4857,13 +5179,13 @@
                    opacity="0.2" />
                 <path
                    inkscape:connector-curvature="0"
-                   id="path12791"
+                   id="path21471"
                    fill="#0D87FF"
                    d="M 45.5,79 43,76 h 5 z"
                    clip-rule="evenodd"
                    fill-rule="evenodd" />
                 <rect
-                   id="rect12793"
+                   id="rect21473"
                    fill="#58A8F7"
                    rx="2"
                    height="11"
@@ -4872,7 +5194,7 @@
                    x="16"
                    opacity="0.5" />
                 <rect
-                   id="rect12795"
+                   id="rect21475"
                    fill="white"
                    rx="1"
                    height="9"
@@ -4880,7 +5202,7 @@
                    y="89"
                    x="17" />
                 <rect
-                   id="rect12797"
+                   id="rect21477"
                    fill="#58A8F7"
                    height="3"
                    width="20.7719"
@@ -4889,13 +5211,13 @@
                    opacity="0.2" />
                 <path
                    inkscape:connector-curvature="0"
-                   id="path12799"
+                   id="path21479"
                    fill="#0D87FF"
                    d="M 45.5,95 43,92 h 5 z"
                    clip-rule="evenodd"
                    fill-rule="evenodd" />
                 <rect
-                   id="rect12801"
+                   id="rect21481"
                    fill="#58A8F7"
                    rx="2"
                    height="11"
@@ -4904,7 +5226,7 @@
                    x="16"
                    opacity="0.5" />
                 <rect
-                   id="rect12803"
+                   id="rect21483"
                    fill="white"
                    rx="1"
                    height="9"
@@ -4912,7 +5234,7 @@
                    y="105"
                    x="17" />
                 <rect
-                   id="rect12805"
+                   id="rect21485"
                    fill="#58A8F7"
                    height="3"
                    width="20.7719"
@@ -4921,13 +5243,13 @@
                    opacity="0.2" />
                 <path
                    inkscape:connector-curvature="0"
-                   id="path12807"
+                   id="path21487"
                    fill="#0D87FF"
                    d="M 45.5,111 43,108 h 5 z"
                    clip-rule="evenodd"
                    fill-rule="evenodd" />
                 <rect
-                   id="rect12809"
+                   id="rect21489"
                    fill="#58A8F7"
                    rx="2"
                    height="11"
@@ -4936,7 +5258,7 @@
                    x="16"
                    opacity="0.5" />
                 <rect
-                   id="rect12811"
+                   id="rect21491"
                    fill="white"
                    rx="1"
                    height="9"
@@ -4944,7 +5266,7 @@
                    y="121"
                    x="17" />
                 <rect
-                   id="rect12813"
+                   id="rect21493"
                    fill="#58A8F7"
                    height="3"
                    width="20.7719"
@@ -4953,7 +5275,7 @@
                    opacity="0.2" />
                 <path
                    inkscape:connector-curvature="0"
-                   id="path12815"
+                   id="path21495"
                    fill="#0D87FF"
                    d="M 45.5,127 43,124 h 5 z"
                    clip-rule="evenodd"
@@ -4963,7 +5285,7 @@
           </g>
         </g>
         <rect
-           id="rect12825"
+           id="rect21505"
            stroke-width="2"
            stroke="#A2CEF9"
            fill="none"
@@ -4974,12 +5296,12 @@
            y="-1"
            x="-1" />
         <g
-           id="g12831"
+           id="g21511"
            transform="translate(0,206)">
           <g
-             id="g12829">
+             id="g21509">
             <text
-               id="text12827"
+               id="text21507"
                fill="#52565f"
                font-size="14px"
                font-family="Roboto,sans-serif"
@@ -4990,10 +5312,10 @@
         </g>
       </g>
       <g
-         id="g12915"
-         transform="translate(1395,56)">
+         id="g21595"
+         transform="translate(1395,294)">
         <rect
-           id="rect12835"
+           id="rect21515"
            fill="#ffffff"
            height="228"
            width="180"
@@ -5002,199 +5324,199 @@
            y="0"
            x="0" />
         <g
-           id="g12905">
+           id="g21585">
           <g
-             id="g12903">
+             id="g21583">
             <g
-               id="g12901">
+               id="g21581">
               <svg
-                 id="svg12899"
+                 id="svg21579"
                  version="1.1"
                  viewBox="0 0 180 185"
                  height="185"
                  width="180">
                 <g
-                   id="g12897"
+                   id="g21577"
                    fill-rule="evenodd"
                    fill="none">
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12837"
+                     id="path21517"
                      opacity=".097"
                      d="M 0,2.999713 C 0,1.3430172 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3438257 180,2.999713 V 185 H 0 Z"
                      fill="#58A8F7" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12839"
+                     id="path21519"
                      opacity=".197"
                      d="M 0,3.0094776 C 0,1.347389 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3366311 180,3.0094776 V 16 H 0 Z"
                      fill="#58A8F7" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12841"
+                     id="path21521"
                      transform="translate(5,6)"
                      opacity=".499"
                      d="M 2.5,5 C 1.1192881,5 0,3.8807119 0,2.5 0,1.1192881 1.1192881,0 2.5,0 3.8807119,0 5,1.1192881 5,2.5 5,3.8807119 3.8807119,5 2.5,5 Z m 8,0 C 9.1192881,5 8,3.8807119 8,2.5 8,1.1192881 9.1192881,0 10.5,0 11.880712,0 13,1.1192881 13,2.5 13,3.8807119 11.880712,5 10.5,5 Z m 8,0 C 17.119288,5 16,3.8807119 16,2.5 16,1.1192881 17.119288,0 18.5,0 19.880712,0 21,1.1192881 21,2.5 21,3.8807119 19.880712,5 18.5,5 Z"
                      fill="#0D87FF" />
                   <polygon
-                     id="polygon12843"
+                     id="polygon21523"
                      transform="translate(10,26)"
                      opacity=".197"
-                     points="34,0 34,3 0,3 0,0 "
+                     points="34,3 0,3 0,0 34,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12845"
+                     id="polygon21525"
                      transform="translate(10,32)"
                      opacity=".499"
-                     points="50,0 50,5 0,5 0,0 "
+                     points="50,5 0,5 0,0 50,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12847"
+                     id="polygon21527"
                      transform="translate(79,34)"
                      opacity=".197"
-                     points="22,0 22,3 0,3 0,0 "
+                     points="22,3 0,3 0,0 22,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12849"
+                     id="polygon21529"
                      transform="translate(148,34)"
                      opacity=".197"
-                     points="22,0 22,3 0,3 0,0 "
+                     points="22,3 0,3 0,0 22,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12851"
+                     id="polygon21531"
                      transform="translate(10,54)"
                      opacity=".197"
-                     points="34,0 34,3 0,3 0,0 "
+                     points="34,3 0,3 0,0 34,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12853"
+                     id="polygon21533"
                      transform="translate(10,60)"
                      opacity=".499"
-                     points="50,0 50,5 0,5 0,0 "
+                     points="50,5 0,5 0,0 50,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12855"
+                     id="polygon21535"
                      transform="translate(79,62)"
                      opacity=".197"
-                     points="22,0 22,3 0,3 0,0 "
+                     points="22,3 0,3 0,0 22,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12857"
+                     id="polygon21537"
                      transform="translate(148,62)"
                      opacity=".197"
-                     points="22,0 22,3 0,3 0,0 "
+                     points="22,3 0,3 0,0 22,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12859"
+                     id="polygon21539"
                      transform="translate(10,82)"
                      opacity=".197"
-                     points="34,0 34,3 0,3 0,0 "
+                     points="34,3 0,3 0,0 34,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12861"
+                     id="polygon21541"
                      transform="translate(10,88)"
                      opacity=".499"
-                     points="50,0 50,5 0,5 0,0 "
+                     points="50,5 0,5 0,0 50,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12863"
+                     id="polygon21543"
                      transform="translate(79,90)"
                      opacity=".197"
-                     points="22,0 22,3 0,3 0,0 "
+                     points="22,3 0,3 0,0 22,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12865"
+                     id="polygon21545"
                      transform="translate(148,90)"
                      opacity=".197"
-                     points="22,0 22,3 0,3 0,0 "
+                     points="22,3 0,3 0,0 22,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12867"
+                     id="polygon21547"
                      transform="translate(10,110)"
                      opacity=".197"
-                     points="34,0 34,3 0,3 0,0 "
+                     points="34,3 0,3 0,0 34,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12869"
+                     id="polygon21549"
                      transform="translate(10,116)"
                      opacity=".499"
-                     points="50,0 50,5 0,5 0,0 "
+                     points="50,5 0,5 0,0 50,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12871"
+                     id="polygon21551"
                      transform="translate(79,118)"
                      opacity=".197"
-                     points="22,0 22,3 0,3 0,0 "
+                     points="22,3 0,3 0,0 22,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12873"
+                     id="polygon21553"
                      transform="translate(148,118)"
                      opacity=".197"
-                     points="22,0 22,3 0,3 0,0 "
+                     points="22,3 0,3 0,0 22,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12875"
+                     id="polygon21555"
                      transform="translate(10,138)"
                      opacity=".197"
-                     points="34,0 34,3 0,3 0,0 "
+                     points="34,3 0,3 0,0 34,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12877"
+                     id="polygon21557"
                      transform="translate(10,144)"
                      opacity=".499"
-                     points="50,0 50,5 0,5 0,0 "
+                     points="50,5 0,5 0,0 50,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12879"
+                     id="polygon21559"
                      transform="translate(79,146)"
                      opacity=".197"
-                     points="22,0 22,3 0,3 0,0 "
+                     points="22,3 0,3 0,0 22,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12881"
+                     id="polygon21561"
                      transform="translate(51,169)"
                      opacity=".197"
-                     points="22,0 22,3 0,3 0,0 "
+                     points="22,3 0,3 0,0 22,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12883"
+                     id="polygon21563"
                      transform="translate(148,146)"
                      opacity=".197"
-                     points="22,0 22,3 0,3 0,0 "
+                     points="22,3 0,3 0,0 22,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12885"
+                     id="polygon21565"
                      transform="translate(113,34)"
                      opacity=".197"
-                     points="23,0 23,3 0,3 0,0 "
+                     points="23,3 0,3 0,0 23,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12887"
+                     id="polygon21567"
                      transform="translate(113,62)"
                      opacity=".197"
-                     points="23,0 23,3 0,3 0,0 "
+                     points="23,3 0,3 0,0 23,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12889"
+                     id="polygon21569"
                      transform="translate(113,90)"
                      opacity=".197"
-                     points="23,0 23,3 0,3 0,0 "
+                     points="23,3 0,3 0,0 23,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12891"
+                     id="polygon21571"
                      transform="translate(113,118)"
                      opacity=".197"
-                     points="23,0 23,3 0,3 0,0 "
+                     points="23,3 0,3 0,0 23,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon12893"
+                     id="polygon21573"
                      transform="translate(113,146)"
                      opacity=".197"
-                     points="23,0 23,3 0,3 0,0 "
+                     points="23,3 0,3 0,0 23,0 "
                      fill="#58A8F7" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12895"
+                     id="path21575"
                      transform="translate(10,165)"
                      opacity=".499"
                      d="M 0,1.992017 C 0,0.8918564 0.89433765,0 1.9982138,0 H 29.001786 C 30.105369,0 31,0.90017617 31,1.992017 V 9.007983 C 31,10.108144 30.105662,11 29.001786,11 H 1.9982138 C 0.8946308,11 0,10.099824 0,9.007983 Z"
@@ -5205,7 +5527,7 @@
           </g>
         </g>
         <rect
-           id="rect12907"
+           id="rect21587"
            stroke-width="2"
            stroke="#A2CEF9"
            fill="none"
@@ -5216,12 +5538,12 @@
            y="-1"
            x="-1" />
         <g
-           id="g12913"
+           id="g21593"
            transform="translate(0,206)">
           <g
-             id="g12911">
+             id="g21591">
             <text
-               id="text12909"
+               id="text21589"
                fill="#52565f"
                font-size="14px"
                font-family="Roboto,sans-serif"
@@ -5232,10 +5554,10 @@
         </g>
       </g>
       <g
-         id="g13019"
-         transform="translate(1395,600)">
+         id="g21699"
+         transform="translate(1395,838)">
         <rect
-           id="rect12917"
+           id="rect21597"
            fill="#ffffff"
            height="228"
            width="180"
@@ -5244,261 +5566,261 @@
            y="0"
            x="0" />
         <g
-           id="g13009">
+           id="g21689">
           <g
-             id="g13007">
+             id="g21687">
             <g
-               id="g13005">
+               id="g21685">
               <svg
-                 id="svg13003"
+                 id="svg21683"
                  version="1.1"
                  viewBox="0 0 180 185"
                  height="185"
                  width="180">
                 <defs
-                   id="defs12923">
+                   id="defs21603">
                   <path
                      inkscape:connector-curvature="0"
                      d="M 0,1.9972916 C 0,0.89421792 0.89981407,0 1.9940296,0 H 158.00597 C 159.10724,0 160,0.89153983 160,1.9972916 V 38.002708 C 160,39.105782 159.10019,40 158.00597,40 H 1.9940296 C 0.89275747,40 0,39.10846 0,38.002708 Z"
-                     id="path14289" />
+                     id="path23164" />
                   <circle
                      r="18"
                      cy="18"
                      cx="18"
-                     id="circle14291" />
+                     id="circle23166" />
                   <circle
                      r="18"
                      cy="18"
                      cx="18"
-                     id="circle14293" />
+                     id="circle23168" />
                   <circle
                      r="18"
                      cy="18"
                      cx="18"
-                     id="circle14295" />
+                     id="circle23170" />
                 </defs>
                 <g
-                   id="g13001"
+                   id="g21681"
                    fill-rule="evenodd"
                    fill="none">
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12925"
+                     id="path21605"
                      opacity=".097"
                      d="M 0,2.999713 C 0,1.3430172 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3438257 180,2.999713 V 185 H 0 Z"
                      fill="#58A8F7" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12927"
+                     id="path21607"
                      opacity=".197"
                      d="M 0,3.0094776 C 0,1.347389 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3366311 180,3.0094776 V 16 H 0 Z"
                      fill="#58A8F7" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path12929"
+                     id="path21609"
                      transform="translate(5,6)"
                      opacity=".499"
                      d="M 2.5,5 C 1.1192881,5 0,3.8807119 0,2.5 0,1.1192881 1.1192881,0 2.5,0 3.8807119,0 5,1.1192881 5,2.5 5,3.8807119 3.8807119,5 2.5,5 Z m 8,0 C 9.1192881,5 8,3.8807119 8,2.5 8,1.1192881 9.1192881,0 10.5,0 11.880712,0 13,1.1192881 13,2.5 13,3.8807119 11.880712,5 10.5,5 Z m 8,0 C 17.119288,5 16,3.8807119 16,2.5 16,1.1192881 17.119288,0 18.5,0 19.880712,0 21,1.1192881 21,2.5 21,3.8807119 19.880712,5 18.5,5 Z"
                      fill="#0D87FF" />
                   <g
-                     id="g12942"
+                     id="g21622"
                      transform="translate(10,26)">
                     <path
                        inkscape:connector-curvature="0"
-                       id="path12931"
+                       id="path21611"
                        opacity=".197"
                        d="M 0,1.9972916 C 0,0.89421792 0.89981407,0 1.9940296,0 H 158.00597 C 159.10724,0 160,0.89153983 160,1.9972916 V 38.002708 C 160,39.105782 159.10019,40 158.00597,40 H 1.9940296 C 0.89275747,40 0,39.10846 0,38.002708 Z"
                        fill="#58A8F7" />
                     <mask
                        fill="#fff"
-                       id="ebnkeat8hb-about_us-b-1">
+                       id="v0a3755b6xo-about_us-b">
                       <use
                          height="100%"
                          width="100%"
                          y="0"
                          x="0"
-                         id="use12933"
-                         xlink:href="#ebnkeat8hb-about_us-a-5" />
+                         id="use21613"
+                         xlink:href="#v0a3755b6xo-about_us-a-8" />
                     </mask>
                     <path
                        inkscape:connector-curvature="0"
-                       id="path12936"
+                       id="path21616"
                        opacity=".197"
-                       mask="url(#ebnkeat8hb-about_us-b-1)"
+                       mask="url(#v0a3755b6xo-about_us-b)"
                        d="M 123.54455,22 C 147.29208,22 158.86139,29.685393 182,40 163.12376,40 82.313438,40 59,40 79.094059,31.505618 99.79703,22 123.54455,22 Z"
                        fill="#58A8F7" />
                     <path
                        inkscape:connector-curvature="0"
-                       id="path12938"
+                       id="path21618"
                        opacity=".198"
-                       mask="url(#ebnkeat8hb-about_us-b-1)"
+                       mask="url(#v0a3755b6xo-about_us-b)"
                        d="M 44.5,9 C 69.882664,9 86.305556,23.781645 109,40 79.223142,40 7.1133005,40 -20,40 1.9213919,23.781645 19.117336,9 44.5,9 Z"
                        fill="#0D87FF" />
                     <circle
-                       id="circle12940"
+                       id="circle21620"
                        opacity=".499"
-                       mask="url(#ebnkeat8hb-about_us-b-1)"
+                       mask="url(#v0a3755b6xo-about_us-b)"
                        fill="#58A8F7"
                        r="7"
                        cy="11"
                        cx="94" />
                   </g>
                   <g
-                     id="g12952"
+                     id="g21632"
                      transform="translate(10,86)"
                      opacity=".197"
                      fill="#58A8F7">
                     <polygon
-                       id="polygon12944"
+                       id="polygon21624"
                        transform="translate(0,14)"
-                       points="160,0 160,3 0,3 0,0 " />
+                       points="160,3 0,3 0,0 160,0 " />
                     <polygon
-                       id="polygon12946"
+                       id="polygon21626"
                        transform="translate(0,7)"
-                       points="160,0 160,3 0,3 0,0 " />
+                       points="160,3 0,3 0,0 160,0 " />
                     <polygon
-                       id="polygon12948"
-                       points="160,0 160,3 0,3 0,0 " />
+                       id="polygon21628"
+                       points="160,3 0,3 0,0 160,0 " />
                     <polygon
-                       id="polygon12950"
+                       id="polygon21630"
                        transform="translate(0,21)"
-                       points="96,0 96,3 0,3 0,0 " />
+                       points="96,3 0,3 0,0 96,0 " />
                   </g>
                   <polygon
-                     id="polygon12954"
+                     id="polygon21634"
                      transform="translate(10,76)"
                      opacity=".499"
-                     points="50,0 50,5 0,5 0,0 "
+                     points="50,5 0,5 0,0 50,0 "
                      fill="#58A8F7" />
                   <g
-                     id="g12963"
+                     id="g21643"
                      transform="translate(12,120)">
                     <mask
                        fill="#fff"
-                       id="ebnkeat8hb-about_us-d-4">
+                       id="v0a3755b6xo-about_us-d">
                       <use
                          height="100%"
                          width="100%"
                          y="0"
                          x="0"
-                         id="use12956"
-                         xlink:href="#ebnkeat8hb-about_us-c-3" />
+                         id="use21636"
+                         xlink:href="#v0a3755b6xo-about_us-c-3" />
                     </mask>
                     <use
                        height="100%"
                        width="100%"
                        y="0"
                        x="0"
-                       id="use12959"
-                       xlink:href="#ebnkeat8hb-about_us-c-3"
+                       id="use21639"
+                       xlink:href="#v0a3755b6xo-about_us-c-3"
                        opacity=".197"
                        fill="#58A8F7" />
                     <path
                        inkscape:connector-curvature="0"
-                       id="path12961"
+                       id="path21641"
                        opacity=".499"
-                       mask="url(#ebnkeat8hb-about_us-d-4)"
+                       mask="url(#v0a3755b6xo-about_us-d)"
                        d="M 18,50.4 C 9.3843579,50.4 2.4,43.415642 2.4,34.8 2.4,26.184358 9.3843579,19.2 18,19.2 c 8.615642,0 15.6,6.984358 15.6,15.6 0,8.615642 -6.984358,15.6 -15.6,15.6 z m 0,-33.6 c -3.313709,0 -6,-2.686291 -6,-6 0,-3.3137085 2.686291,-6 6,-6 3.313708,0 6,2.6862915 6,6 0,3.313709 -2.686292,6 -6,6 z"
                        fill="#0D87FF" />
                   </g>
                   <g
-                     id="g12972"
+                     id="g21652"
                      transform="translate(72,120)">
                     <mask
                        fill="#fff"
-                       id="ebnkeat8hb-about_us-f-3">
+                       id="v0a3755b6xo-about_us-f">
                       <use
                          height="100%"
                          width="100%"
                          y="0"
                          x="0"
-                         id="use12965"
-                         xlink:href="#ebnkeat8hb-about_us-e-9" />
+                         id="use21645"
+                         xlink:href="#v0a3755b6xo-about_us-e-2" />
                     </mask>
                     <use
                        height="100%"
                        width="100%"
                        y="0"
                        x="0"
-                       id="use12968"
-                       xlink:href="#ebnkeat8hb-about_us-e-9"
+                       id="use21648"
+                       xlink:href="#v0a3755b6xo-about_us-e-2"
                        opacity=".197"
                        fill="#58A8F7" />
                     <path
                        inkscape:connector-curvature="0"
-                       id="path12970"
+                       id="path21650"
                        opacity=".499"
-                       mask="url(#ebnkeat8hb-about_us-f-3)"
+                       mask="url(#v0a3755b6xo-about_us-f)"
                        d="M 18,50.4 C 9.3843579,50.4 2.4,43.415642 2.4,34.8 2.4,26.184358 9.3843579,19.2 18,19.2 c 8.615642,0 15.6,6.984358 15.6,15.6 0,8.615642 -6.984358,15.6 -15.6,15.6 z m 0,-33.6 c -3.313709,0 -6,-2.686291 -6,-6 0,-3.3137085 2.686291,-6 6,-6 3.313708,0 6,2.6862915 6,6 0,3.313709 -2.686292,6 -6,6 z"
                        fill="#0D87FF" />
                   </g>
                   <g
-                     id="g12978"
+                     id="g21658"
                      transform="translate(10,161)"
                      opacity=".499"
                      fill="#58A8F7">
                     <polygon
-                       id="polygon12974"
-                       points="40,0 40,5 0,5 0,0 " />
+                       id="polygon21654"
+                       points="40,5 0,5 0,0 40,0 " />
                     <polygon
-                       id="polygon12976"
+                       id="polygon21656"
                        transform="translate(8,9)"
-                       points="24,0 24,5 0,5 0,0 " />
+                       points="24,5 0,5 0,0 24,0 " />
                   </g>
                   <g
-                     id="g12984"
+                     id="g21664"
                      transform="translate(70,161)"
                      opacity=".499"
                      fill="#58A8F7">
                     <polygon
-                       id="polygon12980"
-                       points="40,0 40,5 0,5 0,0 " />
+                       id="polygon21660"
+                       points="40,5 0,5 0,0 40,0 " />
                     <polygon
-                       id="polygon12982"
+                       id="polygon21662"
                        transform="translate(8,9)"
-                       points="24,0 24,5 0,5 0,0 " />
+                       points="24,5 0,5 0,0 24,0 " />
                   </g>
                   <g
-                     id="g12990"
+                     id="g21670"
                      transform="translate(130,161)"
                      opacity=".499"
                      fill="#58A8F7">
                     <polygon
-                       id="polygon12986"
-                       points="40,0 40,5 0,5 0,0 " />
+                       id="polygon21666"
+                       points="40,5 0,5 0,0 40,0 " />
                     <polygon
-                       id="polygon12988"
+                       id="polygon21668"
                        transform="translate(8,9)"
-                       points="24,0 24,5 0,5 0,0 " />
+                       points="24,5 0,5 0,0 24,0 " />
                   </g>
                   <g
-                     id="g12999"
+                     id="g21679"
                      transform="translate(132,120)">
                     <mask
                        fill="#fff"
-                       id="ebnkeat8hb-about_us-h-1">
+                       id="v0a3755b6xo-about_us-h">
                       <use
                          height="100%"
                          width="100%"
                          y="0"
                          x="0"
-                         id="use12992"
-                         xlink:href="#ebnkeat8hb-about_us-g-3" />
+                         id="use21672"
+                         xlink:href="#v0a3755b6xo-about_us-g-1" />
                     </mask>
                     <use
                        height="100%"
                        width="100%"
                        y="0"
                        x="0"
-                       id="use12995"
-                       xlink:href="#ebnkeat8hb-about_us-g-3"
+                       id="use21675"
+                       xlink:href="#v0a3755b6xo-about_us-g-1"
                        opacity=".197"
                        fill="#58A8F7" />
                     <path
                        inkscape:connector-curvature="0"
-                       id="path12997"
+                       id="path21677"
                        opacity=".499"
-                       mask="url(#ebnkeat8hb-about_us-h-1)"
+                       mask="url(#v0a3755b6xo-about_us-h)"
                        d="M 18,50.4 C 9.3843579,50.4 2.4,43.415642 2.4,34.8 2.4,26.184358 9.3843579,19.2 18,19.2 c 8.615642,0 15.6,6.984358 15.6,15.6 0,8.615642 -6.984358,15.6 -15.6,15.6 z m 0,-33.6 c -3.313709,0 -6,-2.686291 -6,-6 0,-3.3137085 2.686291,-6 6,-6 3.313708,0 6,2.6862915 6,6 0,3.313709 -2.686292,6 -6,6 z"
                        fill="#0D87FF" />
                   </g>
@@ -5508,7 +5830,7 @@
           </g>
         </g>
         <rect
-           id="rect13011"
+           id="rect21691"
            stroke-width="2"
            stroke="#A2CEF9"
            fill="none"
@@ -5519,12 +5841,12 @@
            y="-1"
            x="-1" />
         <g
-           id="g13017"
+           id="g21697"
            transform="translate(0,206)">
           <g
-             id="g13015">
+             id="g21695">
             <text
-               id="text13013"
+               id="text21693"
                fill="#52565f"
                font-size="14px"
                font-family="Roboto,sans-serif"
@@ -5535,10 +5857,10 @@
         </g>
       </g>
       <g
-         id="g13093"
-         transform="translate(1395,328)">
+         id="g21773"
+         transform="translate(1395,566)">
         <rect
-           id="rect13021"
+           id="rect21701"
            fill="#ffffff"
            height="228"
            width="180"
@@ -5547,159 +5869,159 @@
            y="0"
            x="0" />
         <g
-           id="g13083">
+           id="g21763">
           <g
-             id="g13081">
+             id="g21761">
             <g
-               id="g13079">
+               id="g21759">
               <svg
-                 id="svg13077"
+                 id="svg21757"
                  version="1.1"
                  viewBox="0 0 180 185"
                  height="185"
                  width="180">
                 <defs
-                   id="defs13024">
+                   id="defs21704">
                   <circle
                      r="23"
                      cy="23"
                      cx="23"
-                     id="circle14349" />
+                     id="circle23224" />
                 </defs>
                 <g
-                   id="g13075"
+                   id="g21755"
                    fill-rule="evenodd"
                    fill="none">
                   <path
                      inkscape:connector-curvature="0"
-                     id="path13026"
+                     id="path21706"
                      opacity=".097"
                      d="M 0,2.999713 C 0,1.3430172 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3438257 180,2.999713 V 185 H 0 Z"
                      fill="#58A8F7" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path13028"
+                     id="path21708"
                      opacity=".197"
                      d="M 0,3.0094776 C 0,1.347389 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3366311 180,3.0094776 V 16 H 0 Z"
                      fill="#58A8F7" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path13030"
+                     id="path21710"
                      transform="translate(5,6)"
                      opacity=".499"
                      d="M 2.5,5 C 1.1192881,5 0,3.8807119 0,2.5 0,1.1192881 1.1192881,0 2.5,0 3.8807119,0 5,1.1192881 5,2.5 5,3.8807119 3.8807119,5 2.5,5 Z m 8,0 C 9.1192881,5 8,3.8807119 8,2.5 8,1.1192881 9.1192881,0 10.5,0 11.880712,0 13,1.1192881 13,2.5 13,3.8807119 11.880712,5 10.5,5 Z m 8,0 C 17.119288,5 16,3.8807119 16,2.5 16,1.1192881 17.119288,0 18.5,0 19.880712,0 21,1.1192881 21,2.5 21,3.8807119 19.880712,5 18.5,5 Z"
                      fill="#0D87FF" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path13032"
+                     id="path21712"
                      transform="translate(73,156)"
                      opacity=".499"
                      d="M 0,1.9981013 C 0,0.89458045 0.90162726,0 2.0008642,0 H 20.999136 C 22.104183,0 23,0.88670635 23,1.9981013 V 6.0018986 C 23,7.1054195 22.098373,8 20.999136,8 H 2.0008642 C 0.89581743,8 0,7.1132936 0,6.0018986 Z"
                      fill="#0D87FF" />
                   <g
-                     id="g13042"
+                     id="g21722"
                      transform="translate(73,119)"
                      fill="#58A8F7">
                     <polygon
-                       id="polygon13034"
+                       id="polygon21714"
                        opacity=".499"
-                       points="50,0 50,5 0,5 0,0 " />
+                       points="50,5 0,5 0,0 50,0 " />
                     <polygon
-                       id="polygon13036"
+                       id="polygon21716"
                        transform="translate(0,10)"
                        opacity=".197"
-                       points="82,0 82,3 0,3 0,0 " />
+                       points="82,3 0,3 0,0 82,0 " />
                     <polygon
-                       id="polygon13038"
+                       id="polygon21718"
                        transform="translate(0,17)"
                        opacity=".197"
-                       points="82,0 82,3 0,3 0,0 " />
+                       points="82,3 0,3 0,0 82,0 " />
                     <polygon
-                       id="polygon13040"
+                       id="polygon21720"
                        transform="translate(0,24)"
                        opacity=".197"
-                       points="62,0 62,3 0,3 0,0 " />
+                       points="62,3 0,3 0,0 62,0 " />
                   </g>
                   <polygon
-                     id="polygon13044"
+                     id="polygon21724"
                      transform="translate(101,158)"
                      opacity=".197"
-                     points="10,0 10,3 0,3 0,0 "
+                     points="10,3 0,3 0,0 10,0 "
                      fill="#58A8F7" />
                   <g
-                     id="g13050"
+                     id="g21730"
                      transform="translate(73,36)"
                      opacity=".499"
                      fill="#58A8F7">
                     <polygon
-                       id="polygon13046"
-                       points="50,0 50,5 0,5 0,0 " />
+                       id="polygon21726"
+                       points="50,5 0,5 0,0 50,0 " />
                     <polygon
-                       id="polygon13048"
+                       id="polygon21728"
                        transform="translate(0,9)"
-                       points="30,0 30,5 0,5 0,0 " />
+                       points="30,5 0,5 0,0 30,0 " />
                   </g>
                   <g
-                     id="g13060"
+                     id="g21740"
                      transform="translate(73,55)"
                      opacity=".197"
                      fill="#58A8F7">
                     <polygon
-                       id="polygon13052"
+                       id="polygon21732"
                        transform="translate(0,14)"
-                       points="80,0 80,3 0,3 0,0 " />
+                       points="80,3 0,3 0,0 80,0 " />
                     <polygon
-                       id="polygon13054"
+                       id="polygon21734"
                        transform="translate(0,7)"
-                       points="80,0 80,3 0,3 0,0 " />
+                       points="80,3 0,3 0,0 80,0 " />
                     <polygon
-                       id="polygon13056"
-                       points="80,0 80,3 0,3 0,0 " />
+                       id="polygon21736"
+                       points="80,3 0,3 0,0 80,0 " />
                     <polygon
-                       id="polygon13058"
+                       id="polygon21738"
                        transform="translate(0,21)"
-                       points="48,0 48,3 0,3 0,0 " />
+                       points="48,3 0,3 0,0 48,0 " />
                   </g>
                   <polygon
-                     id="polygon13062"
+                     id="polygon21742"
                      transform="translate(73,89)"
                      opacity=".499"
-                     points="17,0 17,5 0,5 0,0 "
+                     points="17,5 0,5 0,0 17,0 "
                      fill="#58A8F7" />
                   <polygon
-                     id="polygon13064"
+                     id="polygon21744"
                      transform="translate(73,104)"
                      opacity=".499"
-                     points="23,0 23,5 0,5 0,0 "
+                     points="23,5 0,5 0,0 23,0 "
                      fill="#58A8F7" />
                   <g
-                     id="g13073"
+                     id="g21753"
                      transform="translate(17,31)">
                     <mask
                        fill="#fff"
-                       id="4l8eksqti32-bio-b-8">
+                       id="po7hjgm0e7o-bio-b">
                       <use
                          height="100%"
                          width="100%"
                          y="0"
                          x="0"
-                         id="use13066"
-                         xlink:href="#4l8eksqti32-bio-a-9" />
+                         id="use21746"
+                         xlink:href="#po7hjgm0e7o-bio-a-1" />
                     </mask>
                     <use
                        height="100%"
                        width="100%"
                        y="0"
                        x="0"
-                       id="use13069"
-                       xlink:href="#4l8eksqti32-bio-a-9"
+                       id="use21749"
+                       xlink:href="#po7hjgm0e7o-bio-a-1"
                        opacity=".197"
                        fill="#58A8F7" />
                     <path
                        inkscape:connector-curvature="0"
-                       id="path13071"
+                       id="path21751"
                        opacity=".499"
-                       mask="url(#4l8eksqti32-bio-b-8)"
+                       mask="url(#po7hjgm0e7o-bio-b)"
                        d="M 23,64.4 C 11.991124,64.4 3.0666667,55.475543 3.0666667,44.466667 3.0666667,33.457791 11.991124,24.533333 23,24.533333 c 11.008876,0 19.933333,8.924458 19.933333,19.933334 C 42.933333,55.475543 34.008876,64.4 23,64.4 Z m 0,-42.933333 c -4.234183,0 -7.666667,-3.432484 -7.666667,-7.666667 0,-4.2341831 3.432484,-7.6666667 7.666667,-7.6666667 4.234183,0 7.666667,3.4324836 7.666667,7.6666667 0,4.234183 -3.432484,7.666667 -7.666667,7.666667 z"
                        fill="#0D87FF" />
                   </g>
@@ -5709,7 +6031,7 @@
           </g>
         </g>
         <rect
-           id="rect13085"
+           id="rect21765"
            stroke-width="2"
            stroke="#A2CEF9"
            fill="none"
@@ -5720,12 +6042,12 @@
            y="-1"
            x="-1" />
         <g
-           id="g13091"
+           id="g21771"
            transform="translate(0,206)">
           <g
-             id="g13089">
+             id="g21769">
             <text
-               id="text13087"
+               id="text21767"
                fill="#52565f"
                font-size="14px"
                font-family="Roboto,sans-serif"
@@ -5736,10 +6058,10 @@
         </g>
       </g>
       <g
-         id="g13239"
-         transform="translate(405,22)">
+         id="g21919"
+         transform="translate(405,260)">
         <rect
-           id="rect13095"
+           id="rect21775"
            fill="#ffffff"
            height="228"
            width="180"
@@ -5748,108 +6070,108 @@
            y="0"
            x="0" />
         <g
-           id="g13229">
+           id="g21909">
           <g
-             id="g13227">
+             id="g21907">
             <g
-               id="g13225">
+               id="g21905">
               <svg
-                 id="svg13223"
+                 id="svg21903"
                  version="1.1"
                  viewBox="0 0 180 185"
                  height="185"
                  width="180">
                 <defs
-                   id="defs13099">
+                   id="defs21779">
                   <circle
                      r="7.5"
                      cy="7.5"
                      cx="7.5"
-                     id="circle14388" />
+                     id="circle23263" />
                   <path
                      inkscape:connector-curvature="0"
                      d="M 0,1.9950893 C 0,0.8932319 0.89702623,0 2.0049466,0 H 21.995053 C 23.102355,0 24,0.8926228 24,1.9950893 V 16.004911 C 24,17.106768 23.102974,18 21.995053,18 H 2.0049466 C 0.89764516,18 0,17.107377 0,16.004911 Z"
-                     id="path14390" />
+                     id="path23265" />
                 </defs>
                 <g
-                   id="g13221"
+                   id="g21901"
                    fill-rule="evenodd"
                    fill="none">
                   <path
                      inkscape:connector-curvature="0"
-                     id="path13101"
+                     id="path21781"
                      opacity=".097"
                      d="M 0,2.999713 C 0,1.3430172 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3438257 180,2.999713 V 185 H 0 Z"
                      fill="#58A8F7" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path13103"
+                     id="path21783"
                      opacity=".197"
                      d="M 0,3.0094776 C 0,1.347389 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3366311 180,3.0094776 V 16 H 0 Z"
                      fill="#58A8F7" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path13105"
+                     id="path21785"
                      transform="translate(5,6)"
                      opacity=".499"
                      d="M 2.5,5 C 1.1192881,5 0,3.8807119 0,2.5 0,1.1192881 1.1192881,0 2.5,0 3.8807119,0 5,1.1192881 5,2.5 5,3.8807119 3.8807119,5 2.5,5 Z m 8,0 C 9.1192881,5 8,3.8807119 8,2.5 8,1.1192881 9.1192881,0 10.5,0 11.880712,0 13,1.1192881 13,2.5 13,3.8807119 11.880712,5 10.5,5 Z m 8,0 C 17.119288,5 16,3.8807119 16,2.5 16,1.1192881 17.119288,0 18.5,0 19.880712,0 21,1.1192881 21,2.5 21,3.8807119 19.880712,5 18.5,5 Z"
                      fill="#0D87FF" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path13107"
+                     id="path21787"
                      transform="translate(10,26)"
                      opacity=".499"
                      d="M 0,1.992017 C 0,0.8918564 0.89433765,0 1.9982138,0 H 29.001786 C 30.105369,0 31,0.90017617 31,1.992017 V 9.007983 C 31,10.108144 30.105662,11 29.001786,11 H 1.9982138 C 0.8946308,11 0,10.099824 0,9.007983 Z"
                      fill="#0D87FF" />
                   <g
-                     id="g13113"
+                     id="g21793"
                      transform="translate(51,26)">
                     <path
                        inkscape:connector-curvature="0"
-                       id="path13109"
+                       id="path21789"
                        d="M 0,1.992017 C 0,0.8918564 0.89433765,0 1.9982138,0 H 29.001786 C 30.105369,0 31,0.90017617 31,1.992017 V 9.007983 C 31,10.108144 30.105662,11 29.001786,11 H 1.9982138 C 0.8946308,11 0,10.099824 0,9.007983 Z"
                        fill="#0D87FF" />
                     <path
                        inkscape:connector-curvature="0"
-                       id="path13111"
+                       id="path21791"
                        d="M 1,1.9975446 C 1,1.4466159 1.4555207,1 1.9982456,1 H 29.001754 C 29.55307,1 30,1.4463114 30,1.9975446 V 9.0024554 C 30,9.5533841 29.544479,10 29.001754,10 H 1.9982456 C 1.4469298,10 1,9.5536886 1,9.0024554 Z"
                        fill="#FFF" />
                   </g>
                   <path
                      inkscape:connector-curvature="0"
-                     id="path13115"
+                     id="path21795"
                      transform="translate(92,29)"
                      opacity=".499"
                      d="M 0,1.9981013 C 0,0.89458045 0.90162726,0 2.0008642,0 H 20.999136 C 22.104183,0 23,0.88670635 23,1.9981013 V 6.0018986 C 23,7.1054195 22.098373,8 20.999136,8 H 2.0008642 C 0.89581743,8 0,7.1132936 0,6.0018986 Z"
                      fill="#0D87FF" />
                   <g
-                     id="g13121"
+                     id="g21801"
                      transform="translate(125,29)">
                     <path
                        inkscape:connector-curvature="0"
-                       id="path13117"
+                       id="path21797"
                        d="M 0,1.9981013 C 0,0.89458045 0.90162726,0 2.0008642,0 H 20.999136 C 22.104183,0 23,0.88670635 23,1.9981013 V 6.0018986 C 23,7.1054195 22.098373,8 20.999136,8 H 2.0008642 C 0.89581743,8 0,7.1132936 0,6.0018986 Z"
                        fill="#0D87FF" />
                     <path
                        inkscape:connector-curvature="0"
-                       id="path13119"
+                       id="path21799"
                        d="M 1,1.990778 C 1,1.4435864 1.4386148,1 1.9987461,1 H 21.001254 C 21.552846,1 22,1.4509752 22,1.990778 V 6.009222 C 22,6.5564136 21.561385,7 21.001254,7 H 1.9987461 C 1.4471539,7 1,6.5490248 1,6.009222 Z"
                        fill="#FFF" />
                   </g>
                   <g
-                     id="g13127"
+                     id="g21807"
                      transform="translate(10,57)">
                     <rect
                        y="0"
                        x="0"
-                       id="rect13123"
+                       id="rect21803"
                        rx="2"
                        opacity=".499"
                        fill="#58A8F7"
                        height="11"
                        width="57" />
                     <rect
-                       id="rect13125"
+                       id="rect21805"
                        rx="1"
                        fill="#FFF"
                        y="1"
@@ -5858,22 +6180,22 @@
                        width="55" />
                   </g>
                   <g
-                     id="g13137"
+                     id="g21817"
                      transform="translate(77,51)">
                     <g
-                       id="g13133"
+                       id="g21813"
                        transform="translate(0,6)">
                       <rect
                          y="0"
                          x="0"
-                         id="rect13129"
+                         id="rect21809"
                          rx="2"
                          opacity=".499"
                          fill="#58A8F7"
                          height="11"
                          width="57" />
                       <rect
-                         id="rect13131"
+                         id="rect21811"
                          rx="1"
                          fill="#FFF"
                          y="1"
@@ -5882,25 +6204,25 @@
                          width="55" />
                     </g>
                     <polygon
-                       id="polygon13135"
+                       id="polygon21815"
                        opacity=".197"
-                       points="20,0 20,3 0,3 0,0 "
+                       points="20,3 0,3 0,0 20,0 "
                        fill="#58A8F7" />
                   </g>
                   <g
-                     id="g13145"
+                     id="g21825"
                      transform="translate(10,84)">
                     <rect
                        y="0"
                        x="0"
-                       id="rect13139"
+                       id="rect21819"
                        rx="2"
                        opacity=".499"
                        fill="#58A8F7"
                        height="11"
                        width="57" />
                     <rect
-                       id="rect13141"
+                       id="rect21821"
                        rx="1"
                        fill="#FFF"
                        y="1"
@@ -5908,26 +6230,26 @@
                        height="9"
                        width="55" />
                     <polygon
-                       id="polygon13143"
+                       id="polygon21823"
                        transform="translate(4,4)"
                        opacity=".197"
-                       points="32,0 32,3 0,3 0,0 "
+                       points="32,3 0,3 0,0 32,0 "
                        fill="#58A8F7" />
                   </g>
                   <g
-                     id="g13155"
+                     id="g21835"
                      transform="translate(10,111)">
                     <rect
                        y="0"
                        x="0"
-                       id="rect13147"
+                       id="rect21827"
                        rx="2"
                        opacity=".499"
                        fill="#58A8F7"
                        height="11"
                        width="57" />
                     <rect
-                       id="rect13149"
+                       id="rect21829"
                        rx="1"
                        fill="#FFF"
                        y="1"
@@ -5935,34 +6257,34 @@
                        height="9"
                        width="55" />
                     <polygon
-                       id="polygon13151"
+                       id="polygon21831"
                        transform="translate(4,4)"
                        opacity=".197"
-                       points="32,0 32,3 0,3 0,0 "
+                       points="32,3 0,3 0,0 32,0 "
                        fill="#58A8F7" />
                     <polygon
-                       id="polygon13153"
+                       id="polygon21833"
                        transform="translate(47,4)"
                        points="5,0 2.5,3 0,0 "
                        fill="#0D87FF" />
                   </g>
                   <g
-                     id="g13169"
+                     id="g21849"
                      transform="translate(77,105)">
                     <g
-                       id="g13165"
+                       id="g21845"
                        transform="translate(0,6)">
                       <rect
                          y="0"
                          x="0"
-                         id="rect13157"
+                         id="rect21837"
                          rx="2"
                          opacity=".499"
                          fill="#58A8F7"
                          height="11"
                          width="57" />
                       <rect
-                         id="rect13159"
+                         id="rect21839"
                          rx="1"
                          fill="#FFF"
                          y="1"
@@ -5970,40 +6292,40 @@
                          height="9"
                          width="55" />
                       <polygon
-                         id="polygon13161"
+                         id="polygon21841"
                          transform="translate(4,4)"
                          opacity=".197"
-                         points="32,0 32,3 0,3 0,0 "
+                         points="32,3 0,3 0,0 32,0 "
                          fill="#58A8F7" />
                       <polygon
-                         id="polygon13163"
+                         id="polygon21843"
                          transform="translate(47,4)"
                          points="5,0 2.5,3 0,0 "
                          fill="#0D87FF" />
                     </g>
                     <polygon
-                       id="polygon13167"
+                       id="polygon21847"
                        opacity=".197"
-                       points="20,0 20,3 0,3 0,0 "
+                       points="20,3 0,3 0,0 20,0 "
                        fill="#58A8F7" />
                   </g>
                   <g
-                     id="g13183"
+                     id="g21863"
                      transform="translate(77,78)">
                     <g
-                       id="g13179"
+                       id="g21859"
                        transform="translate(0,6)">
                       <rect
                          y="0"
                          x="0"
-                         id="rect13171"
+                         id="rect21851"
                          rx="2"
                          opacity=".499"
                          fill="#58A8F7"
                          height="11"
                          width="57" />
                       <rect
-                         id="rect13173"
+                         id="rect21853"
                          rx="1"
                          fill="#FFF"
                          y="1"
@@ -6011,40 +6333,40 @@
                          height="9"
                          width="55" />
                       <polygon
-                         id="polygon13175"
+                         id="polygon21855"
                          transform="translate(4,4)"
                          opacity=".197"
-                         points="32,0 32,3 0,3 0,0 "
+                         points="32,3 0,3 0,0 32,0 "
                          fill="#58A8F7" />
                       <polygon
-                         id="polygon13177"
+                         id="polygon21857"
                          transform="translate(47,4)"
                          points="5,0 2.5,3 0,0 "
                          fill="#0D87FF" />
                     </g>
                     <polygon
-                       id="polygon13181"
+                       id="polygon21861"
                        opacity=".197"
-                       points="20,0 20,3 0,3 0,0 "
+                       points="20,3 0,3 0,0 20,0 "
                        fill="#58A8F7" />
                   </g>
                   <g
-                     id="g13189"
+                     id="g21869"
                      transform="translate(10,142)">
                     <circle
-                       id="circle13185"
+                       id="circle21865"
                        opacity=".499"
                        fill="#0D87FF"
                        r="7.5"
                        cy="7.5"
                        cx="7.5" />
                     <polygon
-                       id="polygon13187"
-                       points="7.5,3 8.823,5.68 11.78,6.109 9.64,8.195 10.145,11.141 7.5,9.75 4.855,11.141 5.36,8.195 3.22,6.109 6.177,5.68 "
+                       id="polygon21867"
+                       points="8.823,5.68 11.78,6.109 9.64,8.195 10.145,11.141 7.5,9.75 4.855,11.141 5.36,8.195 3.22,6.109 6.177,5.68 7.5,3 "
                        fill="#FFF" />
                   </g>
                   <circle
-                     id="circle13191"
+                     id="circle21871"
                      transform="translate(35,145)"
                      opacity=".197"
                      fill="#58A8F7"
@@ -6052,89 +6374,89 @@
                      cy="5"
                      cx="5" />
                   <g
-                     id="g13200"
+                     id="g21880"
                      transform="translate(54,142)">
                     <mask
                        fill="#fff"
-                       id="2c74qpeqz9b-gui-b-2">
+                       id="47o1zny82jo-gui-b">
                       <use
                          height="100%"
                          width="100%"
                          y="0"
                          x="0"
-                         id="use13193"
-                         xlink:href="#2c74qpeqz9b-gui-a-9" />
+                         id="use21873"
+                         xlink:href="#47o1zny82jo-gui-a-7" />
                     </mask>
                     <use
                        height="100%"
                        width="100%"
                        y="0"
                        x="0"
-                       id="use13196"
-                       xlink:href="#2c74qpeqz9b-gui-a-9"
+                       id="use21876"
+                       xlink:href="#47o1zny82jo-gui-a-7"
                        opacity=".197"
                        fill="#58A8F7" />
                     <path
                        inkscape:connector-curvature="0"
-                       id="path13198"
+                       id="path21878"
                        opacity=".499"
-                       mask="url(#2c74qpeqz9b-gui-b-2)"
+                       mask="url(#47o1zny82jo-gui-b)"
                        d="M 7.5,21 C 3.9101491,21 1,18.089851 1,14.5 1,10.910149 3.9101491,8 7.5,8 11.089851,8 14,10.910149 14,14.5 14,18.089851 11.089851,21 7.5,21 Z M 7.5,7 C 6.1192881,7 5,5.8807119 5,4.5 5,3.1192881 6.1192881,2 7.5,2 8.8807119,2 10,3.1192881 10,4.5 10,5.8807119 8.8807119,7 7.5,7 Z"
                        fill="#0D87FF" />
                   </g>
                   <g
-                     id="g13206"
+                     id="g21886"
                      transform="translate(79,142)">
                     <circle
-                       id="circle13202"
+                       id="circle21882"
                        fill="#FFF"
                        r="7.5"
                        cy="7.5"
                        cx="7.5" />
                     <polygon
-                       id="polygon13204"
+                       id="polygon21884"
                        transform="translate(5.816,4.286)"
                        points="0,0 5,3 0,6 "
                        fill="#0D87FF" />
                   </g>
                   <g
-                     id="g13219"
+                     id="g21899"
                      transform="translate(104,140)">
                     <path
                        inkscape:connector-curvature="0"
-                       id="path13208"
+                       id="path21888"
                        opacity=".197"
                        d="M 0,1.9950893 C 0,0.8932319 0.89702623,0 2.0049466,0 H 21.995053 C 23.102355,0 24,0.8926228 24,1.9950893 V 16.004911 C 24,17.106768 23.102974,18 21.995053,18 H 2.0049466 C 0.89764516,18 0,17.107377 0,16.004911 Z"
                        fill="#58A8F7" />
                     <mask
                        fill="#fff"
-                       id="2c74qpeqz9b-gui-d-2">
+                       id="47o1zny82jo-gui-d">
                       <use
                          height="100%"
                          width="100%"
                          y="0"
                          x="0"
-                         id="use13210"
-                         xlink:href="#2c74qpeqz9b-gui-c-5" />
+                         id="use21890"
+                         xlink:href="#47o1zny82jo-gui-c-0" />
                     </mask>
                     <path
                        inkscape:connector-curvature="0"
-                       id="path13213"
+                       id="path21893"
                        opacity=".197"
-                       mask="url(#2c74qpeqz9b-gui-d-2)"
+                       mask="url(#47o1zny82jo-gui-d)"
                        d="m 20.571429,9.8181818 c 4.633663,0 7.485148,3.4933602 12,8.1818182 C 28.88826,18 13.120392,18 8.5714286,18 12.492221,14.138917 15.937765,9.8181818 20.571429,9.8181818 Z"
                        fill="#58A8F7" />
                     <path
                        inkscape:connector-curvature="0"
-                       id="path13215"
+                       id="path21895"
                        opacity=".198"
-                       mask="url(#2c74qpeqz9b-gui-d-2)"
+                       mask="url(#47o1zny82jo-gui-d)"
                        d="m 3.4285714,8.1818182 c 4.8910118,0 8.4841266,4.6815768 12.8571426,9.8181818 -5.737733,0 -19.6326528,0 -24.8571426,0 4.2240556,-5.136605 7.1089883,-9.8181818 12,-9.8181818 z"
                        fill="#0D87FF" />
                     <circle
-                       id="circle13217"
+                       id="circle21897"
                        opacity=".499"
-                       mask="url(#2c74qpeqz9b-gui-d-2)"
+                       mask="url(#47o1zny82jo-gui-d)"
                        fill="#58A8F7"
                        r="3"
                        cy="5.7270002"
@@ -6146,7 +6468,7 @@
           </g>
         </g>
         <rect
-           id="rect13231"
+           id="rect21911"
            stroke-width="2"
            stroke="#A2CEF9"
            fill="none"
@@ -6157,12 +6479,12 @@
            y="-1"
            x="-1" />
         <g
-           id="g13237"
+           id="g21917"
            transform="translate(0,206)">
           <g
-             id="g13235">
+             id="g21915">
             <text
-               id="text13233"
+               id="text21913"
                fill="#52565f"
                font-size="14px"
                font-family="Roboto,sans-serif"
@@ -6173,10 +6495,10 @@
         </g>
       </g>
       <g
-         id="g13281"
-         transform="translate(20,668)">
+         id="g21961"
+         transform="translate(20,906)">
         <rect
-           id="rect13241"
+           id="rect21921"
            fill="#ffffff"
            height="228"
            width="180"
@@ -6185,73 +6507,73 @@
            y="0"
            x="0" />
         <g
-           id="g13271">
+           id="g21951">
           <g
-             id="g13269">
+             id="g21949">
             <g
-               id="g13267">
+               id="g21947">
               <svg
-                 id="svg13265"
+                 id="svg21945"
                  version="1.1"
                  viewBox="0 0 180 185"
                  height="185"
                  width="180">
                 <g
-                   id="g13263"
+                   id="g21943"
                    fill-rule="evenodd"
                    fill="none">
                   <path
                      inkscape:connector-curvature="0"
-                     id="path13243"
+                     id="path21923"
                      opacity=".097"
                      d="M 0,2.999713 C 0,1.3430172 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3438257 180,2.999713 V 185 H 0 Z"
                      fill="#58A8F7" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path13245"
+                     id="path21925"
                      opacity=".197"
                      d="M 0,3.0094776 C 0,1.347389 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3366311 180,3.0094776 V 16 H 0 Z"
                      fill="#58A8F7" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path13247"
+                     id="path21927"
                      transform="translate(5,6)"
                      opacity=".499"
                      d="M 2.5,5 C 1.1192881,5 0,3.8807119 0,2.5 0,1.1192881 1.1192881,0 2.5,0 3.8807119,0 5,1.1192881 5,2.5 5,3.8807119 3.8807119,5 2.5,5 Z m 8,0 C 9.1192881,5 8,3.8807119 8,2.5 8,1.1192881 9.1192881,0 10.5,0 11.880712,0 13,1.1192881 13,2.5 13,3.8807119 11.880712,5 10.5,5 Z m 8,0 C 17.119288,5 16,3.8807119 16,2.5 16,1.1192881 17.119288,0 18.5,0 19.880712,0 21,1.1192881 21,2.5 21,3.8807119 19.880712,5 18.5,5 Z"
                      fill="#0D87FF" />
                   <path
                      inkscape:connector-curvature="0"
-                     id="path13249"
+                     id="path21929"
                      transform="translate(35,46)"
                      d="M 3.8458278,0 H 106.15417 c 1.33728,0 1.82221,0.13923842 2.3111,0.40069906 0.48889,0.26146064 0.87257,0.64514354 1.13403,1.13403234 C 109.86076,2.0236203 110,2.5085497 110,3.8458278 V 105.15417 c 0,1.33728 -0.13924,1.82221 -0.4007,2.3111 -0.26146,0.48889 -0.64514,0.87257 -1.13403,1.13403 -0.48889,0.26146 -0.97382,0.4007 -2.3111,0.4007 H 3.8458278 C 2.5085497,109 2.0236203,108.86076 1.5347314,108.5993 1.0458426,108.33784 0.6621597,107.95416 0.40069906,107.46527 0.13923842,106.97638 0,106.49145 0,105.15417 V 3.8458278 C 0,2.5085497 0.13923842,2.0236203 0.40069906,1.5347314 0.6621597,1.0458426 1.0458426,0.6621597 1.5347314,0.40069906 2.0236203,0.13923842 2.5085497,0 3.8458278,0 Z"
                      fill="#FFF" />
                   <polygon
-                     id="polygon13251"
+                     id="polygon21931"
                      transform="translate(73,60)"
-                     points="14.856,18.123 2.749,6.529 0,9.558 15.08,24 34,2.798 31.028,0 "
+                     points="15.08,24 34,2.798 31.028,0 14.856,18.123 2.749,6.529 0,9.558 "
                      fill="#0D87FF" />
                   <polygon
-                     id="polygon13253"
+                     id="polygon21933"
                      transform="translate(65,97)"
                      opacity=".499"
-                     points="50,0 50,8 0,8 0,0 "
+                     points="50,8 0,8 0,0 50,0 "
                      fill="#58A8F7" />
                   <g
-                     id="g13259"
+                     id="g21939"
                      transform="translate(55,110)"
                      opacity=".197"
                      fill="#58A8F7">
                     <polygon
-                       id="polygon13255"
-                       points="70,0 70,3 0,3 0,0 " />
+                       id="polygon21935"
+                       points="70,3 0,3 0,0 70,0 " />
                     <polygon
-                       id="polygon13257"
+                       id="polygon21937"
                        transform="translate(14,7)"
-                       points="42,0 42,3 0,3 0,0 " />
+                       points="42,3 0,3 0,0 42,0 " />
                   </g>
                   <path
                      inkscape:connector-curvature="0"
-                     id="path13261"
+                     id="path21941"
                      transform="translate(65,130)"
                      opacity=".499"
                      d="M 0,1.992017 C 0,0.8918564 0.89599229,0 1.9992604,0 H 49.00074 C 50.104901,0 51,0.90017617 51,1.992017 V 9.007983 C 51,10.108144 50.104008,11 49.00074,11 H 1.9992604 C 0.89509939,11 0,10.099824 0,9.007983 Z"
@@ -6262,7 +6584,7 @@
           </g>
         </g>
         <rect
-           id="rect13273"
+           id="rect21953"
            stroke-width="2"
            stroke="#A2CEF9"
            fill="none"
@@ -6273,12 +6595,12 @@
            y="-1"
            x="-1" />
         <g
-           id="g13279"
+           id="g21959"
            transform="translate(0,206)">
           <g
-             id="g13277">
+             id="g21957">
             <text
-               id="text13275"
+               id="text21955"
                fill="#52565f"
                font-size="14px"
                font-family="Roboto,sans-serif"
@@ -6288,421 +6610,632 @@
           </g>
         </g>
       </g>
+      <g
+         id="g22047"
+         transform="translate(1395,22)">
+        <rect
+           id="rect21963"
+           fill="#ffffff"
+           height="228"
+           width="180"
+           ry="2"
+           rx="2"
+           y="0"
+           x="0" />
+        <g
+           id="g22037">
+          <g
+             id="g22035">
+            <g
+               id="g22033">
+              <svg
+                 id="svg22031"
+                 version="1.1"
+                 viewBox="0 0 180 185"
+                 height="185"
+                 width="180">
+                <defs
+                   id="defs21966">
+                  <rect
+                     y="0"
+                     x="0"
+                     height="85"
+                     width="160"
+                     id="rect23361" />
+                </defs>
+                <g
+                   id="g22029"
+                   fill-rule="evenodd"
+                   fill="none">
+                  <path
+                     inkscape:connector-curvature="0"
+                     id="path21968"
+                     opacity=".097"
+                     d="M 0,2.999713 C 0,1.3430172 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3438257 180,2.999713 V 185 H 0 Z"
+                     fill="#58A8F7" />
+                  <path
+                     inkscape:connector-curvature="0"
+                     id="path21970"
+                     opacity=".197"
+                     d="M 0,3.0094776 C 0,1.347389 1.3453746,0 2.9926393,0 H 177.00736 C 178.66015,0 180,1.3366311 180,3.0094776 V 16 H 0 Z"
+                     fill="#58A8F7" />
+                  <path
+                     inkscape:connector-curvature="0"
+                     id="path21972"
+                     transform="translate(5,6)"
+                     opacity=".499"
+                     d="M 2.5,5 C 1.1192881,5 0,3.8807119 0,2.5 0,1.1192881 1.1192881,0 2.5,0 3.8807119,0 5,1.1192881 5,2.5 5,3.8807119 3.8807119,5 2.5,5 Z m 8,0 C 9.1192881,5 8,3.8807119 8,2.5 8,1.1192881 9.1192881,0 10.5,0 11.880712,0 13,1.1192881 13,2.5 13,3.8807119 11.880712,5 10.5,5 Z m 8,0 C 17.119288,5 16,3.8807119 16,2.5 16,1.1192881 17.119288,0 18.5,0 19.880712,0 21,1.1192881 21,2.5 21,3.8807119 19.880712,5 18.5,5 Z"
+                     fill="#0D87FF" />
+                  <g
+                     id="g22001"
+                     transform="translate(10,28)">
+                    <path
+                       inkscape:connector-curvature="0"
+                       id="path21974"
+                       opacity=".197"
+                       d="M 3.8458278,0 H 156.15417 c 1.33728,0 1.82221,0.13923842 2.3111,0.40069906 0.48889,0.26146064 0.87257,0.64514354 1.13403,1.13403234 C 159.86076,2.0236203 160,2.5085497 160,3.8458278 V 81.154172 c 0,1.337278 -0.13924,1.822208 -0.4007,2.311097 -0.26146,0.488888 -0.64514,0.872571 -1.13403,1.134032 C 157.97638,84.860762 157.49145,85 156.15417,85 H 3.8458278 C 2.5085497,85 2.0236203,84.860762 1.5347314,84.599301 1.0458426,84.33784 0.6621597,83.954157 0.40069906,83.465269 0.13923842,82.97638 0,82.49145 0,81.154172 V 3.8458278 C 0,2.5085497 0.13923842,2.0236203 0.40069906,1.5347314 0.6621597,1.0458426 1.0458426,0.6621597 1.5347314,0.40069906 2.0236203,0.13923842 2.5085497,0 3.8458278,0 Z"
+                       fill="#58A8F7" />
+                    <mask
+                       fill="#fff"
+                       id="4u4ai3v0pzq-contacts-b">
+                      <use
+                         height="100%"
+                         width="100%"
+                         y="0"
+                         x="0"
+                         id="use21976"
+                         xlink:href="#4u4ai3v0pzq-contacts-a-5" />
+                    </mask>
+                    <g
+                       id="g21997"
+                       opacity=".197"
+                       mask="url(#4u4ai3v0pzq-contacts-b)">
+                      <g
+                         id="g21995"
+                         transform="translate(-12,-30)">
+                        <path
+                           inkscape:connector-curvature="0"
+                           id="path21979"
+                           d="M 24,132 V 64.498762 C 24,57.597116 29.600282,52 36.504598,52 H 81.501387 C 85.090828,52 88,54.909476 88,58.500231 V 132 h 3 V 58.500231 C 91,53.252692 86.747753,49 81.501387,49 H 36.504598 C 27.943807,49 21,55.939882 21,64.498762 V 132 Z"
+                           fill-rule="nonzero"
+                           fill="#58A8F7" />
+                        <polygon
+                           id="polygon21981"
+                           points="49,62.009 49,8 46,8 46,62.009 "
+                           fill-rule="nonzero"
+                           fill="#58A8F7" />
+                        <path
+                           inkscape:connector-curvature="0"
+                           id="path21983"
+                           d="M 123.5,91 122,92.5 V 91 Z M 54,114.49471 V 129 H 71 V 94.297941 C 61.345337,95.959346 54,104.36986 54,114.49471 Z M 74.502861,91 H 122 V 46.495532 C 122,41.804206 118.19705,38 113.50699,38 H 12 V 35 H 113.50699 C 119.85413,35 125,40.147573 125,46.495532 V 94 H 74.502861 c -0.1681,0 -0.335728,0.002 -0.502861,0.006 -1.020209,0.02455 -2.021954,0.123592 -3,0.291897 V 2 h 3 V 132 H 51 v -17.50529 c 0,-11.78569 8.681298,-21.544707 20,-23.235527 0.981482,-0.146617 1.982796,-0.232567 3,-0.253912 C 74.167197,91.001763 74.334823,91 74.502861,91 Z"
+                           fill-rule="nonzero"
+                           fill="#58A8F7" />
+                        <path
+                           inkscape:connector-curvature="0"
+                           id="path21985"
+                           d="m 115,10 -57,57 2.12132,2.12132 57,-57 z m -79,79 -29,29 2.1213203,2.12132 28.9999997,-29 z"
+                           fill-rule="nonzero"
+                           fill="#58A8F7" />
+                        <path
+                           inkscape:connector-curvature="0"
+                           id="path21987"
+                           d="m 48,92 c 6.955844,0 13,-6.044156 13,-13 0,-7.82536 -5.921449,-14 -13,-14 -7.955844,0 -14,6.044156 -14,14 0,7.078551 6.17464,13 14,13 z m 0,3 c -9.612698,0 -17,-7.387302 -17,-16 0,-9.612698 7.387302,-17 17,-17 8.612698,0 16,7.387302 16,17 0,8.612698 -7.387302,16 -16,16 z"
+                           fill-rule="nonzero"
+                           fill="#58A8F7" />
+                        <polygon
+                           id="polygon21989"
+                           points="31.504,78 0,78 0,81 31.504,81 "
+                           fill-rule="nonzero"
+                           fill="#58A8F7" />
+                        <path
+                           inkscape:connector-curvature="0"
+                           id="path21991"
+                           d="m 196,12.015709 -39,-0.01459 V 41.01627 h 39 z M 154,44.01627 V 9 l 45,0.016831 V 80.01627 H 64 v -3 h 132 v -36 h 37 v 77.9938 l -77,0.006 v -13.00012 h -46 v 25 h -3 v -28 h 52 v 12.99988 l 71,-0.006 V 44.01627 Z"
+                           fill-rule="nonzero"
+                           fill="#58A8F7" />
+                        <path
+                           inkscape:connector-curvature="0"
+                           id="path21993"
+                           d="m 157.50697,56.002268 c 10.76541,-0.0014 19.49398,8.731181 19.49398,19.500013 v 23.500296 l 37.02907,0.06367 -0.0285,-69.066552 c -1.58442,-2.97e-4 -1.60558,-3.01e-4 -3.98237,-7.4e-4 -4.2824,-7.81e-4 -8.90738,-0.0016 -13.70366,-0.0023 -6.16664,-9.37e-4 -12.16199,-0.0017 -17.81474,-0.0023 -10.40616,-0.0011 -19.07794,-0.0013 -25.4372,-7.03e-4 -3.61309,3.66e-4 -6.43127,10e-4 -8.3822,0.002 -0.66174,3.35e-4 -1.22271,7.07e-4 -1.68045,0.0011 v 26.007285 z m -52.50602,3.006616 V 0 h 3 v 56.008506 l 35,-0.0044 v 64.995884 l -134.0009105,0.002 -3.95e-5,-3 131.00095,-0.002 V 28.5 c 0,-1.739683 1.77451,-1.750651 1.70787,-1.501313 1.15466,-0.0019 1.9409,-0.0025 2.97106,-0.003 1.95142,-9.88e-4 4.76995,-0.0017 8.38342,-0.002 6.3595,-6.44e-4 15.03146,-3.51e-4 25.4378,7.03e-4 5.65281,5.73e-4 11.6482,0.0014 17.81489,0.0023 4.79632,7.29e-4 9.42133,0.0015 13.70375,0.0023 2.39816,4.42e-4 2.39816,4.42e-4 4.02548,7.55e-4 1.19909,2.34e-4 1.19909,2.34e-4 1.45604,2.86e-4 l 1.49907,3.04e-4 0.0309,75.071115 -43.03031,-0.074 V 75.502281 c 0,-9.11222 -7.38558,-16.501161 -16.4936,-16.500013 z"
+                           fill-rule="nonzero"
+                           fill="#58A8F7" />
+                      </g>
+                    </g>
+                    <path
+                       inkscape:connector-curvature="0"
+                       id="path21999"
+                       transform="translate(85,39)"
+                       d="M 7,17 C 11,15 14,10.865993 14,7 14,3.1340068 10.865993,0 7,0 3.1340068,0 0,3.1340068 0,7 c 0,3.865993 3,8 7,10 z"
+                       fill="#0D87FF" />
+                  </g>
+                  <polygon
+                     id="polygon22003"
+                     transform="translate(10,123)"
+                     opacity=".499"
+                     points="50,5 0,5 0,0 50,0 "
+                     fill="#58A8F7" />
+                  <polygon
+                     id="polygon22005"
+                     transform="translate(100,123)"
+                     opacity=".499"
+                     points="50,5 0,5 0,0 50,0 "
+                     fill="#58A8F7" />
+                  <g
+                     id="g22015"
+                     transform="translate(10,133)"
+                     opacity=".197"
+                     fill="#58A8F7">
+                    <polygon
+                       id="polygon22007"
+                       transform="translate(0,14)"
+                       points="70,3 0,3 0,0 70,0 " />
+                    <polygon
+                       id="polygon22009"
+                       transform="translate(0,7)"
+                       points="70,3 0,3 0,0 70,0 " />
+                    <polygon
+                       id="polygon22011"
+                       points="70,3 0,3 0,0 70,0 " />
+                    <polygon
+                       id="polygon22013"
+                       transform="translate(0,21)"
+                       points="42,3 0,3 0,0 42,0 " />
+                  </g>
+                  <g
+                     id="g22025"
+                     transform="translate(100,133)"
+                     opacity=".197"
+                     fill="#58A8F7">
+                    <polygon
+                       id="polygon22017"
+                       transform="translate(0,14)"
+                       points="70,3 0,3 0,0 70,0 " />
+                    <polygon
+                       id="polygon22019"
+                       transform="translate(0,7)"
+                       points="70,3 0,3 0,0 70,0 " />
+                    <polygon
+                       id="polygon22021"
+                       points="70,3 0,3 0,0 70,0 " />
+                    <polygon
+                       id="polygon22023"
+                       transform="translate(0,21)"
+                       points="42,3 0,3 0,0 42,0 " />
+                  </g>
+                  <path
+                     inkscape:connector-curvature="0"
+                     id="path22027"
+                     transform="translate(10,164)"
+                     opacity=".499"
+                     d="M 0,1.992017 C 0,0.8918564 0.89433765,0 1.9982138,0 H 29.001786 C 30.105369,0 31,0.90017617 31,1.992017 V 9.007983 C 31,10.108144 30.105662,11 29.001786,11 H 1.9982138 C 0.8946308,11 0,10.099824 0,9.007983 Z"
+                     fill="#0D87FF" />
+                </g>
+              </svg>
+            </g>
+          </g>
+        </g>
+        <rect
+           id="rect22039"
+           stroke-width="2"
+           stroke="#A2CEF9"
+           fill="none"
+           height="230"
+           width="182"
+           ry="3"
+           rx="3"
+           y="-1"
+           x="-1" />
+        <g
+           id="g22045"
+           transform="translate(0,206)">
+          <g
+             id="g22043">
+            <text
+               id="text22041"
+               fill="#52565f"
+               font-size="14px"
+               font-family="Roboto,sans-serif"
+               text-anchor="middle"
+               y="4"
+               x="90">View Safety</text>
+          </g>
+        </g>
+      </g>
     </g>
     <g
-       id="g13413">
+       id="g22187">
       <g
-         id="g13291">
+         id="g22057">
         <path
            inkscape:connector-curvature="0"
-           id="path13285"
-           d="m 495,558 v 20 68 18"
+           id="path22051"
+           d="m 495,796 v 20 68 18"
            stroke-dasharray="0px 0px"
            stroke-width="2"
            stroke="#E84393"
            fill="none" />
         <path
            inkscape:connector-curvature="0"
-           id="path13287"
+           id="path22053"
            fill="#E84393"
            d="M 3,6 C 4.65685,6 6,4.65685 6,3 6,1.34315 4.65685,0 3,0 1.34315,0 0,1.34315 0,3 0,4.65685 1.34315,6 3,6 Z"
-           transform="rotate(180,249,280)" />
+           transform="rotate(180,249,399)" />
         <path
            inkscape:connector-curvature="0"
-           id="path13289"
+           id="path22055"
            fill="#E84393"
            d="m 6.34003,0.275664 c 0.36449,-0.3675521 0.95545,-0.3675521 1.31994,0 L 13.7266,6.39331 c 0.3645,0.36755 0.3645,0.96347 0,1.33103 -0.3645,0.36755 -0.9554,0.36755 -1.3199,0 L 7,2.2722 1.5933,7.72434 c -0.36449,0.36755 -0.955444,0.36755 -1.319933,0 -0.3644894,-0.36756 -0.3644894,-0.96348 0,-1.33103 z"
-           transform="rotate(180,251,333)" />
+           transform="rotate(180,251,452)" />
       </g>
       <g
-         id="g13299">
+         transform="translate(-1.996536,0.65997)"
+         id="g22065">
         <path
            inkscape:connector-curvature="0"
-           id="path13293"
-           d="m 587,442 h 18 165 16"
+           id="path22059"
+           d="m 587,680 h 18 165 16"
            stroke-dasharray="0px 0px"
            stroke-width="2"
            stroke="#76E27A"
            fill="none" />
         <path
            inkscape:connector-curvature="0"
-           id="path13295"
+           id="path22061"
            fill="#76E27A"
            d="M 3,6 C 4.65685,6 6,4.65685 6,3 6,1.34315 4.65685,0 3,0 1.34315,0 0,1.34315 0,3 0,4.65685 1.34315,6 3,6 Z"
-           transform="rotate(90,75,514)" />
+           transform="rotate(90,-44,633)" />
         <path
            inkscape:connector-curvature="0"
-           id="path13297"
+           id="path22063"
            fill="#76E27A"
            d="m 6.34003,0.275664 c 0.36449,-0.3675521 0.95545,-0.3675521 1.31994,0 L 13.7266,6.39331 c 0.3645,0.36755 0.3645,0.96347 0,1.33103 -0.3645,0.36755 -0.9554,0.36755 -1.3199,0 L 7,2.2722 1.5933,7.72434 c -0.36449,0.36755 -0.955444,0.36755 -1.319933,0 -0.3644894,-0.36756 -0.3644894,-0.96348 0,-1.33103 z"
-           transform="rotate(90,176.5,611.5)" />
+           transform="rotate(90,57.5,730.5)" />
       </g>
       <g
-         id="g13307">
+         id="g22073">
         <path
            inkscape:connector-curvature="0"
-           id="path13301"
-           d="M 495,326 V 306 272 254"
+           id="path22067"
+           d="M 495,564 V 544 510 492"
            stroke-dasharray="0px 0px"
            stroke-width="2"
            stroke="#FDCB6E"
            fill="none" />
         <path
            inkscape:connector-curvature="0"
-           id="path13303"
+           id="path22069"
            fill="#FDCB6E"
            d="M 3,6 C 4.65685,6 6,4.65685 6,3 6,1.34315 4.65685,0 3,0 1.34315,0 0,1.34315 0,3 0,4.65685 1.34315,6 3,6 Z"
-           transform="translate(492,324)" />
+           transform="translate(492,562)" />
         <path
            inkscape:connector-curvature="0"
-           id="path13305"
+           id="path22071"
            fill="#FDCB6E"
            d="m 6.34003,0.275664 c 0.36449,-0.3675521 0.95545,-0.3675521 1.31994,0 L 13.7266,6.39331 c 0.3645,0.36755 0.3645,0.96347 0,1.33103 -0.3645,0.36755 -0.9554,0.36755 -1.3199,0 L 7,2.2722 1.5933,7.72434 c -0.36449,0.36755 -0.955444,0.36755 -1.319933,0 -0.3644894,-0.36756 -0.3644894,-0.96348 0,-1.33103 z"
-           transform="translate(488,252)" />
+           transform="translate(488,490)" />
       </g>
       <g
-         id="g13315">
+         id="g22081">
         <path
            inkscape:connector-curvature="0"
-           id="path13309"
-           d="m 202,442 h 18 165 16"
+           id="path22075"
+           d="m 202,680 h 18 165 16"
            stroke-dasharray="0px 0px"
            stroke-width="2"
            stroke="#76E27A"
            fill="none" />
         <path
            inkscape:connector-curvature="0"
-           id="path13311"
+           id="path22077"
            fill="#76E27A"
            d="M 3,6 C 4.65685,6 6,4.65685 6,3 6,1.34315 4.65685,0 3,0 1.34315,0 0,1.34315 0,3 0,4.65685 1.34315,6 3,6 Z"
-           transform="rotate(90,-117.5,321.5)" />
+           transform="rotate(90,-236.5,440.5)" />
         <path
            inkscape:connector-curvature="0"
-           id="path13313"
+           id="path22079"
            fill="#76E27A"
            d="m 6.34003,0.275664 c 0.36449,-0.3675521 0.95545,-0.3675521 1.31994,0 L 13.7266,6.39331 c 0.3645,0.36755 0.3645,0.96347 0,1.33103 -0.3645,0.36755 -0.9554,0.36755 -1.3199,0 L 7,2.2722 1.5933,7.72434 c -0.36449,0.36755 -0.955444,0.36755 -1.319933,0 -0.3644894,-0.36756 -0.3644894,-0.96348 0,-1.33103 z"
-           transform="rotate(90,-16,419)" />
+           transform="rotate(90,-135,538)" />
       </g>
       <g
-         id="g13323">
+         id="g22089">
         <path
            inkscape:connector-curvature="0"
-           id="path13317"
-           d="M 403,782 H 385 220 204"
+           id="path22083"
+           d="M 403,1020 H 385 220 204"
            stroke-dasharray="0px 0px"
            stroke-width="2"
            stroke="#E84393"
            fill="none" />
         <path
            inkscape:connector-curvature="0"
-           id="path13319"
+           id="path22085"
            fill="#E84393"
            d="M 3,6 C 4.65685,6 6,4.65685 6,3 6,1.34315 4.65685,0 3,0 1.34315,0 0,1.34315 0,3 0,4.65685 1.34315,6 3,6 Z"
-           transform="rotate(-90,593,192)" />
+           transform="rotate(-90,712,311)" />
         <path
            inkscape:connector-curvature="0"
-           id="path13321"
+           id="path22087"
            fill="#E84393"
            d="m 6.34003,0.275664 c 0.36449,-0.3675521 0.95545,-0.3675521 1.31994,0 L 13.7266,6.39331 c 0.3645,0.36755 0.3645,0.96347 0,1.33103 -0.3645,0.36755 -0.9554,0.36755 -1.3199,0 L 7,2.2722 1.5933,7.72434 c -0.36449,0.36755 -0.955444,0.36755 -1.319933,0 -0.3644894,-0.36756 -0.3644894,-0.96348 0,-1.33103 z"
-           transform="rotate(-90,495.5,293.5)" />
+           transform="rotate(-90,614.5,412.5)" />
       </g>
       <g
-         id="g13331">
+         id="g22097">
         <path
            inkscape:connector-curvature="0"
-           id="path13325"
-           d="m 972,442 h 18 110 16"
+           id="path22091"
+           d="m 972,680 h 18 110 16"
            stroke-dasharray="0px 0px"
            stroke-width="2"
            stroke="#58A8F7"
            fill="none" />
         <path
            inkscape:connector-curvature="0"
-           id="path13327"
+           id="path22093"
            fill="#58A8F7"
            d="M 3,6 C 4.65685,6 6,4.65685 6,3 6,1.34315 4.65685,0 3,0 1.34315,0 0,1.34315 0,3 0,4.65685 1.34315,6 3,6 Z"
-           transform="rotate(90,267.5,706.5)" />
+           transform="rotate(90,148.5,825.5)" />
         <path
            inkscape:connector-curvature="0"
-           id="path13329"
+           id="path22095"
            fill="#58A8F7"
            d="m 6.34003,0.275664 c 0.36449,-0.3675521 0.95545,-0.3675521 1.31994,0 L 13.7266,6.39331 c 0.3645,0.36755 0.3645,0.96347 0,1.33103 -0.3645,0.36755 -0.9554,0.36755 -1.3199,0 L 7,2.2722 1.5933,7.72434 c -0.36449,0.36755 -0.955444,0.36755 -1.319933,0 -0.3644894,-0.36756 -0.3644894,-0.96348 0,-1.33103 z"
-           transform="rotate(90,341.5,776.5)" />
+           transform="rotate(90,222.5,895.5)" />
       </g>
       <g
-         id="g13339">
+         id="g22105">
         <path
            inkscape:connector-curvature="0"
-           id="path13333"
-           d="m 1302,442 h 18 45 q 10,0 10,-10 V 180 q 0,-10 10,-10 h 6"
+           id="path22099"
+           d="m 1302,680 h 18 45 q 10,0 10,-10 V 418 q 0,-10 10,-10 h 6"
            stroke-dasharray="0px 0px"
            stroke-width="2"
            stroke="#4d9ef6"
            fill="none" />
         <path
            inkscape:connector-curvature="0"
-           id="path13335"
+           id="path22101"
            fill="#4d9ef6"
            d="M 3,6 C 4.65685,6 6,4.65685 6,3 6,1.34315 4.65685,0 3,0 1.34315,0 0,1.34315 0,3 0,4.65685 1.34315,6 3,6 Z"
-           transform="rotate(90,432.5,871.5)" />
+           transform="rotate(90,313.5,990.5)" />
         <path
            inkscape:connector-curvature="0"
-           id="path13337"
+           id="path22103"
            fill="#4d9ef6"
            d="m 6.34003,0.275664 c 0.36449,-0.3675521 0.95545,-0.3675521 1.31994,0 L 13.7266,6.39331 c 0.3645,0.36755 0.3645,0.96347 0,1.33103 -0.3645,0.36755 -0.9554,0.36755 -1.3199,0 L 7,2.2722 1.5933,7.72434 c -0.36449,0.36755 -0.955444,0.36755 -1.319933,0 -0.3644894,-0.36756 -0.3644894,-0.96348 0,-1.33103 z"
-           transform="rotate(90,615,778)" />
+           transform="rotate(90,496,897)" />
       </g>
       <g
-         id="g13347">
+         id="g22113">
         <path
            inkscape:connector-curvature="0"
-           id="path13341"
-           d="m 1302,442 h 18 45 q 10,0 10,10 v 252 q 0,10 10,10 h 6"
+           id="path22107"
+           d="m 1302,680 h 18 45 q 10,0 10,10 v 252 q 0,10 10,10 h 6"
            stroke-dasharray="0px 0px"
            stroke-width="2"
            stroke="#4d9ef6"
            fill="none" />
         <path
            inkscape:connector-curvature="0"
-           id="path13343"
+           id="path22109"
            fill="#4d9ef6"
            d="M 3,6 C 4.65685,6 6,4.65685 6,3 6,1.34315 4.65685,0 3,0 1.34315,0 0,1.34315 0,3 0,4.65685 1.34315,6 3,6 Z"
-           transform="rotate(90,432.5,871.5)" />
+           transform="rotate(90,313.5,990.5)" />
         <path
            inkscape:connector-curvature="0"
-           id="path13345"
+           id="path22111"
            fill="#4d9ef6"
            d="m 6.34003,0.275664 c 0.36449,-0.3675521 0.95545,-0.3675521 1.31994,0 L 13.7266,6.39331 c 0.3645,0.36755 0.3645,0.96347 0,1.33103 -0.3645,0.36755 -0.9554,0.36755 -1.3199,0 L 7,2.2722 1.5933,7.72434 c -0.36449,0.36755 -0.955444,0.36755 -1.319933,0 -0.3644894,-0.36756 -0.3644894,-0.96348 0,-1.33103 z"
-           transform="rotate(90,343,1050)" />
+           transform="rotate(90,224,1169)" />
       </g>
       <g
-         id="g13355">
+         id="g22121">
         <path
            inkscape:connector-curvature="0"
-           id="path13349"
-           d="M 1210,326 V 306 180 q 0,-10 -10,-10 H 890 q -10,0 -10,10 v 126 18"
+           id="path22115"
+           d="M 1210,564 V 544 418 q 0,-10 -10,-10 H 890 q -10,0 -10,10 v 126 18"
            stroke-dasharray="0px 0px"
            stroke-width="2"
            stroke="#A29BFE"
            fill="none" />
         <path
            inkscape:connector-curvature="0"
-           id="path13351"
+           id="path22117"
            fill="#A29BFE"
            d="M 3,6 C 4.65685,6 6,4.65685 6,3 6,1.34315 4.65685,0 3,0 1.34315,0 0,1.34315 0,3 0,4.65685 1.34315,6 3,6 Z"
-           transform="translate(1207,324)" />
+           transform="translate(1207,562)" />
         <path
            inkscape:connector-curvature="0"
-           id="path13353"
+           id="path22119"
            fill="#A29BFE"
            d="m 6.34003,0.275664 c 0.36449,-0.3675521 0.95545,-0.3675521 1.31994,0 L 13.7266,6.39331 c 0.3645,0.36755 0.3645,0.96347 0,1.33103 -0.3645,0.36755 -0.9554,0.36755 -1.3199,0 L 7,2.2722 1.5933,7.72434 c -0.36449,0.36755 -0.955444,0.36755 -1.319933,0 -0.3644894,-0.36756 -0.3644894,-0.96348 0,-1.33103 z"
-           transform="rotate(180,443.5,163)" />
+           transform="rotate(180,443.5,282)" />
       </g>
       <g
-         id="g13363">
+         id="g22129">
         <path
            inkscape:connector-curvature="0"
-           id="path13357"
-           d="m 1210,558 v 10 q 0,10 -10,10 H 340 q -10,0 -10,-10 V 452 q 0,-10 10,-10 h 45 16"
+           id="path22123"
+           d="m 1210,796 v 10 q 0,10 -10,10 H 340 q -10,0 -10,-10 V 690 q 0,-10 10,-10 h 45 16"
            stroke-dasharray="0px 0px"
            stroke-width="2"
            stroke="#00CEC9"
            fill="none" />
         <path
            inkscape:connector-curvature="0"
-           id="path13359"
+           id="path22125"
            fill="#00CEC9"
            d="M 3,6 C 4.65685,6 6,4.65685 6,3 6,1.34315 4.65685,0 3,0 1.34315,0 0,1.34315 0,3 0,4.65685 1.34315,6 3,6 Z"
-           transform="rotate(180,606.5,280)" />
+           transform="rotate(180,606.5,399)" />
         <path
            inkscape:connector-curvature="0"
-           id="path13361"
+           id="path22127"
            fill="#00CEC9"
            d="m 6.34003,0.275664 c 0.36449,-0.3675521 0.95545,-0.3675521 1.31994,0 L 13.7266,6.39331 c 0.3645,0.36755 0.3645,0.96347 0,1.33103 -0.3645,0.36755 -0.9554,0.36755 -1.3199,0 L 7,2.2722 1.5933,7.72434 c -0.36449,0.36755 -0.955444,0.36755 -1.319933,0 -0.3644894,-0.36756 -0.3644894,-0.96348 0,-1.33103 z"
-           transform="rotate(90,-16,419)" />
+           transform="rotate(90,-135,538)" />
       </g>
       <g
-         id="g13371">
+         id="g22137">
         <path
            inkscape:connector-curvature="0"
-           id="path13365"
-           d="m 1302,442 h 18 55 16"
+           id="path22131"
+           d="m 1302,680 h 18 55 16"
            stroke-dasharray="0px 0px"
            stroke-width="2"
            stroke="#4d9ef6"
            fill="none" />
         <path
            inkscape:connector-curvature="0"
-           id="path13367"
+           id="path22133"
            fill="#4d9ef6"
            d="M 3,6 C 4.65685,6 6,4.65685 6,3 6,1.34315 4.65685,0 3,0 1.34315,0 0,1.34315 0,3 0,4.65685 1.34315,6 3,6 Z"
-           transform="rotate(90,432.5,871.5)" />
+           transform="rotate(90,313.5,990.5)" />
         <path
            inkscape:connector-curvature="0"
-           id="path13369"
+           id="path22135"
            fill="#4d9ef6"
            d="m 6.34003,0.275664 c 0.36449,-0.3675521 0.95545,-0.3675521 1.31994,0 L 13.7266,6.39331 c 0.3645,0.36755 0.3645,0.96347 0,1.33103 -0.3645,0.36755 -0.9554,0.36755 -1.3199,0 L 7,2.2722 1.5933,7.72434 c -0.36449,0.36755 -0.955444,0.36755 -1.319933,0 -0.3644894,-0.36756 -0.3644894,-0.96348 0,-1.33103 z"
-           transform="rotate(90,479,914)" />
+           transform="rotate(90,360,1033)" />
       </g>
       <g
-         id="g13379">
+         id="g22145">
         <path
            inkscape:connector-curvature="0"
-           id="path13373"
-           d="m 1577,170 h 8 q 10,0 10,-10 V 44 q 0,-10 -10,-10 H 890 q -10,0 -10,10 v 262 18"
+           id="path22139"
+           d="m 1302,680 h 18 45 q 10,0 10,-10 V 146 q 0,-10 10,-10 h 6"
+           stroke-dasharray="0px 0px"
+           stroke-width="2"
+           stroke="#4d9ef6"
+           fill="none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path22141"
+           fill="#4d9ef6"
+           d="M 3,6 C 4.65685,6 6,4.65685 6,3 6,1.34315 4.65685,0 3,0 1.34315,0 0,1.34315 0,3 0,4.65685 1.34315,6 3,6 Z"
+           transform="rotate(90,313.5,990.5)" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path22143"
+           fill="#4d9ef6"
+           d="m 6.34003,0.275664 c 0.36449,-0.3675521 0.95545,-0.3675521 1.31994,0 L 13.7266,6.39331 c 0.3645,0.36755 0.3645,0.96347 0,1.33103 -0.3645,0.36755 -0.9554,0.36755 -1.3199,0 L 7,2.2722 1.5933,7.72434 c -0.36449,0.36755 -0.955444,0.36755 -1.319933,0 -0.3644894,-0.36756 -0.3644894,-0.96348 0,-1.33103 z"
+           transform="rotate(90,632,761)" />
+      </g>
+      <g
+         id="g22153">
+        <path
+           inkscape:connector-curvature="0"
+           id="path22147"
+           d="m 1577,408 h 8 q 10,0 10,-10 V 282 q 0,-10 -10,-10 H 862.5 q -10,0 -10,10 v 252 q 0,10 10,10 h 7.5 q 10,0 10,10 v 8"
            stroke-dasharray="0px 0px"
            stroke-width="2"
            stroke="#FF7C43"
            fill="none" />
         <path
            inkscape:connector-curvature="0"
-           id="path13375"
+           id="path22149"
            fill="#FF7C43"
            d="M 3,6 C 4.65685,6 6,4.65685 6,3 6,1.34315 4.65685,0 3,0 1.34315,0 0,1.34315 0,3 0,4.65685 1.34315,6 3,6 Z"
-           transform="rotate(90,706,873)" />
+           transform="rotate(90,587,992)" />
         <path
            inkscape:connector-curvature="0"
-           id="path13377"
+           id="path22151"
            fill="#FF7C43"
            d="m 6.34003,0.275664 c 0.36449,-0.3675521 0.95545,-0.3675521 1.31994,0 L 13.7266,6.39331 c 0.3645,0.36755 0.3645,0.96347 0,1.33103 -0.3645,0.36755 -0.9554,0.36755 -1.3199,0 L 7,2.2722 1.5933,7.72434 c -0.36449,0.36755 -0.955444,0.36755 -1.319933,0 -0.3644894,-0.36756 -0.3644894,-0.96348 0,-1.33103 z"
-           transform="rotate(180,443.5,163)" />
+           transform="rotate(180,443.5,282)" />
       </g>
       <g
-         id="g13387">
+         id="g22161">
         <path
            inkscape:connector-curvature="0"
-           id="path13381"
-           d="m 1577,714 h 18 127.5 q 10,0 10,10 v 150 q 0,10 -10,10 H 1110 q -10,0 -10,-10 V 452 q 0,-10 10,-10 h 6"
+           id="path22155"
+           d="m 1577,952 h 18 127.5 q 10,0 10,10 v 150 q 0,10 -10,10 H 1110 q -10,0 -10,-10 V 690 q 0,-10 10,-10 h 6"
            stroke-dasharray="0px 0px"
            stroke-width="2"
            stroke="#E84393"
            fill="none" />
         <path
            inkscape:connector-curvature="0"
-           id="path13383"
+           id="path22157"
            fill="#E84393"
            d="M 3,6 C 4.65685,6 6,4.65685 6,3 6,1.34315 4.65685,0 3,0 1.34315,0 0,1.34315 0,3 0,4.65685 1.34315,6 3,6 Z"
-           transform="rotate(90,434,1145)" />
+           transform="rotate(90,315,1264)" />
         <path
            inkscape:connector-curvature="0"
-           id="path13385"
+           id="path22159"
            fill="#E84393"
            d="m 6.34003,0.275664 c 0.36449,-0.3675521 0.95545,-0.3675521 1.31994,0 L 13.7266,6.39331 c 0.3645,0.36755 0.3645,0.96347 0,1.33103 -0.3645,0.36755 -0.9554,0.36755 -1.3199,0 L 7,2.2722 1.5933,7.72434 c -0.36449,0.36755 -0.955444,0.36755 -1.319933,0 -0.3644894,-0.36756 -0.3644894,-0.96348 0,-1.33103 z"
-           transform="rotate(90,341.5,776.5)" />
+           transform="rotate(90,222.5,895.5)" />
       </g>
       <g
-         id="g13395">
+         id="g22169">
         <path
            inkscape:connector-curvature="0"
-           id="path13389"
-           d="m 1577,442 h 18 155 q 10,0 10,10 v 456 q 0,10 -10,10 H 780 q -10,0 -10,-10 V 452 q 0,-10 10,-10 h 6"
+           id="path22163"
+           d="m 1577,680 h 18 155 q 10,0 10,10 v 456 q 0,10 -10,10 H 780 q -10,0 -10,-10 V 690 q 0,-10 10,-10 h 6"
            stroke-dasharray="0px 0px"
            stroke-width="2"
            stroke="#FF7675"
            fill="none" />
         <path
            inkscape:connector-curvature="0"
-           id="path13391"
+           id="path22165"
            fill="#FF7675"
            d="M 3,6 C 4.65685,6 6,4.65685 6,3 6,1.34315 4.65685,0 3,0 1.34315,0 0,1.34315 0,3 0,4.65685 1.34315,6 3,6 Z"
-           transform="rotate(90,570,1009)" />
+           transform="rotate(90,451,1128)" />
         <path
            inkscape:connector-curvature="0"
-           id="path13393"
+           id="path22167"
            fill="#FF7675"
            d="m 6.34003,0.275664 c 0.36449,-0.3675521 0.95545,-0.3675521 1.31994,0 L 13.7266,6.39331 c 0.3645,0.36755 0.3645,0.96347 0,1.33103 -0.3645,0.36755 -0.9554,0.36755 -1.3199,0 L 7,2.2722 1.5933,7.72434 c -0.36449,0.36755 -0.955444,0.36755 -1.319933,0 -0.3644894,-0.36756 -0.3644894,-0.96348 0,-1.33103 z"
-           transform="rotate(90,176.5,611.5)" />
+           transform="rotate(90,57.5,730.5)" />
       </g>
       <g
-         id="g13403">
+         id="g22177">
         <path
            inkscape:connector-curvature="0"
-           id="path13397"
-           d="m 403,136 h -18 -45 q -10,0 -10,10 v 286 q 0,10 10,10 h 45 16"
+           id="path22171"
+           d="m 403,374 h -18 -45 q -10,0 -10,10 v 286 q 0,10 10,10 h 45 16"
            stroke-dasharray="0px 0px"
            stroke-width="2"
-           stroke="#6C5CE7"
+           stroke="#FDCB6E"
            fill="none" />
         <path
            inkscape:connector-curvature="0"
-           id="path13399"
-           fill="#6C5CE7"
+           id="path22173"
+           fill="#FDCB6E"
            d="M 3,6 C 4.65685,6 6,4.65685 6,3 6,1.34315 4.65685,0 3,0 1.34315,0 0,1.34315 0,3 0,4.65685 1.34315,6 3,6 Z"
-           transform="rotate(-90,270,-131)" />
+           transform="rotate(-90,389,-12)" />
         <path
            inkscape:connector-curvature="0"
-           id="path13401"
-           fill="#6C5CE7"
+           id="path22175"
+           fill="#FDCB6E"
            d="m 6.34003,0.275664 c 0.36449,-0.3675521 0.95545,-0.3675521 1.31994,0 L 13.7266,6.39331 c 0.3645,0.36755 0.3645,0.96347 0,1.33103 -0.3645,0.36755 -0.9554,0.36755 -1.3199,0 L 7,2.2722 1.5933,7.72434 c -0.36449,0.36755 -0.955444,0.36755 -1.319933,0 -0.3644894,-0.36756 -0.3644894,-0.96348 0,-1.33103 z"
-           transform="rotate(90,-16,419)" />
+           transform="rotate(90,-135,538)" />
       </g>
       <g
-         id="g13411">
+         id="g22185">
         <path
            inkscape:connector-curvature="0"
-           id="path13405"
-           d="m 110,666 v -20 -24 q 0,-10 10,-10 h 200 q 10,0 10,-10 V 452 q 0,-10 10,-10 h 45 16"
+           id="path22179"
+           d="m 110,904 v -20 -24 q 0,-10 10,-10 h 200 q 10,0 10,-10 V 690 q 0,-10 10,-10 h 45 16"
            stroke-dasharray="0px 0px"
            stroke-width="2"
            stroke="#E84393"
            fill="none" />
         <path
            inkscape:connector-curvature="0"
-           id="path13407"
+           id="path22181"
            fill="#E84393"
            d="M 3,6 C 4.65685,6 6,4.65685 6,3 6,1.34315 4.65685,0 3,0 1.34315,0 0,1.34315 0,3 0,4.65685 1.34315,6 3,6 Z"
-           transform="translate(107,664)" />
+           transform="translate(107,902)" />
         <path
            inkscape:connector-curvature="0"
-           id="path13409"
+           id="path22183"
            fill="#E84393"
            d="m 6.34003,0.275664 c 0.36449,-0.3675521 0.95545,-0.3675521 1.31994,0 L 13.7266,6.39331 c 0.3645,0.36755 0.3645,0.96347 0,1.33103 -0.3645,0.36755 -0.9554,0.36755 -1.3199,0 L 7,2.2722 1.5933,7.72434 c -0.36449,0.36755 -0.955444,0.36755 -1.319933,0 -0.3644894,-0.36756 -0.3644894,-0.96348 0,-1.33103 z"
-           transform="rotate(90,-16,419)" />
+           transform="rotate(90,-135,538)" />
       </g>
     </g>
   </g>
-  <text
-     id="text14554"
-     y="-4567.02"
-     x="12657.804"
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-     xml:space="preserve"><tspan
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00df00;fill-opacity:1"
-       y="-4567.02"
-       x="12657.804"
-       id="tspan14552"
-       sodipodi:role="line">Logged In</tspan></text>
-  <text
-     id="text14558"
-     y="-5033.1558"
-     x="12208.314"
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-     xml:space="preserve"><tspan
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fdcb6e;fill-opacity:1"
-       y="-5033.1558"
-       x="12208.314"
-       id="tspan14556"
-       sodipodi:role="line">Forget Password</tspan></text>
-  <text
-     id="text14562"
-     y="-3873.3655"
-     x="12219.414"
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none"
-     xml:space="preserve"><tspan
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#e84393;fill-opacity:1"
-       y="-3873.3655"
-       x="12219.414"
-       id="tspan14560"
-       sodipodi:role="line">Sign Up</tspan></text>
-  <text
-     id="text14566"
-     y="-3984.3501"
-     x="13301.514"
-     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-     xml:space="preserve"><tspan
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#00b894;fill-opacity:1"
-       y="-3984.3501"
-       x="13301.514"
-       id="tspan14564"
-       sodipodi:role="line">Logout</tspan></text>
 </svg>

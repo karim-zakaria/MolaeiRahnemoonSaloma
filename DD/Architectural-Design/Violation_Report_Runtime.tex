@@ -1,0 +1,21 @@
+\subsubsection{Violation Reports}
+The process of \emph{Violation Report} submission performed by the users is constituted of the user report formulation including images showing the violation, the location, and other useful information. The images are saved on the \emph{Firebase-Storage} and their respective URLs are used to access them for any future use. Finally, the report details, image URLs and a computed hash which is verified to ensure data integrity are sent to the server. A detailed breakdown of the step-by-step process of violation report submission is described in the following figure.
+
+\begin{figure}[H]
+\caption{Report Violation Runtime View}
+\label{fig:RuntimeRep}
+\centering
+\includesvg[width=\textwidth, height=0.8\textheight]{"Report_Violation_SD"}
+\end{figure}
+
+\begin{minipage}{\textwidth}
+The report history function described in the following figure is a function offered to the user to search through reports that were previously submitted by them according to criteria that they define. Such as, reports that were submitted in a certain time period or a certain type of violation reports.
+\begin{sidewaysfigure}
+\begin{figure}[H]
+\caption{Report History Runtime View}
+\label{fig:RuntimeHist}
+\centering
+\includesvg[width=\textwidth, height=0.8\textheight]{"View_History_SD"}
+\end{figure}
+\end{sidewaysfigure}
+\end{minipage}

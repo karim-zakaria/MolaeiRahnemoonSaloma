@@ -1,0 +1,36 @@
+\subsubsection{General Functions}
+This first subsection considers the runtime behavior of system components for the delivery of basic general functions. Specifically, \emph{registration and verification, login} and \emph{profile viewing and info editing}. The first two runtime diagrams below describe the user registration and verification process. As can be seen in the diagram a new user fills in the registration form with his information the submits the form. The data is relayed to the \emph{Safestreets-API} which saves the user data and prompts the \emph{Firebase-Authentication} server to verify the new user. Which in turn, sends the verification message to the user and returns feedback of the user confirmation.
+
+\begin{figure}[H]
+\caption{Registration Runtime View}
+\label{fig:RuntimeReg}
+\centering
+\includesvg[width=\textwidth, height=0.8\textheight]{"Registeration_SD"}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Verification Runtime View}
+\label{fig:RuntimeVer}
+\centering
+\includesvg[width=\textwidth, height=0.8\textheight]{"Verification_SD"}
+\end{figure}
+
+\begin{minipage}{\textwidth}
+The below figure describes the user login process. Which again, relies on the \emph{Firebase-Authentication} server to authenticate the user credentials and issuing a token to be sent to the app server to confirm the authentication process.
+\begin{figure}[H]
+\caption{Login Runtime View}
+\label{fig:RuntimeLog}
+\centering
+\includesvg[width=\textwidth, height=0.8\textheight]{"Login_SD"}
+\end{figure}
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+The last of the general functions in the figure below is the \emph{ViewMe} functionality. Where the user can view their profile and edit their personal information.
+\begin{figure}[H]
+\caption{ViewMe Runtime View}
+\label{fig:RuntimeProf}
+\centering
+\includesvg[width=\textwidth, height=0.8\textheight]{"View_Me_SD"}
+\end{figure}
+\end{minipage}

@@ -1,0 +1,24 @@
+
+\subsubsection{Municipality Interaction}
+This last subsection is concerned with the various interaction between the \emph{Safestreet} system and the municipality. To be precise, there are kinds of interactions between the system and the municipality; which are as follows, firstly, the communication of user-generated violation reports to the authorities through periodic submissions to the municipality submission API. Second of the three features, the retrieval of accident reports from the municipality retrieval API to be used in the \emph{View Safety} feature and in the intervention suggestion which is the last feature described in this subsection. In the intervention suggestion process, the user-generated reports and the retrieved accident reports are processed together to gain insight into the traffic violations which are causing a high accident rate in various areas and suggest appropriate measures to resolve these issues. The following figures provide a more detailed description of the aforementioned processes.
+
+\begin{figure}[H]
+\caption{Municipality Report Submission Runtime View}
+\label{fig:RuntimeSub}
+\centering
+\includesvg[width=\textwidth, height=0.8\textheight]{"Municipality_Report_Submission_SD"}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Accident Report Retrieval Runtime View}
+\label{fig:RuntimeRet}
+\centering
+\includesvg[width=\textwidth, height=0.8\textheight]{"Accident_Report_Retrieval_SD"}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Intervention Suggestion Runtime View}
+\label{fig:RuntimeInter}
+\centering
+\includesvg[width=\textwidth, height=0.8\textheight]{"Intervention_Suggestion_SD"}
+\end{figure}

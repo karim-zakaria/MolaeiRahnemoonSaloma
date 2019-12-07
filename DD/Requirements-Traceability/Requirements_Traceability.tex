@@ -1,5 +1,5 @@
 \section{Requirements Traceability}
-
+This section shall present a traceability matrix to ensure the satisfaction of all functional requirements and therefore the satisfaction of the underlying goals which are expected of the system. The \emph{Requirements traceability matrix(RTM)} presented below shows a correlation between all the functional requirements previously defined in the \emph{RASD} document and the system modules that satisfy and perform these functionalities. Apart from the components mention in the \emph{RTM} some other components were defined in previous sections; though these modules are not direct contributors to the realization of the requirements they do however perform some roles ensuring the smooth and secure operating of the system as a whole.
 
 \begin{table}[H]
 \footnotesize
@@ -8,16 +8,73 @@
 \setlength\extrarowheight{2pt}
 \begin{tabulary}{\textwidth}{|J|J|J|J|J|}
 \hline
-\textbf{ROW ID} & \textbf{REQ ID} & \textbf{COMPONENT} & \textbf{FUNCTIONS} & \textbf{COMMENTS}\\ \hline
+ \textbf{REQ ID} & \textbf{REQUIREMENT} & \textbf{COMPONENT}   \hline
 
-1 & [G-1] & [R-1]-[R-10]  & Report Violation 		&			\\ \hline 
-2 & [G-2] & [R-11]-[R-14] & View Safety      		&			\\ \hline
-3 & [G-3] & [R-15]-[R-22] &                  		&			\\ \hline
-4 & [G-4] & [R-23]-[R-29] & 				 		&			\\ \hline
-5 & [G-5] & [R-30]-[R-31] & 				 		&			\\ \hline
-6 & [G-6] & [R-32] 		  & View Report History     &			\\ \hline
+ [R-1] & Users should be allowed to register to services provided by the system & \emph{Registration, Authentication and Login-Firebase Authentication API} \\ \hline 
+ 
+ [R-2] & Users should provide unique identification to the such as fiscal code during registration & \emph{Registration,Authentication and Login-Firebase Authentication API} 		\\ \hline 
+ 
+ [R-3] & Registered users should be allowed to login & \emph{Registration,Authentication and Login-Firebase Authentication API} 		\\ \hline 
+ 
+ [R-4] & Each registered user should have a unique username used for logging in chosen at registration time & \emph{Registration,Authentication and Login-Firebase Authentication API} 		\\ \hline 
+ 
+ [R-5] & System should enable registered users to report traffic violations & \emph{ReportViolation} 		\\ \hline 
+ 
+ [R-6] & When reporting a violation, users should be able to take an image of the violating vehicle’s license plate& \emph{Android App- Firebase Storage API} 		\\ \hline 
+ 
+ [R-7] & When reporting a violation, users should be able to fill in the details of the reported violation such as the type of the violation & \emph{Android App} 		\\ \hline 
+ 
+ [R-8] & The system should be able to detect the current user location when reporting a violation & \emph{Android App-Google Map API } 		\\ \hline 
+ 
+ [R-9] & The system should extract the plate numbers from the image taken by the user & \emph{ Plate Number Recognition} 		\\ \hline 
+
+ [R-10] & The received reports must be stored by the system to be used by other services & \emph{Report Violation-Database} 		\\ \hline 
+
+ [R-11] &  Registered users should be allowed to view a representation of the safety of selected areas possibly with the help of a map API & \emph{Android App-Google Map API-View Safety} 		\\ \hline 
+
+ [R-12] & The system should implement a means to measure the safety of various areas based on reported violations in said areas & \emph{View Safety} 		\\ \hline 
+
+ [R-13] & Incoming reports should be integrated and used to update the safety of areas & \emph{View Safety-Report Violation} 		\\ \hline 
+
+ [R-14] & If accident reports are provided by authorities the system should take that data into account when calculating the safety of a certain area & \emph{View Safety} 		\\ \hline 
+
+ [R-15] &  The system should present on-demand to the users a record of all the reports previously submitted by them & \emph{Report Historyy} 		\\ \hline 
+
+ [R-16] & The system should keep records regarding the submission dates of violations to the municipality & \emph{Report Submission-Database} 		\\ \hline 
+
+ [R-17] & The system should aggregate the data regarding reported traffic violations since the last submission to the municipality & \emph{Report Submission-Database} 		\\ \hline 
+
+ [R-18] & The aggregated traffic violation data should be converted to a form acceptable by the municipality interface & \emph{Report Submission} 		\\ \hline 
+
+ [R-19] & The system should periodically submit the new traffic violation data to the municipality
+interface & \emph{Report Submission-Database} 		\\ \hline 
+
+ [R-20] & The system should be able to store submitted reports coming from users with proper metadata & \emph{Report Violation-Database} 		\\ \hline
+
+ [R-21] & The system should be able to export reported violations in form of specific file & \emph{Report Submission} 		\\ \hline 
+
+ [R-22] & The system should be able to filter data based on desired requests from authorities & \emph{Report Submission} 		\\ \hline 
+
+ [R-23] & The logging functionality has to be implemented in the system & \emph{Sentry Logging API} 		\\ \hline 
+
+ [R-24] &  The system should extract insights from the users’ traffic violation reports such as the most frequent types of violations in certain areas & \emph{Report Submission-View Safety} 		\\ \hline 
+
+ [R-25] & The system should be able to decide on appropriate interventions to minimize frequent traffic violations in the various areas
+ & \emph{Intervention Recommender} 		\\ \hline 
+
+ [R-26] & The system should formalize the interventions to be suggested in a form acceptable by the municipality interface & \emph{Intervention Recommender} 		\\ \hline 
+
+ [R-27] & The system should submit the interventions regarding the areas with a high frequency of violations to the municipality interface & \emph{Report Submission} 		\\ \hline 
+
+ [R-28] & The system has to be able to mine reports to find insights based on types of violation and different areas & \emph{View Safety} 		\\ \hline 
+
+ [R-29] & The system should analyze the data from the reports to produce statistics such as the most frequent plate numbers that commit violations & \emph{Report Submission} 		\\ \hline 
+
+ [R-30] & The system should formalize the refined data and submit them to the municipality interface periodically & \emph{Report Submission} 		\\ \hline 
+
 
 \end{tabulary}
 \caption{\label{tab:Usecase-View-Safety}Traceability matrix}
 \end{table}
+
 

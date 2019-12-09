@@ -1,1 +1,24 @@
 \section{Implementation Integration And TestPlan}
+In this section, the plan for the development phase of the system shall be discussed. The subsections shall specify the implementation order of the different system modules, how they shall be integrated into the system as a whole and the testing plan to verify and validate the system as a whole.
+
+\subsection{Implementation}
+In this section the sequence by which the modules of the system are to be implemented. Note that the modules here are referred to by the functions which they perform; moreover, the vertical alignment of more than one activity signifies that these two or more activities may be implemented and developed in parallel with no codependency. The following two figures represent the implementation order to be followed for the App Server and the Android App.
+
+\begin{figure}[H]
+\caption{Server Implementation}
+\label{fig:server-imp}
+\centering
+\includesvg[width=\textwidth, height=0.8\textheight]{"Server_Implementation_AD.svg"}
+\end{figure}
+
+\begin{figure}[H]
+\caption{Android App Implementation}
+\label{fig:android-imp}
+\centering
+\includesvg[width=\textwidth, height=0.8\textheight]{"Android_App_Implementation_AD.svg"}
+\end{figure}
+\subsection{Integration}
+As for the integration of the system modules, we opted for the use of continuous integration and continuous delivery(CI/CD). To be more clear, the system modules shall be iteratively built-in sequence and for each one that is completed, that module shall be automatically built and integrated into the development branch of the repository. This decision on the integration plan eases the deployment at any point since after each build the codebase is in a deployable state, moreover, it is very convenient given the nature of the system and the decided upon architecture discussed in the previous section of the document; since, the system shall be implemented in the Microservices architecture, each of the unique services shall be integrated into the system as soon as they are developed which is possible due to the minimum interaction between the modules and whatever interaction there is can be handled by following the order of implementation discussed in the previous subsection.
+
+\subsection{Test Plan}
+The test plan to be used follows the implementation; i.e., the bottom-up approach. Meaning, that each component of the system shall be unit tested at each build ensuring the internal functionality of that module then it shall be integrated into the system as discussed in the preceding subsection. After the integration of more multiple modules that function in unison an integration test shall be performed; this way the system verification is incrementally ensuring the early detection of any issues. Finally, after the completion of the system as a whole a system test is performed then the system is handed over for validation testing of the system.

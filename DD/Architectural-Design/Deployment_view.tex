@@ -16,7 +16,7 @@ To avoid a complex diagram we just showed one container Database, which is the r
 \item \emph{Cloudflare infrastructure:} The SSL\/TLS service will help the system to guarantee the security of the massages communicate between the client app and the server-side. Both the load balancing and CDN services will help to API work faster in heavy load and load the binary files faster. Firewall and rate-limiting services avoid misuse of the API by anyone who wants to use the API functionalities in abnormal numbers like bot which sends to thousands of requests in a second and also these two services will avoid DDOS attack. The DNS\/DNSSEC service will map a URL to the IP of the server and also avoids the DNS attacks.
 \item \emph{Android App:} unlike the rolling update of the server-side the android side has a manul deployment in which the release version of the app will be uploaded in the google play manually. The app includes two main components which one is the SQLite database for all the needs to store data on the client-side. The plate number recognition component will be upgraded by each release of the Android app.
 In the final, it is necessary to describe all the communication between the service in the server that will happen by RabbitMQ and each component in the server implemented in the structure of the REST.
-
+\end{itemize}
 % \begin{sidewaysfigure}
 \begin{figure}[H]
 \caption{Deployment Diagram}

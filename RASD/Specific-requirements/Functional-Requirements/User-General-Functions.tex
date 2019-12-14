@@ -58,6 +58,8 @@ Exceptions       &
 \caption{\label{tab:Register-Verify-account}Registeration and Verifiction of account usecase}
 \end{table}
 
+The following diagrams, describe the registration process in terms of activity and runtime diagrams. The process is constituted by the filling and submission of the registration form, after which, the user receives email and SMS verification. If confirmed, the registration process is complete.
+
 \begin{figure}[H]
 \begin{flushleft}\emph{\textbf{Activity Diagram}}\end{flushleft}
 \caption{Activity Diagram for Registration and Verification}
@@ -118,10 +120,12 @@ Exceptions       &
 \caption{\label{tab:Usecase-Login}Usecase for Login}
 \end{table}
 
+The login process is shown in the following figures. The user starts by submitting their login credentials. The system then checks them, and if verified the user is redirected to the homepage of the application. If however, there are issues with the credentials the user is notified and allowed to try again with a maximum of 20 trials.
+
 \begin{figure}[H]
 \begin{flushleft}\emph{\textbf{Activity Diagram}}\end{flushleft}
 \caption{Activity Diagram for Login}
-\label{fig:SD-login}
+\label{fig:AD-login}
 \centering
 \includegraphics[width=0.7\textwidth, height=0.3\textheight]{login-AD.png}
 \end{figure}
@@ -182,7 +186,7 @@ Exceptions      &
 \caption{\label{tab:Usecase-Give-Permission}Usecase for Giving Permission}
 \end{table}
 
-
+After first login, the user is asked to give permission for the application to access the device camera and location services. If the user denies, the they are shown a warning message that they will be unable to make report submission until they accept access.
 
 \begin{figure}[H]
 \begin{flushleft}\emph{\textbf{Sequence Diagram}}\end{flushleft}
@@ -236,6 +240,8 @@ Exceptions       &
 \end{tabulary}
 \caption{\label{tab:Usecase-View-Report-History}Usecase for View Report History}
 \end{table}
+
+The last of the general  functions represented in the following figure, is the Report History functionality. Where, the user chooses the filtering criteria and they are presented with the violation reports previously submitted by them that match the search criteria.
 
 %***place holder for view-history-sd***
 \begin{figure}[H]

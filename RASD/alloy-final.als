@@ -195,7 +195,9 @@ fact SArequestConnection{
 fact AccidentReportConnection{ 
   all a: AccidentReport | some ch: ChannelOne | a in ch.data
 } 
-
+fact InterventionsConnection{ 
+  all i: Interventions | some ch: ChannelTwo |i in ch.data3
+} 
 fact DataFlowChannelOneConnection{ 
   all a: AuthorityToSystem | some ch: ChannelOne | a in ch.dataflow
 }
@@ -207,6 +209,18 @@ fact DataFlowChannelTwoConnection{
 fact RegistrationCustomerConnection { 
   all r: Registration | some c: Customer | r in c.registration 
 } 
+
+-----------------------Assertions---------------------
+
+assert AccidentReportSource {
+	all acr: AccidentReport| some at: Authority | some ch1: ChannelOne| acr in ch1.data and at in ch1.owner 
+}
+check AccidentReportSource for 5
+
+assert InterventionsCommunication{
+	all i:Interventions | some at:Authority | some ch2: ChannelTwo | i in ch2.data3 and at in ch2.owner
+}
+check InterventionsCommunication for 5
 
 ---------------- Predicates ---------------------
 pred world1{
@@ -241,3 +255,5 @@ pred world3{
 
 }
 run world3 for 3 but 0 Authority, 0 Interventions, 0 AccidentReport, 0 Statistics
+
+

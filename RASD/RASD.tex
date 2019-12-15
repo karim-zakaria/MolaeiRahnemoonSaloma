@@ -10,7 +10,7 @@
 \usepackage{setspace}
 \usepackage{todonotes}
 \usepackage{placeins}
-\usepackage[tocentry, tablegrid,nochapter]{vhistory} 
+\usepackage[tocentry, tablegrid,nochapter]{vhistory}
 \usepackage{catchfilebetweentags}
 \usepackage{adjustbox}
 \usepackage{float}
@@ -38,7 +38,7 @@
 \fancypagestyle{plain}{
 	\fancyhf{}% clear header/footer
 	\fancyhead[L]{Requirements Analysis and Specification Document }% left header
-	\fancyhead[R]{\emph{1.1}}% right header
+	\fancyhead[R]{\emph{1.2}}% right header
 	\fancyfoot[L]{karim Zakaria Saloma, Amirsalar Molaei, Erfan Rahnemoon}% left footer
 	\fancyfoot[R]{\thepage\  / \pageref{LastPage}}% right footer
 }
@@ -72,7 +72,7 @@
 	\ifluatex\else
 	\endlinechar=`\^^J%
 	\fi
-}% 
+}%
 
 \newcommand{\goal}[1]{
 {[}G-#1{] }\ExecuteMetaData[goals]{#1}
@@ -86,7 +86,7 @@
 	\ifluatex\else
 	\endlinechar=`\^^J%
 	\fi
-}% 
+}%
 
 \newcommand{\requirement}[1]{
 {[}R-#1{] }\ExecuteMetaData[requirements]{#1}
@@ -100,7 +100,7 @@
 	\ifluatex\else
 	\endlinechar=`\^^J%
 	\fi
-}% 
+}%
 
 \newcommand{\domain}[1]{
 {(}D\textsubscript{#1}{) }\ExecuteMetaData[domains]{#1}
@@ -147,11 +147,11 @@
 }
 
 \lstset{%
-	language=alloy, 
+	language=alloy,
 	basicstyle=\ttfamily,
 	breakatwhitespace=true,         % sets if automatic breaks should only happen at whitespace
 	breaklines=true,
-	captionpos=b, 
+	captionpos=b,
 	frame=single,
 	floatplacement={tbp},
 	numberstyle=\color{red}, %style of numbers
@@ -169,6 +169,7 @@
 	\begin{versionhistory}
 		\vhEntry{1.0}{10/11/2019}{karim Zakaria Saloma, Amirsalar Molaei, Erfan Rahnemoon}{First document issue}
 		\vhEntry{1.1}{11/11/2019}{Erfan Rahnemoon}{Problem in CI/CD (automatic build from wrong HEAD)}
+		\vhEntry{1.2}{15/12/2019}{karim Zakaria Saloma}{Final release version of Document}
 		\vhEntry{ }{ }{ }{ }
 	\end{versionhistory}}
 
